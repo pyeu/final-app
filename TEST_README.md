@@ -1,18 +1,18 @@
 # Concept and documentation
 
-## App: ["Title IX" by The Chronicle of Higher Ed](projects.chronicle.com/titleix/)
+## App name: ["Title IX"](projects.chronicle.com/titleix/) by The Chronicle of Higher Ed
 
 ## Elevator pitch
 
 Sexual assault on college campuses has long been an issue. More recently, colleges and universities across the United States are getting in trouble for failing to adequately address the issue.
 
-> "Over the past year and a half, the number of colleges finding themselves in the cross hairs of the U.S. Department of Education’s Office for Civil Rights over their handling of sexual-assault cases has nearly tripled, to 161."
+*"Over the past year and a half, the number of colleges finding themselves in the cross hairs of the U.S. Department of Education’s Office for Civil Rights over their handling of sexual-assault cases has nearly tripled, to 161."* - Chronicle
 
 Let's build an "investigation tracker" that allows readers to look through a database about current federal Title IX violations.
 
 ## Inspirations and Prior Work
 
-It looks like there's nothing out there that does this yet.
+It looks like there's nothing out there that does this yet...
 
 # Data
 
@@ -47,14 +47,14 @@ The initial data is in an HTML table as part of a press release from the Departm
 
 # Views and Routes
 
-Index view:
+INDEX view:
 * The home page will summarize nation-wide trends, including the number of investigations pending and resolved.
 * Display a graph over time of number of investigations opened per month per year
 * Have a brief summary of the issue and what's at stake
 
-Results view:
+RESULTS view:
 * Will feature all the cases related to a single college or university
-* Include bullet points of the "campus context"
+* Include bullet points of the "campus context" (here's [Stanford University](http://projects.chronicle.com/titleix/campus/Stanford-University/))
 * Include links to news articles (on campus and off campus) about the issue and investigations opened
 * Include an **obvious** "I want updates!" button so that interested users can be notified if more information appears
 
@@ -63,14 +63,13 @@ Results view:
 ## Graphs
 
 A line graph showing number of open and resolved investigations over time.
-
-![img](http://i.imgur.com/TwUIvFY.png?1)
+![img](http://i.imgur.com/Qf1JxiT.png?1)
 
 ## Tables
 
 A visualization showing the top 5 colleges with the most open cases.
+![img](http://i.imgur.com/TwUIvFY.png?1)
 
-![img](http://i.imgur.com/Qf1JxiT.png?1)
 
 # Deployment
 Put it on heroku?

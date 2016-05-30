@@ -10,7 +10,7 @@ Transparency, deaths in custory...
 
 ## Inspirations & Prior Work
 
-1. [Death behind bars: Inmate suicides, overdoses among causes](http://www.desmoinesregister.com/story/news/investigations/2016/05/28/death-behind-bars-inmate-suicides-overdoses-among-causes/83671656/) (Des Moines Register)
+**1. [Death behind bars: Inmate suicides, overdoses among causes](http://www.desmoinesregister.com/story/news/investigations/2016/05/28/death-behind-bars-inmate-suicides-overdoses-among-causes/83671656/) (Des Moines Register)**
 
 This article by the Des Moines Register discusses the issues around inmate deathes in Iowa, specifically the prevalence of mental health related deaths after Iowa's closure of mental health facilities in 2015. Number of cases per year is relatively static, the article says, but that does not make the issue any less pressing.
 
@@ -21,7 +21,7 @@ However, [this paper](http://law.stanford.edu/wp-content/uploads/sites/default/f
 * The most obvious difference between this article and my app is that my app will explore statistics for California, not Iowa.
 * This piece by the Des Moines Register does not allow users to explore the data themselves. My app will include a map element and link to relevant articles about the death, allowing users to draw their own conclusions based on the data.
 
-2. [OpenJustice from the California DOJ](http://openjustice.doj.ca.gov)
+**2. [OpenJustice from the California DOJ](http://openjustice.doj.ca.gov)**
 
 In the interest of transparancy, California's Department of Justice recently unveiled their own data journalism-esc website exploring data around issues of crime and law enforcement. 
 
@@ -38,20 +38,18 @@ Deaths Per Law Enforcement Agency over time.
 * The DOJ's website is an **awesome** step in the right direction, however it does not include any sort of exploratory element along with the graphics. My app will allow users to choose search terms and explore the published data along with visualizations.
 * The website doesn't include any sort of mapping element, something I plan to include as  part of my app.
 
-3. 
+**3. Something here** 
 
 
 *
 *
 
-4. 
+**4. And here**
 
 *
 *
 
-5. 
-
-
+**5. And here...**
 
 * 
 *
@@ -62,19 +60,19 @@ My data comes from the [Deaths in Custody Reporting Program](http://www.bjs.gov/
 
 I will also use [income per capita](https://www.census.gov/hhes/www/income/data/historical/people/) and [geographic shapes](https://www.census.gov/geo/maps-data/data/tiger-data.html) from the Census.
 
-## Must contain at least one join
+## must contain at least one join
 
 Deaths in Custody records the county of death, and I'll use this field to join to the Census's income per capita and geographic shapes.
 
-## Must create at least one new categorical variable
+## categorical variable
 
 The data currently has a variable "custody offense" of numbers that correspond to various offenses -- I will join this dataset to the index of offenses and create a new text variable "offense" listing the individual's initial offense.
 
-## Must create one new continuous variable
+## continuous variable
 
 I'm adding a variable called "days in custody" that measures the number of days from initial arrest until death.
 
-## Must create at least one summarization
+## summarization
 
 At the very least, my app will summarize deaths by county.
 
@@ -93,7 +91,7 @@ The front page of my app will include a map of inmate deaths by county across th
 
 ## Search results view
 
-By county searches will include brief text from the 
+By county searches will include brief text from relevant news articles...
 
 # Deployment
 

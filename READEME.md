@@ -10,7 +10,7 @@ My app will navigate the Bureau of Justice's [Deaths in Custody data](http://www
 
 ## Inspirations & Prior Work
 
-**1. [Death behind bars: Inmate suicides, overdoses among causes](http://www.desmoinesregister.com/story/news/investigations/2016/05/28/death-behind-bars-inmate-suicides-overdoses-among-causes/83671656/) (Des Moines Register)**
+**1. [Death behind bars: Inmate suicides, overdoses among causes](http://www.desmoinesregister.com/story/news/investigations/2016/05/28/death-behind-bars-inmate-suicides-overdoses-among-causes/83671656/), via Des Moines Register**
 
 This article by the Des Moines Register discusses the issues around inmate deathes in Iowa, specifically the prevalence of mental health related deaths after Iowa's closure of mental health facilities in 2015. Number of cases per year is relatively static, the article says, but that does not make the issue any less pressing.
 
@@ -38,7 +38,7 @@ Deaths Per Law Enforcement Agency over time.
 * The DOJ's website is an **awesome** step in the right direction, however it does not include any sort of exploratory element along with the graphics. My app will allow users to choose search terms and explore the published data along with visualizations.
 * The website doesn't include any sort of mapping element, something I plan to include as  part of my app.
 
-**3. [How Many People Die in Police Custody in America? (Vice)](https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265)** 
+**3. [How Many People Die in Police Custody in America?](https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265) via VICE** 
 
 Vice wrote this piece in 2015 tying the rise in public interest in what happens behind bars to the death (in custody) of Black Lives Matter activist Sandra Bland. The article wrote, "Bland's death was officially ruled a suicide, but an investigation into 'lingering questions' is ongoing."
 
@@ -46,7 +46,7 @@ Vice wrote this piece in 2015 tying the rise in public interest in what happens 
 
 * The article touches on data a couple of times, mentioning 4,309 deaths in custody nationwide in 2012. My app will tell similar statistics on a county by county level.
 
-**4. [Annual report on deaths during or following police contact in 2014/15](http://www.ipcc.gov.uk/news/annual-report-deaths-during-or-following-police-contact-201415-published), via IPCC]**
+**4. [Annual report on deaths during or following police contact in 2014/15](http://www.ipcc.gov.uk/news/annual-report-deaths-during-or-following-police-contact-201415-published), via IPCC**
 
 The Independent Police Complaints Commission (IPCC) is a British organization that publishes annual reports on police accountability across the UK. 
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>California Deaths in Custody</title>
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+        	<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </head>
+
+    <body>
+    	<header class="whelp">
+    		<div class="container">
+          		<h1 class="site-title">This is a database of all deaths in XYZ.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.sfgate.com/bayarea/article/Birds-damaged-planes-at-SFO-45-times-since-1990-3163853.php">SFGATE</a></h1>
+        	</div>
+      	</header>
+
+    	<div class="container"> 
+      		<h1 class="site-title">Search for an incident:</h1>
+       			{% include 'searchbox.html' %}
+
+       		<section class="sec content whelp">
+
+      		<p>Data comes from <a href="http://wildlife.faa.gov/database.aspx">the Federal Aviation Administration</a></p>
+    	</div>
+
+	</body>
+</html>

@@ -1,0 +1,990 @@
+agency_number,agency_name
+03035C,Mule Creek State Prison
+08015C,Pelican Bay State Prison
+10015C,Pleasant Valley State Prison
+10015M,Coalinga State Hospital
+13015C,Calipatria State Prison
+13045C,Centinela State Prison
+15015C,California Correctional Institution
+15025C,Wasco State Prison
+15045C,North Kern State Prison (Delano)
+15075C,Kern Valley State Prison
+16015C,Avenal State Prison
+16025C,Corcoran State Prison
+16045C,California Substance Abuse Treatment Facility   
+18015C,California Correctional Center    (Susanville)
+18035C,High Desert State Prison
+19015C,California State Prison - Lancaster
+19015M,Metropolitan State Hospital
+20015C,Central CA Women's Facility
+20045C,Valley State Prison for Women (stopped 2013)
+20045C,Valley State Prison (started for men in 2013)
+21015C,San Quentin State Prison
+27015C,"Correctional Training Facility, Soledad"
+27025C,Salinas Valley State Prison
+28015M,Napa State Hospital
+33015C,California Rehabilitation Center
+33045C,Chuckawalla Valley State Prison
+33065C,Ironwood State Prison
+34015C,Folsom State Prison
+34065C,"California State Prison, Sacramento"
+36015C,California Institution for Men
+36045C,California Institution for Men (West)
+36055C,California Institution for Men (Central)
+36065C,California Institution for Men (East)
+36085C,California Institution for Women
+36015M,Patton State Hospital
+37015C,R. J. Donovan Correctional Facility
+39015C,Deuel Vocational Institution
+39045G,California Health Care Facility
+39065C,Northern California Women's Facility (closed)
+40015C,California Men's Colony
+40015M,Atascadero State Hospital
+48015C,California Medical Facility (Vacaville)
+48045C,California State Prison
+55015C,Sierra Conservation Center
+99015C,CDCR/CBU/ Out-of-State Correctional Facility
+99025C,CDCR/CBU/Medical Parole
+99035C,CDCR/CBU/SACCO/WICC
+,
+,
+Code,Institution
+03015C,Pine Grove Youth Conservation Camp
+39035C,N. A. Chaderjian Youth Correctional Facility
+39045C,O. H. Close Youth Correctional Facility
+56025C,Ventura Youth Correctional Facility
+Youth Facilities Closed Or Converted to Adult Facilities,
+03025C,Preston Youth Correctional Facility  (6/2011)
+19045C,Southern Youth Correctional Rec. Ctr and Clinic    (12/2011)
+19055C,Fred C. Nelles School  (2004)
+19333C,Fenner Canyon Youth Conservation Camp
+22015C,Mt. Bullion Youth Conservation Camp  (2004)
+29015C,Washington Ridge Youth Conservation Camp   (2005)
+34025C,Northern Reception Center   (2004)
+36035C,Heman G. Stark Youth Correctional Facility  (2010)
+39025C,DeWitt Nelson Youth Training Center  (2008)
+39055C,Karl Holton School  (2003)
+40025C,El Paso de Robles School (CYA)  (2008)
+44015C,Ben Lomond Youth Conservation Camp   (2005)
+56015C,S. Carraway Public Service and Fire Center (12/2011)
+,
+,
+Code,Facility
+20023C,Madera County Department of Corrections
+28023C,Napa County Department of Corrections
+43083C,Santa Clara Department of Corrections
+,Note: Santa Clara Department of Corrections turned over operations of the jail to the Sheriff’s Department around 2004-2005.
+,
+,
+Code,Agency
+010000,Alameda Co. Sheriff's Department
+010100,Alameda
+010200,Albany
+010300,Berkeley
+010400,Emeryville
+010500,Fremont
+010600,Hayward
+010700,Livermore
+010800,Newark
+010900,Oakland
+011000,Piedmont
+011100,Pleasanton
+011200,San Leandro
+011300,Union City
+011400,Alameda E. Bay Reg. Park Dist.
+011500,CSU East Bay
+011600,Union Pacific RR - Alameda
+011A00,ABC Oakland
+012100,Alameda BART
+012200,UC Lawrence-Livermore
+012700,UC Lawrence-Berkeley
+012800,Santa Fe RR - Alameda
+012900,Southern Pacific RR - Alameda
+013000,Dublin
+013100,Alameda E. Bay Mun. Util. Dist.
+013200,Union Pacific RR - Alameda
+019700,UC Berkeley
+019800,CA State Police - Alameda
+019900,CA Highway Patrol - Alameda
+020000,Alpine Co. Sheriff's Department
+029900,CA Highway Patrol - Alpine
+030000,Amador Co. Sheriff's Department
+030100,Amador
+030200,Ione
+030300,Jackson
+030400,Plymouth
+030500,Sutter Creek
+030600,Union Pacific RR - Amador
+039900,CA Highway Patrol - Amador
+040000,Butte Co. Sheriff's Department
+040100,Biggs
+040200,Chico
+040300,Gridley
+040400,Oroville
+040500,Paradise
+040600,Union Pacific RR - Butte
+040700,Northern Buttes DPR
+040900,Upper Valley DPR
+041100,Union Pacific RR - Butte
+049700,CSU Chico
+049800,CA State Police - Butte
+049900,CA Highway Patrol - Butte
+050000,Calaveras Co. Sheriff's Department
+050100,Angels Camp
+050200,Union Pacific RR - Calaveras
+050300,Calaveras DPR
+059900,CA Highway Patrol - Calaveras
+060000,Colusa Co. Sheriff's Department
+060100,Colusa
+060200,Williams
+060300,Union Pacific RR - Colusa
+069900,CA Highway Patrol - Colusa
+070000,Contra Costa Co. Sheriff's Department
+070100,Antioch
+070200,Brentwood
+070300,Clayton
+070400,Concord
+070500,El Cerrito
+070600,Hercules
+070700,Pinole
+070800,Pittsburg
+070900,Pleasant Hill
+071000,Richmond
+071100,San Pablo
+071200,Walnut Creek
+071300,Kensington
+071400,Martinez
+071500,Lafayette
+071600,Moraga
+071700,Contra Costa E. Bay Reg. Park Dist.
+071800,Contra Costa BART
+071900,Santa Fe RR - Contra Costa
+072000,Southern Pacific RR - Contra Costa
+072100,Contra Costa Community. College
+072300,Danville
+072400,San Ramon
+072500,Diablo DPR
+072600,Orinda
+073300,Union Pacific RR - Contra Costa
+073400,Oakley
+079800,CA State Police - Contra Costa
+079900,CA Highway Patrol - Contra Costa
+080000,Del Norte Co. Sheriff's Department
+080100,Crescent City
+089900,CA Highway Patrol - Del Norte
+090000,El Dorado Co. Sheriff's Department
+090100,Placerville
+090200,South Lake Tahoe
+090300,Union Pacific RR - El Dorado
+092300,Marshall Gold DPR
+099900,CA Highway Patrol - El Dorado
+100000,Fresno Co. Sheriff's Department
+100100,Clovis
+100200,Coalinga
+100300,Firebaugh
+100400,Fowler
+100500,Fresno
+100600,Huron
+100700,Kerman
+100800,Kingsburg
+100900,Mendota
+101000,Orange Cove
+101100,Parlier
+101200,Reedley
+101300,Sanger
+101400,San Joaquin
+101500,Selma
+101700,State Center Community College
+101800,Santa Fe RR - Fresno
+101900,Southern Pacific RR - Fresno
+101A00,ABC Fresno
+102400,Union Pacific RR - Fresno
+103000,San Joaquin DPR
+103100,Reedley Community College
+109700,CSU Fresno
+109800,CA State Police - Fresno
+109900,CA Highway Patrol - Fresno
+10M100,Coalinga State Hospital
+110000,Glenn Co. Sheriff's Department
+110100,Orland
+110200,Willows
+110300,Union Pacific RR - Glenn
+119900,CA Highway Patrol - Glenn
+120000,Humboldt Co. Sheriff's Department
+120100,Arcata
+120200,Blue Lake
+120300,Eureka
+120400,Ferndale
+120500,Fortuna
+120600,Trinidad
+120700,Rio Dell
+120800,CSU Humboldt (Arcata)
+120900,Union Pacific RR - Humboldt
+121000,Eel River DPR
+121100,Northern Coast Redwoods DPR
+121A00,ABC Eureka
+129900,CA Highway Patrol - Humboldt
+130000,Imperial Co. Sheriff's Department
+130100,Brawley
+130200,Calexico
+130300,Calipatria
+130400,El Centro
+130500,Holtville
+130600,Imperial
+130700,Westmorland
+130800,Union Pacific RR - Imperial
+130900,Montane DPR
+139800,CA State Police - Imperial
+139900,CA Highway Patrol - Imperial
+140000,Inyo Co. Sheriff's Department
+140100,Bishop
+140300,Union Pacific RR - Inyo
+149900,CA Highway Patrol - Inyo
+150000,Kern Co. Sheriff's Department
+150100,Arvin
+150200,Bakersfield
+150300,Delano
+150400,Maricopa
+150500,McFarland
+150600,Ridgecrest
+150700,Shafter
+150800,Taft
+150900,Tehachapi
+151000,Wasco
+151100,California City
+151300,China Lake
+151400,Stallion Springs
+151500,Bear Valley
+151600,Santa Fe RR - Kern
+151700,Southern Pacific RR - Kern
+151A00,ABC Bakersfield
+152200,Union Pacific RR - Kern
+159700,CSU Bakersfield
+159800,CA State Police - Kern
+159900,CA Highway Patrol - Kern
+160000,Kings Co. Sheriff's Department
+160100,Corcoran
+160200,Hanford
+160300,Lemoore
+160400,Santa Fe RR - Kings
+160500,Union Pacific RR - Kings
+160600,Porterville Developmental Center
+160700,Avenal
+169800,CA State Police - Kings
+169900,CA Highway Patrol - Kings
+170000,Lake Co. Sheriff's Department
+170100,Lakeport
+170200,Clearlake
+170300,Clear Lake DPR
+179900,CA Highway Patrol - Lake
+180000,Lassen Co. Sheriff's Department
+180100,Susanville
+180300,Union Pacific RR - Lassen
+180400,Union Pacific RR - Lassen
+189800,CA State Police - Lassen
+189900,CA Highway Patrol - Lassen
+190000,Los Angeles Co. Sheriff's Department
+190100,Alhambra
+190200,Arcadia
+190300,Artesia
+190400,Avalon
+190500,Azusa
+190600,Baldwin Park
+190700,Bell
+190800,Bellflower
+190900,Bell Gardens
+190C00,El Camino College
+190D00,La Habra Heights
+190E00,Santa Fe RR - Los Angeles
+190G00,Los Angeles Housing Authority
+190H00,Southern Pacific RR - Los Angeles
+190i00,Union Pacific RR - Los Angeles
+190K00,Metropolitan Trans. Authority (MTA)
+190M00,Union Pacific RR - Los Angeles
+190P00,Long Beach City College
+190R00,Pasadena Community. College
+190X00,Westlake Village
+191000,Beverly Hills
+191100,Bradbury
+191200,Burbank
+191300,Claremont
+191400,Commerce
+191500,Compton
+191600,Covina
+191700,Cudahy
+191800,Culver City
+191900,Cerritos
+191B00,High Desert DPR
+191C00,Hungry Valley DPR
+191E00,Lanterman Developmental Center
+191F00,Agoura Hills
+191H00,West Hollywood
+191P00,Santa Clarita
+191R00,Santa Clarita
+191T00,ABC Southern
+191W00,Diamond Bar
+192000,Downey
+192100,Duarte
+192200,El Monte
+192300,El Segundo
+192400,Gardena
+192500,Glendale
+192600,Glendora
+192700,Hawaiian Gardens
+192800,Hawthorne
+192900,Hermosa Beach
+192H00,Calabasas
+192J00,Malibu
+192K00,Los Angeles Impact
+192Q00,Los Angeles City College
+192R00,Los Angeles Transit Serv. Bureau
+192U00,Los Angeles Transit Serv. Bureau
+193000,Hidden Hills
+193100,Huntington Park
+193200,Industry
+193300,Inglewood
+193400,Irwindale
+193500,Lakewood
+193600,La Mirada
+193700,La Puente
+193800,La Verne
+193900,Lawndale
+193V00,LAPD - San Fernando Valley
+193W00,LAPD - Non-San Fernando Valley
+194000,Lomita
+194100,Long Beach
+194200,Los Angeles
+194300,Lynwood
+194400,Manhattan Beach
+194500,Maywood
+194600,Monrovia
+194700,Montebello
+194800,Monterey Park
+194900,Norwalk
+195000,Palmdale
+195100,Palos Verdes Estates
+195200,Paramount
+195300,Pasadena
+195400,Pico Rivera
+195500,Pomona
+195600,Redondo Beach
+195700,Rolling Hills
+195800,Rolling Hills Estates
+195900,Rosemead
+196000,San Dimas
+196100,San Fernando
+196200,San Gabriel
+196300,San Marino
+196400,Santa Fe Springs
+196500,Santa Monica
+196600,Sierra Madre
+196700,Signal Hill
+196800,South El Monte
+196900,South Gate
+197000,South Pasadena
+197100,Temple City
+197200,Torrance
+197300,Vernon
+197400,Walnut
+197500,West Covina
+197600,Whittier
+197700,Carson
+197800,Cal Poly - Pomona
+198000,Rancho Palos Verdes
+198100,CSU Dominguez Hills
+198200,CSU Long Beach
+198300,CSU Los Angeles
+198400,CSU Northridge
+199000,La Canada-Flintridge
+199600,Lancaster
+199700,UC Los Angeles
+199800,CA State Police - Los Angeles
+199900,CA Highway Patrol - Los Angeles
+19B200,ABC El Monte
+19B300,ABC Inglewood
+19B400,ABC Lakewood
+19B500,ABC Metro
+19B600,ABC Van Nuys
+200000,Madera Co. Sheriff's Department
+200100,Chowchilla
+200200,Madera
+200300,Santa Fe RR - Madera
+200400,Union Pacific RR - Madera
+209900,CA Highway Patrol - Madera
+210000,Marin Co. Sheriff's Department
+210100,Belvedere
+210200,Corte Madera
+210300,Fairfax
+210400,Twin Cities
+210500,Mill Valley
+210600,Novato
+210700,Ross
+210800,San Anselmo
+210900,San Rafael
+211000,Sausalito
+211100,Tiburon
+211200,Union Pacific RR - Marin
+211300,Marin Community College
+211400,Marin DPR
+211600,NARC Task Force
+211700,Central Marin Police Authority
+219800,CA State Police - Marin
+219900,CA Highway Patrol - Marin
+220000,Mariposa Co. Sheriff's Department
+229900,CA Highway Patrol - Mariposa
+230000,Mendocino Co. Sheriff's Department
+230100,Fort Bragg
+230200,Point Arena
+230300,Ukiah
+230400,Willits
+230500,Southern Pacific RR - Mendocino
+230600,Mendocino DPR
+230900,Union Pacific RR - Mendocino
+239900,CA Highway Patrol - Mendocino
+240000,Merced Co. Sheriff's Department
+240100,Atwater
+240200,Dos Palos
+240300,Gustine
+240400,Livingston
+240500,Los Banos
+240600,Merced
+240700,Santa Fe RR - Merced
+240800,Union Pacific RR - Merced
+240900,Merced College
+241000,Four Rivers DPR
+241200,UC Merced
+249800,CA State Police - Merced
+249900,CA Highway Patrol - Merced
+250000,Modoc Co. Sheriff's Department
+250100,Alturas
+250200,Union Pacific RR - Modoc
+259900,CA Highway Patrol - Modoc
+260000,Mono Co. Sheriff's Department
+260100,Mammoth Lakes
+269900,CA Highway Patrol - Mono
+270000,Monterey Co. Sheriff's Department
+270100,Carmel
+270200,Del Rey Oaks
+270300,Gonzales
+270400,Greenfield
+270500,King City
+270600,Monterey
+270700,Pacific Grove
+270800,Salinas
+270900,Sand City
+271000,Seaside
+271100,Soledad
+271200,Marina
+271400,Monterey Airport
+271500,Union Pacific RR - Monterey
+271600,Big Sur DPR
+271700,Monterey DPR
+271900,CSU Monterey Bay
+271A00,ABC Salinas
+279900,CA Highway Patrol - Monterey
+280000,Napa Co. Sheriff's Department
+280100,Calistoga
+280200,Napa
+280300,St. Helena
+280600,Union Pacific RR - Napa
+280700,Napa DPR
+280800,Napa State Hospital
+280900,American Canyon
+281000,Yountville
+2810 (LEP)00,Napa County Dept. of Corrections
+289800,CA State Police - Napa
+289900,CA Highway Patrol - Napa
+290000,Nevada Co. Sheriff's Department
+290100,Grass Valley
+290200,Nevada City
+290300,Union Pacific RR - Nevada
+290400,Gold Mines DPR
+290800,Truckee
+299900,CA Highway Patrol - Nevada
+300000,Orange Co. Sheriff's Department
+300100,Anaheim
+300200,Brea
+300300,Buena Park
+300400,Costa Mesa
+300500,Cypress
+300600,La Palma
+300700,Fountain Valley
+300800,Fullerton
+300900,Garden Grove
+301000,Huntington Beach
+301100,Laguna Beach
+301200,La Habra
+301300,Los Alamitos
+301400,Newport Beach
+301500,Orange
+301600,Placentia
+301700,San Clemente
+301800,San Juan Capistrano
+301900,Santa Ana
+301A00,ABC Santa Ana
+302000,Seal Beach
+302100,Stanton
+302200,Tustin
+302300,Villa Park
+302400,Westminster
+302500,Yorba Linda
+302600,Irvine
+302700,CSU Fullerton
+302800,Santa Fe RR - Orange
+302900,Union Pacific RR - Orange
+303000,Union Pacific RR - Orange
+303200,Orange Coast DPR
+303300,Pendleton Coast DPR
+303400,Fairview Developmental Center
+303500,Mission Viejo
+303600,Dana Point
+303900,Laguna Niguel
+304200,Laguna Hills
+304300,Lake Forest
+304700,Laguna Woods
+304800,Rancho Santa Margarita
+304900,Aliso Viejo
+309100,Orange County Marshal
+309700,UC Irvine
+309800,CA State Police - Orange
+309900,CA Highway Patrol - Orange
+310000,Placer Co. Sheriff's Department
+310100,Auburn
+310200,Colfax
+310300,Lincoln
+310400,Rocklin
+310500,Roseville
+310600,Southern Pacific RR - Placer
+310700,Sierra DPR
+311200,Union Pacific RR - Placer
+319900,CA Highway Patrol - Placer
+320000,Plumas Co. Sheriff's Department
+320100,Portola
+320200,Plumas-Eureka DPR
+320300,Union Pacific RR - Plumas
+329900,CA Highway Patrol - Plumas
+330000,Riverside Co. Sheriff's Department
+330100,Banning
+330200,Beaumont
+330300,Blythe
+330500,Coachella
+330600,Desert Hot Springs
+330700,Elsinore
+330800,Hemet
+330900,Indio
+331000,Norco
+331100,Palm Springs
+331200,Perris
+331300,Riverside
+331400,San Jacinto
+331500,Corona
+331600,Indian Wells
+331700,Rancho Mirage
+331800,Palm Desert
+331A00,ABC Rancho Mirage
+332000,Santa Fe RR - Riverside
+332100,Union Pacific RR - Riverside
+332200,Union Pacific RR - Riverside
+332400,Inland Empire DPR
+332500,Cathedral City
+332600,Mt. San Jacinto DPR
+332700,Salton Sea DPR
+332800,Picacho DPR
+332A00,ABC Riverside
+333000,Lake Elsinore
+333100,La Quinta
+333200,Moreno Valley
+333700,Chino Hills DPR
+333800,Temecula
+334000,Calimesa
+334100,Canyon Lake
+334200,Murrietta
+334400,Riverside Community College
+337700,Wildomar
+337800,Menifee
+337900,Eastvale
+339700,UC Riverside
+339800,CA State Police - Riverside
+339900,CA Highway Patrol - Riverside
+33A000,Jurupa Valley
+340000,Sacramento Co. Sheriff's Department
+340100,Folsom
+340200,Galt
+340300,Isleton
+340400,Sacramento
+340800,CSU Sacramento
+340H00,Elk Grove
+341200,Gold Fields DPR
+341400,Twin Rivers Union
+341500,Southern Pacific RR - Sacramento
+342000,CA State Fair
+342200,Capital DPR
+342300,Union Pacific RR - Sacramento
+342A00,ABC Sacramento
+343000,ABC Northern
+343300,Twin Cities DPR
+344800,Union Pacific RR - Sacramento
+345500,Rancho Cordova
+349600,Citrus Heights
+349700,UC Med Center Sacramento
+349800,CA State Police - Sacramento
+349900,CA Highway Patrol - Sacramento
+350000,San Benito Co. Sheriff's Department
+350100,Hollister
+350200,San Juan Bautisto
+350300,Union Pacific RR - San Benito
+350400,Hollister Hills DPR
+350500,Gavilan DPR
+359800,CA State Police - San Benito
+359900,CA Highway Patrol - San Benito
+360000,San Bernardino Co. Sheriff's Department
+360100,Barstow
+360200,Chino
+360300,Colton
+360400,Fontana
+360500,Montclair
+360600,Needles
+360700,Ontario
+360800,Redlands
+360900,Rialto
+361000,San Bernardino
+361100,Upland
+361200,Victorville
+361300,Adelanto
+361400,CSU San Bernardino
+361600,Rancho Cucamonga
+361700,Santa Fe RR - San Bernardino
+361800,Southern Pacific RR - San Bernardino
+361900,Union Pacific RR - San Bernardino
+362000,Big Bear
+362100,Grand Terrace
+362200,Loma Linda
+362300,San Bernardino Unified School District
+362500,Mojave River DPR
+362900,Chino Hills DPR
+363000,Highland
+363100,Twentynine Palms
+363200,Hesperia
+363300,Apple Valley
+363500,Yucaipa
+363900,San Bernardino College
+364000,Chino Hills
+364100,Yucca Valley
+365000,Fontana Unified School District
+365400,Union Pacific RR - San Bernardino
+365700,Patton State Hospital
+365900,Tehachapi DPR
+369800,CA State Police - San Bernardino
+369900,CA Highway Patrol - San Bernardino
+370000,San Diego Co. Sheriff's Department
+370100,Carlsbad
+370200,Chula Vista
+370300,Coronado
+370400,Del Mar
+370500,El Cajon
+370600,Escondido
+370700,Imperial Beach
+370800,La Mesa
+370900,National City
+371000,Oceanside
+371100,San Diego
+371200,San Marcos
+371300,Vista
+371400,CSU San Diego
+371500,San Diego Harbor
+371700,Santa Fe RR - San Diego
+371800,Southern Pacific RR - San Diego
+371A00,ABC San Diego
+372200,Colorado DPR
+372300,Frontera DPR
+372400,Ocotillo Wells DPR
+372500,San Diego Coast DPR
+372700,Montane DPR
+372A00,ABC San Marcos
+373200,CSU San Marcos
+379700,UC San Diego
+379800,CA State Police - San Diego
+379900,CA Highway Patrol - San Diego
+37A100,Lemon Grove
+37A200,Santee
+37A300,Poway
+37A400,Encinitas
+37A500,Solana Beach
+380000,San Francisco Sheriff's Department
+380100,San Francisco
+380300,CSU San Francisco
+380500,San Francisco BART
+380700,Santa Fe RR - San Francisco
+380800,Southern Pacific RR - San Francisco
+381000,San Francisco DPR
+381600,UC Hastings College of Law
+381900,Union Pacific RR - San Francisco
+381A00,ABC San Francisco
+389700,UC San Francisco
+389800,CA State Police - San Francisco
+389900,CA Highway Patrol - San Francisco
+390000,San Joaquin Co. Sheriff's Department
+390100,Escalon
+390200,Lodi
+390300,Manteca
+390400,Ripon
+390500,Stockton
+390600,Tracy
+390900,Santa Fe RR - San Joaquin
+391000,Southern Pacific RR - San Joaquin
+391200,Union Pacific RR - San Joaquin
+391400,Stockton Developmental Center
+391500,Stockton Unified School
+391A00,ABC Stockton
+392100,Union Pacific RR - San Joaquin
+392300,CSU Stockton
+399800,CA State Police - San Joaquin
+399900,CA Highway Patrol - San Joaquin
+400000,San Luis Obispo Co. Sheriff's Department
+400100,Arroyo Grande
+400200,Grover Beach
+400300,Morro Bay
+400400,Paso Robles
+400500,Pismo Beach
+400600,San Luis Obispo
+400700,Cal Poly San Luis Obispo
+400800,Atascadero
+400900,Southern Pacific RR - San Luis Obispo
+401200,San Simeon DPR
+401300,San Luis Obispo Coast DPR
+401400,Oceano Dunes DPR
+401600,Atascadero State Hospital
+401800,Union Pacific RR - San Luis Obispo
+401900,Cuesta College
+401A00,ABC San Luis Obispo
+409900,CA Highway Patrol - San Luis Obispo
+410000,San Mateo Co. Sheriff's Department
+410100,Atherton
+410200,Belmont
+410300,Brisbane
+410400,Burlingame
+410500,Colma
+410600,Daly City
+410700,Half Moon Bay
+410800,Hillsborough
+410900,Menlo Park
+411000,Millbrae
+411100,Pacifica
+411300,Redwood City
+411400,San Bruno
+411500,San Carlos
+411600,San Mateo
+411700,South San Francisco
+411900,Broadmoor
+412000,Foster City
+412300,San Mateo BART
+412400,Union Pacific RR - San Mateo
+412600,Bay Area DPR
+412700,East Palo Alto
+419800,CA State Police - San Mateo
+419900,CA Highway Patrol - San Mateo
+420000,Santa Barbara Co. Sheriff's Department
+420100,Guadalupe
+420200,Lompoc
+420300,Santa Barbara
+420400,Santa Maria
+420500,Carpinteria
+420700,Union Pacific RR - Santa Barbara
+420800,Gaviota DPR
+420900,La Purisma Mission DPR
+421000,Solvang
+421100,Allen Hancock College
+421200,Buelton
+421400,Goleta
+421A00,ABC Santa Barbara
+429700,UC Santa Barbara
+429800,CA State Police - Santa Barbara
+429900,CA Highway Patrol - Santa Barbara
+430000,Santa Clara Co. Sheriff's Department
+430200,Campbell
+430300,Cupertino
+430400,Gilroy
+430500,Los Altos
+430600,Los Altos Hills
+430700,Los Gatos
+430800,Milpitas
+430900,Monte Sereno
+431000,Morgan Hill
+431100,Mountain View
+431200,Palo Alto
+431300,San Jose
+431400,Santa Clara
+431500,Saratoga
+431600,Sunnyvale
+431700,CSU San Jose
+431900,Southern Pacific RR - Santa Clara
+431A00,ABC San Jose
+432000,San Jose Community College
+432100,West Valley College District
+432400,Agnews Developmental Center
+432500,Union Pacific RR - Santa Clara
+432700,Foothill College
+433600,Union Pacific RR - Santa Clara
+439500,Santa Clara Transit District
+439800,CA State Police - Santa Clara
+439900,CA Highway Patrol - Santa Clara
+440000,Santa Cruz Co. Sheriff's Department
+440100,Capitola
+440200,Santa Cruz
+440300,Watsonville
+440400,Scotts Valley
+440500,Cabrillo College
+440600,Union Pacific RR - Santa Cruz
+440700,Pajaro Coast DPR
+440800,Santa Cruz Mtns. DPR
+449700,UC Santa Cruz
+449900,CA Highway Patrol - Santa Cruz
+450000,Shasta Co. Sheriff's Department
+450100,Anderson
+450200,Redding
+450300,Union Pacific RR - Shasta
+450500,Cascade DPR
+451A00,ABC Redding
+459100,Shasta Marshal
+459800,CA State Police - Shasta
+459900,CA Highway Patrol - Shasta
+460000,Sierra Co. Sheriff's Department
+460100,Loyalton
+460200,Union Pacific RR - Sierra
+469900,CA Highway Patrol - Sierra
+470000,Siskiyou Co. Sheriff's Department
+470100,Dorris
+470200,Dunsmuir
+470300,Etna
+470400,Fort Jones
+470500,Montague
+470600,Mount Shasta
+470700,Tulelake
+470800,Weed
+470900,Yreka
+471000,Lake Shastina
+471100,Southern Pacific RR - Siskiyou
+471300,Union Pacific RR - Siskiyou
+471600,Union Pacific RR - Siskiyou
+479900,CA Highway Patrol - Siskiyou
+480000,Solano Co. Sheriff's Department
+480100,Benicia
+480200,Dixon
+480300,Fairfield
+480400,Rio Vista
+480500,Suisun
+480600,Vacaville
+480700,Vallejo
+480800,Union Pacific RR - Solano
+480900,Delta/Brandon Island DPR
+481300,Solano Community College
+489800,CA State Police - Solano
+489900,CA Highway Patrol - Solano
+490000,Sonoma Co. Sheriff's Department
+490100,Cloverdale
+490200,Cotati
+490300,Healdsburg
+490400,Rohnert Park
+490500,Santa Rosa
+490600,Sebastopol
+490700,Sonoma
+490800,Petaluma
+490900,CSU Sonoma
+491000,Union Pacific RR - Sonoma
+491100,Silverado DPR
+491200,Russian River/Mendocino DPR
+491300,Sonoma Developmental Center
+491400,Sonoma Co. Junior College
+491500,Windsor
+491A00,ABC Santa Rosa
+499800,CA State Police - Sonoma
+499900,CA Highway Patrol - Sonoma
+50--00,Stanislaus Narcotic Task Force
+500000,Stanislaus Co. Sheriff's Department
+500100,Ceres
+500200,Modesto
+500300,Newman
+500400,Oakdale
+500500,Patterson
+500600,Riverbank
+500700,Turlock
+500800,Waterford
+500900,Hughson
+501000,CSU Stanislaus
+501100,Santa Fe RR - Stanislaus
+501200,Union Pacific RR - Stanislaus
+501400,Union Pacific RR - Stanislaus
+501500,Yosemite Community College
+509800,CA State Police - Stanislaus
+509900,CA Highway Patrol - Stanislaus
+510000,Sutter Co. Sheriff's Department
+510100,Live Oak
+510200,Yuba City
+510400,Union Pacific RR - Sutter
+511A00,ABC Yuba City
+519900,CA Highway Patrol - Sutter
+520000,Tehama Co. Sheriff's Department
+520100,Corning
+520200,Red Bluff
+520300,Tehama
+520400,Union Pacific RR - Tehama
+529900,CA Highway Patrol - Tehama
+530000,Trinity Co. Sheriff's Department
+530100,Union Pacific RR - Trinity
+539900,CA Highway Patrol - Trinity
+540000,Tulare Co. Sheriff's Department
+540100,Dinuba
+540200,Exeter
+540300,Farmersville
+540400,Lindsay
+540500,Porterville
+540600,Tulare
+540700,Visalia
+540800,Woodlake
+540900,Santa Fe RR - Tulare
+541000,Union Pacific RR - Tulare
+541100,College of the Sequoias
+549800,CA State Police - Tulare
+549900,CA Highway Patrol - Tulare
+550000,Tuolumne Co. Sheriff's Department
+550100,Sonora
+550200,Columbia DPR
+559900,CA Highway Patrol - Tuolumne
+560000,Ventura Co. Sheriff's Department
+560100,Camarillo
+560200,Fillmore
+560300,Ojai
+560400,Oxnard
+560500,Port Hueneme
+560600,Santa Paula
+560700,Thousand Oaks
+560800,Ventura
+560900,Simi Valley
+561000,Southern Pacific RR - Ventura
+561300,Angeles DPR
+561400,Moorpark
+561500,Channel Coast DPR
+561600,Camarillo Developmental Center
+561700,Hungry Valley DPR
+562100,Union Pacific RR - Ventura
+562200,CSU Channel Islands
+568000,Ventura Community College
+569100,Ventura Marshal
+569800,CA State Police - Ventura
+569900,CA Highway Patrol - Ventura
+570000,Yolo Co. Sheriff's Department
+570100,Davis
+570200,Winters
+570300,Woodland
+570400,West Sacramento
+570500,Union Pacific RR - Yolo
+570600,Union Pacific RR - Yolo
+579700,UC Davis
+579800,CA State Police - Yolo
+579900,CA Highway Patrol - Yolo
+580000,Yuba Co. Sheriff's Department
+580100,Marysville
+580200,Wheatland
+580300,Union Pacific RR - Yuba
+580400,Union Pacific RR - Yuba
+589900,CA Highway Patrol - Yuba

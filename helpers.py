@@ -1,18 +1,45 @@
 import csv
 import requests
+import pandas as pd
 from os.path import join
 from operator import itemgetter
 
-DATA_FNAME_1 = 'Deaths_in_Custody_2013.xlsx'
-DATA_FNAME_2 = 'Data_Codes.xlsx'
+DATA_FPATH_1 = './static/data/Death_in_Custody_2013.csv'
+DATA_FPATH_2 = './static/data/Data_Codes.csv'
+DATA_FPATH_3 = './static/data/location_codes.csv'
+#DATA_FPATH_4 = geosomething 
 
-def get_data(csv_filename):
-    # open data file
-    # return list of dicts
-    csv_path = '/static/{csv_filename}'
-    with open(csv_path, 'r') as f:
+
+
+def get_data():
+    datafile = join_datasets()
+    with open(datafile, 'r') as f:
         c = csv.DictReader(f)
         return list(c)
+
+
+def join_datasets():
+	deaths = pd.read_csv(DATA_FPATH_1)
+	codes = pd.read_csv(DATA_FPATH_2)
+	locations = pd.read_csv(DATA_FPATH_3)
+	#names = pd.read_csv(DATA_FPATH_4)
+
+	dfa = deaths[['reporting_agency', 'last_name', 'first_name', 
+	'middle_name', 'date_of_birth_mm', 'date_of_birth_dd', 
+	'date_of_birth_yyyy', 'race', 'custody_status', 'custody_offense',
+	'date_of_death_yyyy', 'date_of_death_mm', 'date_of_death_dd', 
+	'custodial_responsibility_at_time_of_death', 
+	'location_where_cause_of_death_occurred', 'facility_death_occured',
+	'manner_of_death', 'means_of_death', 'county']]
+	dfb = codes[['name', 'custody_offense']]
+	dfc = locations[['agency_number', 'agency_name']]
+
+	temp = pd.merge(dfa, dfb, on='custody_offense')
+	dfx = pd.merge(temp, dfc, on='agency_number')
+	return dfx
+
+
+
 
 # def sort_by_criteria(criteria, datarows):
 #     if criteria == 'species':

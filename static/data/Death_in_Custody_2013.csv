@@ -1,0 +1,730 @@
+record_key_number,reporting_agency,agency_number,last_name,first_name,middle_name,date_of_birth_mm,date_of_birth_dd,date_of_birth_yyyy,race,gender,custody_status,custody_offense,date_of_death_yyyy,date_of_death_mm,date_of_death_dd,custodial_responsibility_at_time_of_death,location_where_cause_of_death_occurred,facility_death_occured,manner_of_death,means_of_death,county
+2013001,Police,150200,GURROLA,ABEL,,06,04,1986,Hispanic,Male,Process of Arrest,323,2013,01,01,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Kern
+2013002,State,48015C,SHEPPARD,DAVID,P,01,16,1943,White,Male,Sentenced,100,2013,01,01,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013003,State,27025C,CARLOS,FRANCISCO,,10,10,1939,Hispanic,Male,Sentenced,110,2013,01,02,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013004,State,15025C,TANSEY,BRIAN,JAMES,07,03,1974,White,Male,Sentenced,530,2013,01,02,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Kern
+2013005,State,48015C,JOUBERT,ERIC,,05,15,1966,Black,Male,Sentenced,220,2013,01,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013006,State,16045C,MEDINA,ARTURO,VILLACORTA,10,01,1953,Hispanic,Male,Sentenced,100,2013,01,04,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013007,State,48015C,CARTER,ERICK,T,04,10,1961,White,Male,Sentenced,850,2013,01,05,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013008,State,569900,KEIPER,THEODORE,KENNETH,12,27,1954,White,Male,Process of Arrest,865,2013,01,05,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Ventura
+2013009,State,16045C,CARLETON,DOUGLAS,A,09,05,1932,White,Male,Sentenced,110,2013,01,07,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013010,State,99015C,SELINAS,ORLANDO,,05,25,1969,Hispanic,Male,Sentenced,994,2013,01,07,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Out-of-State
+2013011,State,16045C,RABER,JERRY,ALLEN,06,25,1940,White,Male,Sentenced,700,2013,01,08,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013012,Sheriff,190000,YEN,HARRY,,10,15,1959,Other Asian,Male,Booked - Awaiting Trial,399,2013,01,08,County Jail,,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013013,State,36015C,GONZALES,ROMAN,F,04,24,1949,Hispanic,Male,Sentenced,700,2013,01,09,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013014,Sheriff,190000,GONZALEZ,ALFREDO,,12,27,1981,Hispanic,Male,Sentenced,854,2013,01,11,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013015,Sheriff,440000,DREHER,BRADLEY,,08,21,1965,White,Male,Booked - No Charges Filed,345,2013,01,13,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Santa Cruz
+2013016,Sheriff,190000,GUNNARI,JOHN,,06,09,1965,White,Male,Booked - Awaiting Trial,345,2013,01,13,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Los Angeles
+2013017,Police,420400,GUZMAN,ROBERT,MICHAEL,01,15,1963,Hispanic,Male,Process of Arrest,300,2013,01,13,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Santa Barbara
+2013018,Sheriff,360000,HOYER,KARL,MARTIN,08,19,1964,White,Male,Booked - Awaiting Trial,300,2013,01,13,County Jail,Holding,County Jail,Suicide,"Hanging,Strangulation",San Bernardino
+2013019,State,27025C,WETTON,EMERY,AMOS,03,21,1946,White,Male,Sentenced,220,2013,01,14,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Monterey
+2013020,State,28015M,PONDER,THERESA,LEE,11,13,1942,Black,Female,Sentenced,100,2013,01,15,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013021,Sheriff,120000,LONG,RANDALL,GENE,05,02,1956,White,Male,Sentenced,018,2013,01,17,County Jail,Common,County Jail,Suicide,Other,Humboldt
+2013022,State,48015C,MANSON,WILLIAM,A,04,16,1930,White,Male,Sentenced,100,2013,01,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013023,Sheriff,500000,MAZZARIELLO,RYAN,NEIL,11,20,1986,White,Male,Booked - Awaiting Trial,100,2013,01,17,County Jail,Living,County Jail,Accidental,Drug Overdose,Stanislaus
+2013024,Sheriff,100000,RODRIGUEZ,JOE,ANTHONY,10,23,1992,Hispanic,Male,Booked - Awaiting Trial,100,2013,01,17,County Jail,Living,Local Hospital,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Fresno
+2013025,State,28015M,YONKERS,CARL,LACY,03,13,1944,White,Male,Sentenced,200,2013,01,17,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,Napa
+2013026,State,48015C,GARCIA,RAUL,,11,08,1943,Hispanic,Male,Sentenced,700,2013,01,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013027,State,16025C,FLORES,ARNULFO,,08,09,1944,Hispanic,Male,Sentenced,321,2013,01,19,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Kings
+2013028,State,48015C,MOSS,CHRISTOPHER,D,10,03,1967,Black,Male,Sentenced,802,2013,01,19,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013029,State,13015C,BALTAZAR,ANDREW,,09,18,1982,Hispanic,Male,Sentenced,220,2013,01,21,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Knife,Cutting Instrument",Imperial
+2013030,State,48015C,BARRETT,ROBERT,E,11,02,1945,White,Male,Sentenced,920,2013,01,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013031,State,33065C,CONTRERAS,JOAQUIN,,04,27,1958,Hispanic,Male,Sentenced,250,2013,01,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Riverside
+2013032,State,37015C,SANTOS,JOHN,,08,27,1945,Hispanic,Male,Sentenced,700,2013,01,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013033,Sheriff,290000,PISTELLA,RAYMOND,JAMES,04,20,1961,White,Male,Booked - Awaiting Trial,372,2013,01,22,County Jail,Living,County Jail,Suicide,Other,Nevada
+2013034,State,37015C,HERSEY,MICHAEL,P,07,28,1951,White,Male,Sentenced,700,2013,01,23,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013035,Sheriff,190000,INFANTE,MAURICIO,,01,15,1983,Hispanic,Male,Booked - Awaiting Trial,856,2013,01,23,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Los Angeles
+2013036,State,18035C,RIOS,TITUS,JIMMY,06,30,1964,Hispanic,Male,Sentenced,320,2013,01,23,CDC/CRC,Medical Treatment,CDC/CRC,Homicide Willful (Other Inmate),"Hanging,Strangulation",Lassen
+2013037,State,27025C,RIVAS,WALTER,,06,05,1976,Hispanic,Male,Sentenced,110,2013,01,24,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Monterey
+2013038,State,48015C,LEONARD,HOWARD,,10,15,1953,Black,Male,Sentenced,400,2013,01,25,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013039,State,16025C,LOPEZ,LUIS,,12,08,1987,Hispanic,Male,Sentenced,120,2013,01,25,CDC/CRC,Living,CDC/CRC,Accidental,Drug Overdose,Kings
+2013040,State,40015C,MILLER,DELBERT,D,05,10,1974,Black,Male,Sentenced,854,2013,01,25,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013041,State,27025C,BRINK,ALLEN,SABASTIAN,12,01,1975,White,Male,Sentenced,110,2013,01,26,CDC/CRC,Not Applicable,CDC/CRC,Accidental,Drug Overdose,Monterey
+2013042,Sheriff,190000,HASAN,RAHEEN,S,08,28,1977,Black,Male,Booked - Awaiting Trial,200,2013,01,27,County Jail,Living,County Jail,Natural,Not Applicable,Los Angeles
+2013043,State,28015M,BRIGHT,ERIC,PAUL,02,11,1952,White,Male,Sentenced,320,2013,01,28,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013044,State,48015C,OPLINUS,DENNIS,A,04,27,1948,White,Male,Sentenced,200,2013,01,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013045,State,15025C,JOHNSON,WILLIAM,C,08,11,1954,Black,Male,Sentenced,400,2013,01,29,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013046,State,48015C,MUSQUIZ,JOHNNY,L,06,07,1936,Hispanic,Male,Sentenced,700,2013,01,29,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013047,State,15025C,ANGUIANO,DAVID,F,03,22,1954,White,Male,Sentenced,300,2013,01,30,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013048,Sheriff,190000,COLSON,ROBERT,MATTHEW,06,12,1963,White,Male,Booked - Awaiting Trial,345,2013,01,30,County Jail,Other,Other,Natural,Not Applicable,Los Angeles
+2013049,State,36015M,CHAVEZ,ORLANDO,,01,05,1957,Hispanic,Male,Sentenced,320,2013,01,31,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013050,State,15025C,HOWARD,MICHAEL,DENNIS,06,29,1958,Black,Male,Sentenced,400,2013,01,31,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013051,State,21015C,KARIS,JAMES,L,11,11,1951,White,Male,Sentenced,110,2013,01,31,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Marin
+2013052,Sheriff,360000,ACUNA,PETER,FLORES,06,16,1967,Hispanic,Male,Booked - Awaiting Trial,530,2013,01,09,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013053,Sheriff,190000,RUBALCALVA,JESSE,MAX,01,01,1997,Hispanic,Male,Process of Arrest,341,2013,01,10,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013054,State,16025C,JACKSON,PAUL,RODGER,03,31,1976,Black,Male,Sentenced,220,2013,01,12,CDC/CRC,Living,CDC/CRC,Accidental,Drug Overdose,Kings
+2013055,Police,191800,TAYLOR,JOSEPH,LEE,11,18,1967,White,Male,Other,836,2013,01,12,Other,Crime/Arrest Scene,Local Hospital,Cannot be Determined,Cannot be Determined,Los Angeles
+2013056,Sheriff,070000,JACKSON,ALVIN,NOEL,12,09,1966,Other,Male,Sentenced,400,2013,02,01,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Contra Costa
+2013057,State,16045C,MCCORMICK,ALVIN,SPENCER,05,22,1942,White,Male,Sentenced,700,2013,02,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013058,State,48015C,PARRISH,STEVEN,D,05,31,1958,White,Male,Sentenced,371,2013,02,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013059,State,37015C,TERRENAL,RUDY,V,04,11,1936,Filipino,Male,Sentenced,100,2013,02,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013060,State,27015C,FAHEY,FRANK,STANTON,01,12,1946,White,Male,Sentenced,800,2013,02,07,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Monterey
+2013061,State,37015C,NOLEN,LORENZO,,02,18,1965,Black,Male,Sentenced,220,2013,02,07,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,San Diego
+2013062,State,36015M,ROBERSON,RENE,,05,31,1956,Black,Male,Sentenced,610,2013,02,07,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013063,State,48015C,LEE,WILLIAM,F,04,11,1958,Black,Male,Sentenced,420,2013,02,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013064,State,21015C,BAUMER,ERIC,MICHAEL,12,26,1948,White,Male,Sentenced,410,2013,02,10,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Marin
+2013065,Police,190700,CARVAJAL,CEASAR,,01,07,1976,Hispanic,Male,Process of Arrest,342,2013,02,10,Process of Arrest,Crime/Arrest Scene,Local Hospital,Natural,Not Applicable,Los Angeles
+2013066,State,33025G,ARMES,JOHN,CHRISTOPHER,02,17,1983,White,Male,Process of Arrest,341,2013,02,11,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013067,State,36015M,JACKSON,KEMPY,,01,01,1950,Black,Male,Sentenced,120,2013,02,11,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013068,State,15015C,MENA,RAFAEL,BURROLA,10,24,1922,Hispanic,Male,Sentenced,700,2013,02,11,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013069,State,48015C,TAYLOR,RONALD,,06,30,1952,Black,Male,Sentenced,100,2013,02,11,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013070,State,48015C,DURAN,RUIS,,11,29,1969,Hispanic,Male,Sentenced,700,2013,02,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013071,State,48015C,LEWIS,EDWARD,L,01,24,1965,White,Male,Sentenced,700,2013,02,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013072,Sheriff,370000,LUBSEN,ROBERT,L,09,09,1986,White,Male,Booked - Awaiting Trial,400,2013,02,12,County Jail,Common,Local Hospital,Suicide,"Club,Blunt Instrument",San Diego
+2013073,State,34065C,MEDRANO,LOUIS,BANUELOS,03,13,1968,Hispanic,Male,Sentenced,220,2013,02,12,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Sacramento
+2013074,State,03035C,ARANDA,SANTOS,CRUZ,11,02,1951,Hispanic,Male,Sentenced,410,2013,02,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Amador
+2013075,State,16025C,ORTEGA,CARLOS,,04,11,1944,Hispanic,Male,Sentenced,320,2013,02,13,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013076,Sheriff,190000,KUBLER,TERRY,,12,16,1952,White,Male,Booked - No Charges Filed,881,2013,02,14,County Jail,Medical Treatment,County Jail,Accidental,Other,Los Angeles
+2013077,Police,194800,FRANCO,EMMANUEL,,06,06,1987,Hispanic,Male,Process of Arrest,323,2013,02,15,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013078,Police,330900,RENDON,ALEJANDRO,,12,31,1989,Hispanic,Male,Process of Arrest,345,2013,02,15,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013079,State,10015M,WHITE,RICHARD,,05,25,1955,Black,Male,Sentenced,720,2013,02,15,State Hospital,Medical Treatment,State Hospital,Natural,Not Applicable,Fresno
+2013080,State,36015M,SMITH,TIMOTHY,,11,02,1968,Black,Male,Sentenced,920,2013,02,16,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013081,State,28015M,STEFFENSON,SHARON,LEE,11,27,1941,White,Female,Sentenced,300,2013,02,16,State Hospital,Medical Treatment,State Hospital,Natural,Not Applicable,Napa
+2013082,State,34065C,CANNON,VERNON,,12,19,1981,White,Male,Sentenced,920,2013,02,16,CDC/CRC,Medical Treatment,CDC/CRC,Suicide,Drug Overdose,Sacramento
+2013083,State,36015C,KING,LAWRENCE,,04,18,1986,Black,Male,Sentenced,320,2013,02,17,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013084,State,37015C,CLIFTON,OSCAR,,03,31,1940,White,Male,Sentenced,110,2013,02,18,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Diego
+2013085,Police,345500,TERESCHENKO,PAUL,ALEXANDROVIC,05,10,1977,White,Male,Process of Arrest,342,2013,02,18,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Sacramento
+2013086,State,48015C,AMES,BRYON,K,10,03,1960,White,Male,Sentenced,801,2013,02,20,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013087,State,15075C,DAVIS,VICTOR,LAMAR,12,28,1982,Black,Male,Sentenced,610,2013,02,21,CDC/CRC,Living,Local Hospital,Accidental,Drug Overdose,Kern
+2013088,Police,194100,TAYLOR,CHRISTOPHER,ALLEN,04,16,1993,Black,Male,Process of Arrest,323,2013,02,21,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013089,Sheriff,370000,GRAVES,TIMOTHY,DON,11,12,1976,White,Male,Booked - Awaiting Trial,372,2013,02,23,County Jail,Living,County Jail,Accidental,Drug Overdose,San Diego
+2013090,State,36015C,DORIA,JULIAN,RUDY,03,12,1956,Hispanic,Male,Sentenced,120,2013,02,23,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013091,Sheriff,190000,VALLE,LORNA,,09,16,1979,Hispanic,Female,Booked - Awaiting Trial,100,2013,02,23,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013092,Sheriff,500000,CARTWRIGHT,ANTHONY,ADAM,10,24,1964,White,Male,Booked - Awaiting Trial,801,2013,02,24,County Jail,Living,Local Hospital,Accidental,Drug Overdose,Stanislaus
+2013093,State,18035C,PAZ,CRUZ,FELIPE,05,04,1986,Hispanic,Male,Sentenced,732,2013,02,24,CDC/CRC,Medical Treatment,CDC/CRC,Homicide Willful (Other Inmate),"Hanging,Strangulation",Lassen
+2013094,Police,331300,CIARAMELLA,LORENZO,JOSEPH,09,04,1973,Hispanic,Male,Process of Arrest,341,2013,02,25,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013095,Police,194200,LIESS,DARREN,JOSEPH,10,11,1965,White,Male,Other,000,2013,02,25,Other,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013096,State,27025C,LUTON,GARY,,08,01,1947,White,Male,Sentenced,110,2013,02,26,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013097,Police,370600,NELSON,WESLEY,LEE,03,12,1981,White,Male,Booked - No Charges Filed,800,2013,02,27,City Jail,Holding,Local Hospital,Accidental,Drug Overdose,San Diego
+2013098,State,20015C,HERNANDEZ,ADRIANA,,10,15,1976,Hispanic,Female,Sentenced,300,2013,02,28,CDC/CRC,Common,CDC/CRC,Accidental,Drug Overdose,Madera
+2013099,Police,301900,NGUYEN,BINH,,11,01,1973,Vietnamese,Male,Process of Arrest,341,2013,01,11,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013100,State,16025C,MILLER,DELBERT,LESLIE,06,01,1943,White,Male,Sentenced,110,2013,01,24,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Kings
+2013101,Sheriff,520000,RUPE,ROBERT,MICHAEL,04,05,1985,White,Male,Booked - Awaiting Trial,400,2013,02,11,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Tehama
+2013102,Sheriff,210000,FRAZEE,STEPHEN,,06,18,1983,White,Male,Booked - Awaiting Trial,342,2013,03,01,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Marin
+2013103,State,34015C,HENSON,THOMAS,ALLEN,04,13,1975,White,Male,Sentenced,323,2013,03,01,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Sacramento
+2013104,State,37015C,LANZAS,GUSTAVO,ANTONIO,10,26,1943,Hispanic,Male,Sentenced,700,2013,03,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013105,State,40015C,PERALES-NIEBLAS,JOSE,L,01,20,1963,Hispanic,Male,Sentenced,800,2013,03,01,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013106,State,33065C,PERER,MARIO,D,02,01,1968,Filipino,Male,Sentenced,110,2013,03,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Riverside
+2013107,State,48015C,SANTILLANEZ,ANTONIO,M,05,20,1949,Hispanic,Male,Sentenced,610,2013,03,01,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013108,Sheriff,540000,GUERRA,DESI,,11,04,1991,Hispanic,Male,Booked - Awaiting Trial,200,2013,03,02,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",Tulare
+2013109,State,15045C,WILLIAMS,RANDY,ALLEN,03,20,1955,White,Male,Sentenced,700,2013,03,02,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013110,Sheriff,150000,PICKERING,MICHAEL,ARNOLD,01,14,1962,White,Male,Booked - Awaiting Trial,094,2013,03,03,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013111,Sheriff,100000,ESTRADA,TEMPLE,RUDY,07,18,1955,Hispanic,Male,Booked - Awaiting Trial,300,2013,03,04,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Fresno
+2013112,State,20015C,HOWARD,PRECIOUS,E,08,22,1950,Black,Female,Sentenced,320,2013,03,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Madera
+2013113,State,19105C,PALMATEER,PAUL,MICHAEL,02,28,1948,White,Male,Sentenced,110,2013,03,04,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Los Angeles
+2013114,State,37015C,MERRYMAN,BOB,DEAN,11,18,1964,White,Male,Sentenced,802,2013,03,05,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013115,Police,500100,ECKEL,BRANDON,WESLEY,03,24,1986,Hispanic,Male,Process of Arrest,865,2013,03,06,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Rifle/Shotgun,Stanislaus
+2013116,State,27025C,JACKSON,DAVID,DARREL,06,03,1956,White,Male,Sentenced,120,2013,03,06,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Monterey
+2013117,State,33045C,HENDERSON,AARON,,08,07,1956,Black,Male,Sentenced,720,2013,03,07,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Riverside
+2013118,State,16025C,MALONE,DANNY,L,03,03,1954,White,Male,Sentenced,160,2013,03,07,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Kings
+2013119,State,16045C,WORTHY,MARK,A,03,17,1967,Black,Male,Sentenced,921,2013,03,07,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013120,State,48015C,HILL,EDDIE,L,01,29,1947,Black,Male,Sentenced,802,2013,03,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013121,State,48015C,GUERNSEY,ROBERT,G,12,08,1947,White,Male,Sentenced,760,2013,03,10,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013122,State,36015C,PARKER,LAWRENCE,,04,18,1946,Black,Male,Sentenced,372,2013,03,10,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013123,Sheriff,360000,SCHAN,GARY,RANDELL,09,24,1950,White,Male,Sentenced,700,2013,03,10,County Jail,Holding,County Jail,Suicide,Other,San Bernardino
+2013124,Sheriff,120000,FERNANDEZ-MORENO,JOSE,LUIS,05,19,1966,Hispanic,Male,Booked - Awaiting Trial,705,2013,03,11,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",Humboldt
+2013125,State,40015C,PLATISHA,FRED,J,06,12,1931,White,Male,Sentenced,700,2013,03,11,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013126,State,40015C,BESS,RICHARD,D,10,24,1955,Black,Male,Sentenced,610,2013,03,12,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013127,State,36015M,BRYANT,JAMES,LYMAN,09,30,1951,White,Male,Sentenced,345,2013,03,12,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013128,State,16045C,LUJAN,RICKY,DEMETRIUS,12,22,1966,Hispanic,Male,Sentenced,210,2013,03,12,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013129,State,20045C,VINES,HOWARD,I,09,28,1953,White,Male,Sentenced,610,2013,03,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Madera
+2013130,Sheriff,190000,FERNANDEZ,HENRY,ANDRADE,07,01,1936,Hispanic,Male,Booked - Awaiting Trial,700,2013,03,14,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Los Angeles
+2013131,State,18035C,LIZZARRAGA,ENRIQUE,,11,26,1973,Hispanic,Male,Sentenced,200,2013,03,14,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Lassen
+2013132,Police,560800,PARK,CLIFF,JUNG MIN,05,05,1983,Korean,Male,Process of Arrest,341,2013,03,14,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Ventura
+2013133,Sheriff,100000,RODRIGUEZ,OCTAVIO,,08,05,1973,Hispanic,Male,Booked - Awaiting Trial,371,2013,03,14,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",Fresno
+2013134,Police,195500,CASTANEDA-MONTOYA,SONIA,,12,18,1984,Hispanic,Female,Process of Arrest,323,2013,03,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013135,Sheriff,370000,CORNELIO,ALBA,MEDINA,01,26,1972,Hispanic,Female,Booked - Awaiting Trial,151,2013,03,16,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013136,State,27015C,EVINS,WILLIAM,,09,03,1954,White,Male,Sentenced,120,2013,03,17,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013137,State,48015C,FLEMING,JAMES,,04,30,1944,White,Male,Sentenced,300,2013,03,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013138,Sheriff,430000,FREUDENBLUM,KENNETH,BURR,10,11,1966,White,Male,Sentenced,079,2013,03,18,County Jail,,Local Hospital,Pending Investigation,Pending Investigation,Santa Clara
+2013139,State,37015C,FUENTES,RAUL,JOSE,01,15,1954,Hispanic,Male,Sentenced,110,2013,03,18,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013140,State,48015C,HUGHES,JOHN,,09,02,1948,White,Male,Sentenced,100,2013,03,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013141,Other Local,28023C,WHITELEY,BRANDON,MICHAEL,02,27,1988,White,Male,Booked - No Charges Filed,346,2013,03,18,County Jail,Other,Local Hospital,Accidental,Drug Overdose,Napa
+2013142,State,48015C,RODRIGUEZ,DAVID,JULIAN,08,26,1962,Hispanic,Male,Sentenced,720,2013,03,19,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013143,Sheriff,100000,FEES,HEIDI,SUZANNE,04,26,1975,White,Female,Booked - Awaiting Trial,531,2013,03,20,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Fresno
+2013144,Police,480700,HEINZE,WILLIAM,A,02,27,1971,White,Male,Process of Arrest,300,2013,03,20,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Solano
+2013145,State,36015M,MENDOZA,BELEN,,08,19,1971,Hispanic,Female,Sentenced,300,2013,03,20,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013146,State,48045C,EDWARDS,JAMES,EUGENE,11,22,1931,White,Male,Sentenced,865,2013,03,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013147,State,27015C,PILTZ,LESLIE,,05,05,1940,White,Male,Sentenced,120,2013,03,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013148,Police,500200,TUNGSETH,HOWARD,JOHNSON,09,06,1925,White,Male,Process of Arrest,323,2013,03,21,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Stanislaus
+2013149,Sheriff,070000,BEHIEL,JOSEPH,ARTHUR,06,05,1991,White,Male,Booked - No Charges Filed,345,2013,03,22,County Jail,Booking,Local Hospital,Suicide,"Hanging,Strangulation",Contra Costa
+2013150,Sheriff,090000,CLARK,JAMES,THOMAS,06,17,1959,White,Male,Booked - Awaiting Trial,800,2013,03,22,County Jail,Common,County Jail,Natural,Not Applicable,El Dorado
+2013151,State,27025C,WATKINS,DESMOND,JOVAN,11,07,1976,Black,Male,Sentenced,110,2013,03,22,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Monterey
+2013152,State,21015C,BRIDGETTE,ROBERT,,02,21,1959,Black,Male,Sentenced,700,2013,03,24,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Marin
+2013153,Police,195500,ARGANDA,JOHN,,12,18,1967,Hispanic,Male,Process of Arrest,341,2013,03,25,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013154,State,27015C,CORTEZ,RUBEN,,01,10,1957,Hispanic,Male,Sentenced,700,2013,03,25,CDC/CRC,Common,CDC/CRC,Pending Investigation,Pending Investigation,Monterey
+2013155,Sheriff,420000,BAUMANN,LAWRENCE,JAMES,07,21,1961,White,Male,Awaiting Booking,342,2013,03,26,County Jail,Booking,County Jail,Pending Investigation,Pending Investigation,Santa Barbara
+2013156,State,99025C,ZEPEDA,NESTOR,G,01,13,1935,Hispanic,Male,Sentenced,700,2013,03,26,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,In-State
+2013157,State,36015C,MERAZ,PAUL,CHRIS,05,18,1964,Hispanic,Male,Sentenced,110,2013,03,27,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013158,Sheriff,360000,LANDO,TARAS,ANDRE,02,11,1969,Black,Male,Booked - No Charges Filed,372,2013,03,30,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Bernardino
+2013159,Sheriff,420000,PARLANTI,STACIA,TERESA,11,30,1977,Hispanic,Female,Sentenced,836,2013,03,30,County Jail,Other,Other,Pending Investigation,Pending Investigation,Santa Barbara
+2013160,Sheriff,380000,FAREBROTHER,EDWARD,,11,08,1956,White,Male,Booked - Awaiting Trial,801,2013,03,31,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,San Francisco
+2013161,State,40015C,LEE,YOUNG,KIL,12,06,1961,Other Asian,Male,Sentenced,300,2013,03,31,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013162,State,28015M,MANN,JOYCE,MAY,01,30,1938,White,Female,Other,300,2013,03,31,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,Napa
+2013163,State,15025C,PEREZ,RONALD,DEAN,11,20,1952,Hispanic,Male,Sentenced,501,2013,03,31,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013164,State,03035C,STEELE,JIMMIE,,12,15,1942,White,Male,Sentenced,700,2013,03,31,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Amador
+2013165,State,16045C,SMITH,RONNIE,,01,01,1937,White,Male,Sentenced,110,2013,04,01,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013166,State,37015C,REBER,WALTER,,10,10,1943,White,Male,Sentenced,881,2013,04,04,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013167,State,20015C,RESZETYLO,LINDA,,05,06,1948,White,Female,Sentenced,300,2013,04,05,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Madera
+2013168,State,15015C,DEARMAN,JOE,E,06,17,1974,White,Male,Sentenced,321,2013,04,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kern
+2013169,State,369900,MULDER,DAVID,CHARLES,09,26,1969,White,Male,Process of Arrest,100,2013,04,07,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,San Bernardino
+2013170,State,48015C,SIMMONS,WILLIE,,06,13,1933,Black,Male,Sentenced,410,2013,04,11,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013171,State,48015C,PICKENS,RONNIE,,10,13,1950,Black,Male,Sentenced,410,2013,04,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013172,State,48015C,DOMINGUEZ,LOUIS,VISCANIA,03,14,1938,Hispanic,Male,Sentenced,700,2013,04,13,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013173,State,10015M,LYLES,CARNOT,ANDRE,12,14,1956,Black,Male,Sentenced,700,2013,03,13,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Fresno
+2013174,State,21015C,HELZER,JUSTIN,ALAN,02,12,1972,White,Male,Sentenced,100,2013,04,14,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Marin
+2013175,State,48015C,HUFFMAN,DAVID,HOWARD,03,05,1975,White,Male,Sentenced,110,2013,04,14,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013176,State,48015C,MAHER,JOHN,EDMOND,12,12,1941,White,Male,Sentenced,120,2013,04,14,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013177,State,19105C,HINTON,QUARTUS,LEE,11,13,1978,Black,Male,Sentenced,150,2013,04,15,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Los Angeles
+2013178,Sheriff,560000,BUCCIARELLE,PAMELA,JEAN,01,23,1957,White,Female,Sentenced,818,2013,04,17,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Ventura
+2013179,Sheriff,190000,PHILLIPS,STEVEN,MICHAEL,01,18,1985,Hispanic,Male,Booked - Awaiting Trial,400,2013,04,17,County Jail,Living,County Jail,Accidental,Drug Overdose,Los Angeles
+2013180,Sheriff,370000,REYES,MARIO,,07,06,1983,Hispanic,Male,Sentenced,821,2013,04,17,County Jail,Living,Local Hospital,Accidental,Drug Overdose,San Diego
+2013181,State,36015C,WABER,LARRY,GENE,07,22,1952,White,Male,Sentenced,610,2013,04,17,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013182,Police,380100,WILKERSON,DALE,,06,17,1952,White,Male,Process of Arrest,341,2013,04,17,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Francisco
+2013183,State,15025C,CARDENAS,MIGUEL,,09,19,1980,Hispanic,Male,Sentenced,800,2013,04,18,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Kern
+2013184,State,40015C,VIDNOVIC,GEORGE,E,01,16,1949,White,Male,Sentenced,700,2013,04,18,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013185,Sheriff,490000,CONRAD,NIELS,JOHN,05,18,1957,White,Male,Sentenced,825,2013,04,19,County Jail,Living,County Jail,Suicide,"Knife,Cutting Instrument",Sonoma
+2013186,State,36015C,AYALA,JOSEPH,JR,08,07,1944,Hispanic,Male,Sentenced,700,2013,04,20,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013187,Sheriff,010000,IRWIN,MARK,EDWARD,07,13,1954,White,Male,Sentenced,821,2013,04,20,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Alameda
+2013188,State,34065C,NESBITT,RONALD,Z,10,01,1953,White,Male,Sentenced,110,2013,04,20,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Sacramento
+2013189,State,27025C,GUERRA,GUADALUPE,BELTRAN,03,25,1947,Hispanic,Male,Sentenced,330,2013,04,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013190,State,48015C,KLUGE,DARREN,ANTHONY,10,26,1974,White,Male,Sentenced,700,2013,04,23,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013191,Police,194100,SOCKEY,LAWANDA,,07,27,1962,Other,Female,Booked - No Charges Filed,801,2013,04,24,City Jail,Crime/Arrest Scene,City Jail,Accidental,Drug Overdose,Los Angeles
+2013192,State,99025C,WINKLER,MARGARITE,LOIS,08,21,1937,White,Female,Sentenced,120,2013,04,24,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,In-State
+2013193,Sheriff,190000,GUENTHER,KURT,DONALD,07,08,1954,White,Male,Booked - Awaiting Trial,341,2013,04,25,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013194,Sheriff,370000,SIERRA,JOSE,A,12,30,1985,Hispanic,Male,Booked - Awaiting Trial,836,2013,04,25,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Diego
+2013195,Sheriff,100000,MORA,JEFFREY,,07,05,1989,Hispanic,Male,Sentenced,400,2013,04,26,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Fresno
+2013196,State,48015C,COOPER,RODNEY,ALLEN,02,20,1975,Black,Male,Sentenced,300,2013,04,27,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013197,State,48015C,HERRERA,JESUS,RODRIGUEZ,07,26,1924,Hispanic,Male,Sentenced,110,2013,04,27,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013198,Police,194100,DELGADILLO,JESSE,DONATO,04,12,1992,Hispanic,Male,Process of Arrest,323,2013,04,28,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013199,Sheriff,370000,WADE,ANNA,BERNICE,07,12,1948,Black,Female,Booked - Awaiting Trial,995,2013,04,28,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",San Diego
+2013200,Police,330800,HYDE,MANUEL,JOHN,08,20,1974,White,Male,Process of Arrest,836,2013,01,22,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Riverside
+2013201,State,149900,ERICSON,JOHN,LOYDD,06,05,1990,White,Male,Process of Arrest,865,2013,01,31,Process of Arrest,Other,Other,Accidental,Other,Imperial
+2013202,Police,364000,LANGENHORST,JEFFREY,ALAN,04,16,1952,White,Male,Process of Arrest,300,2013,03,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Bernardino
+2013203,Sheriff,300000,HALLSTROM,JASON,ERLING,09,09,1971,White,Male,Booked - Awaiting Trial,570,2013,03,23,County Jail,Other,Local Hospital,Pending Investigation,Pending Investigation,Orange
+2013204,Sheriff,330000,PHILLIPS,GEORGE,EDWARD,01,11,1963,Black,Male,Sentenced,818,2013,04,15,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Riverside
+2013205,State,16025C,SALAS,MANUEL,,06,20,1979,Hispanic,Male,Sentenced,100,2013,04,29,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Kings
+2013206,State,20015C,MCDONALD,CARLOTTA,ANN,04,19,1934,White,Female,Sentenced,110,2013,05,02,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Madera
+2013207,Sheriff,190000,DUAN,CHONG,SHAO,10,17,1965,Chinese,Male,Booked - Awaiting Trial,400,2013,05,03,County Jail,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013208,Police,370600,CAMPOS,PEDRO,M,08,10,1983,Hispanic,Male,Process of Arrest,341,2013,05,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Diego
+2013209,State,21015C,GRAY,MARIO,,06,09,1957,Black,Male,Sentenced,110,2013,05,04,CDC/CRC,Administrative,CDC/CRC,Pending Investigation,Pending Investigation,Marin
+2013210,Sheriff,190000,HEROD,BILLY,,09,11,1949,Black,Male,Booked - Awaiting Trial,800,2013,05,04,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Los Angeles
+2013211,Sheriff,410000,BENDANA,SANTIAGO,JAVIER,09,02,1972,Hispanic,Male,Booked - Awaiting Trial,610,2013,05,05,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Mateo
+2013212,State,28015M,WHITING,DOLLY,LOY,07,30,1936,Black,Female,Sentenced,100,2013,05,05,State Hospital,Medical Treatment,State Hospital,Natural,Not Applicable,Napa
+2013213,State,18035C,FLORES,RAFAEL,,04,10,1987,Hispanic,Male,Sentenced,200,2013,05,06,CDC/CRC,Medical Treatment,CDC/CRC,Suicide,"Hanging,Strangulation",Lassen
+2013214,State,10015M,SHERMAN,DOUGLAS,PAUL,06,14,1948,White,Male,Sentenced,700,2013,05,07,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,Fresno
+2013215,State,459900,CAMPBELL,ROBERT,DALE,09,08,1973,White,Male,Process of Arrest,342,2013,05,08,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Other,Shasta
+2013216,Sheriff,150000,SILVA,DAVID,SAL,01,29,1980,Hispanic,Male,Process of Arrest,346,2013,05,08,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Kern
+2013217,State,48015C,JENKINS,DONALD,GEORGE,01,20,1948,Black,Male,Sentenced,620,2013,05,09,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013218,Sheriff,330000,NEGRETE,JULIO,,09,22,1977,Hispanic,Male,Sentenced,821,2013,05,09,County Jail,Living,County Jail,Homicide Willful (Other Inmate),"Hanging,Strangulation",Riverside
+2013219,Sheriff,360000,VALLE,BRYAN,SNYDER,11,27,1993,Hispanic,Male,Process of Arrest,100,2013,05,09,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,San Bernardino
+2013220,State,36015M,WALLACE,ROBERT,STEPHEN,09,12,1965,White,Male,Sentenced,345,2013,05,09,State Hospital,Medical Treatment,Local Hospital,Cannot be Determined,Cannot be Determined,San Bernardino
+2013221,State,48015C,JONES,CURTIS,III,08,30,1961,Black,Male,Sentenced,844,2013,05,11,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013222,Sheriff,190000,DELRIO,ERNEST,,09,21,1963,White,Male,Booked - Awaiting Trial,400,2013,05,12,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013223,State,15045C,LOPEZ,PASCUAL,,08,02,1992,Hispanic,Male,Sentenced,110,2013,05,12,CDC/CRC,Medical Treatment,Local Hospital,Accidental,Drug Overdose,Kern
+2013224,State,13045C,MARTINEZ,RICHARD,ANTHONY,03,03,1978,Black,Male,Sentenced,802,2013,05,12,CDC/CRC,Medical Treatment,CDC/CRC,Pending Investigation,Pending Investigation,Imperial
+2013225,State,16025C,TINAJERO,OSWALDO,,10,30,1973,Hispanic,Male,Sentenced,220,2013,05,12,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Kings
+2013226,State,36015C,CABRAL,RICARDO,SAMUEL,09,21,1946,Hispanic,Male,Sentenced,200,2013,05,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013227,State,36015M,GREEN,JAMES,,02,09,1960,Black,Male,Sentenced,800,2013,05,13,State Hospital,Living,State Hospital,Natural,Not Applicable,San Bernardino
+2013228,State,48015C,LUCERO,RONALD,,09,09,1950,White,Male,Sentenced,811,2013,05,13,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013229,State,299900,ORR,WILLIAM,KENNETH,08,30,1957,White,Male,Process of Arrest,865,2013,05,13,Process of Arrest,Other,Other,Accidental,Other,Nevada
+2013230,State,16015C,GERMER,RICHARD,K,06,16,1953,White,Male,Sentenced,700,2013,05,15,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013231,Sheriff,190000,THOMAS,ANTHONY,LYLE,01,24,1966,Black,Male,Sentenced,825,2013,05,15,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Los Angeles
+2013232,State,37015C,COOPER,WILLIE,,06,28,1953,Black,Male,Sentenced,120,2013,05,16,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Diego
+2013233,State,37015C,TRUJILLO,PHILLIP,,11,08,1954,Hispanic,Male,Sentenced,100,2013,05,16,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Diego
+2013234,State,21015C,BARNES,LARRY,CHARLES,04,26,1956,Black,Male,Sentenced,530,2013,05,17,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Marin
+2013235,State,40015C,BELONGIE,ARTHUR,W,06,14,1936,White,Male,Sentenced,110,2013,05,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013236,State,36015C,GONZALEZ,ROBERT,,07,25,1952,Hispanic,Male,Sentenced,410,2013,05,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013237,Sheriff,330000,HOUSTON,JOHN,ALLEN,01,08,1948,White,Male,Process of Arrest,100,2013,05,18,Process of Arrest,Crime/Arrest Scene,Local Hospital,Suicide,Handgun,Riverside
+2013238,State,13015C,MCGOWAN,MELVIN,EDWARD SR,01,16,1943,White,Male,Sentenced,700,2013,05,18,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Imperial
+2013239,State,27025C,MERCER,MARC,,04,02,1965,White,Male,Sentenced,110,2013,05,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Monterey
+2013240,Sheriff,570000,PHILLIPS,TODD,ALEXANDER,05,12,1984,White,Male,Booked - Awaiting Trial,825,2013,05,18,County Jail,Living,Local Hospital,Cannot be Determined,Other,Yolo
+2013241,State,28015M,GARLICK,RICHARD,PRINCE,06,21,1922,White,Male,Sentenced,300,2013,05,20,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013242,State,48015C,GUERRA,JOE,REYES,01,27,1950,Hispanic,Male,Sentenced,323,2013,05,20,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013243,Sheriff,010000,JOSAN,PARIA,SINGH,03,03,1959,Other Asian,Male,Booked - Awaiting Trial,700,2013,05,20,County Jail,Not Applicable,County Jail,Natural,Not Applicable,Alameda
+2013244,State,36015C,NARVAEZ,GEORGE,CHARLES,11,04,1962,Hispanic,Male,Sentenced,120,2013,05,20,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013245,Sheriff,300000,HOLLIDAY,JASON,JAMES,05,16,1967,White,Male,Sentenced,827,2013,05,21,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Orange
+2013246,Police,194200,MEJIA,WILLIAM,ALEXANDER,07,27,1994,Hispanic,Male,Process of Arrest,323,2013,05,21,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013247,State,36015M,SADURDAY,DAVID,,05,05,1945,White,Male,Sentenced,100,2013,05,21,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013248,State,13015C,CHAVEZ,GEORGE,,01,16,1976,Hispanic,Male,Sentenced,300,2013,05,22,CDC/CRC,Living,CDC/CRC,Accidental,Drug Overdose,Imperial
+2013249,State,34015C,GRIFFIN,GARY,,09,08,1953,Black,Male,Sentenced,210,2013,05,22,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Sacramento
+2013250,State,10015M,TIRRELL,DONALD,NELSON,04,01,1955,White,Male,Sentenced,700,2013,05,22,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Fresno
+2013251,State,37015C,ARNOLD,FRED,,04,03,1959,Black,Male,Sentenced,821,2013,05,24,CDC/CRC,Living,CDC/CRC,Accidental,Drug Overdose,San Diego
+2013252,Police,340400,TORETTI,JOHN,NATE,11,13,1970,White,Male,Process of Arrest,345,2013,05,24,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Sacramento
+2013253,Sheriff,430000,PARKER,LUTHER,JAMES,10,02,1967,Black,Male,Booked - Awaiting Trial,802,2013,05,25,County Jail,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Santa Clara
+2013254,State,99025C,PLATT,CHARLES,,09,24,1966,Black,Male,Sentenced,120,2013,05,26,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,In-State
+2013255,Police,194100,TORRES,CHRISTIAN,,09,04,1992,Hispanic,Male,Process of Arrest,410,2013,05,26,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013256,State,48015C,TORRES,HILARIO,,05,02,1937,Hispanic,Male,Sentenced,120,2013,05,26,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013257,State,34015C,MENDOZA,EVER,,08,28,1983,Hispanic,Male,Sentenced,410,2013,05,27,CDC/CRC,Living,Local Hospital,Suicide,"Hanging,Strangulation",Sacramento
+2013258,State,03035C,CARBONELL,ORLANDO,JOSUE,04,17,1963,Black,Male,Sentenced,110,2013,05,28,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Amador
+2013259,State,40015C,CLEVELAND,EDWARD,,09,21,1944,Black,Male,Sentenced,800,2013,05,28,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013260,State,369900,MARR,JOHN,JOSEPH,02,10,1971,White,Male,Process of Arrest,323,2013,05,28,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,San Bernardino
+2013261,Sheriff,430000,FAULKNER,GREGORY,DEAN,08,20,1967,White,Male,Sentenced,400,2013,05,29,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Santa Clara
+2013262,Police,010900,PETERS,BERNARD,,01,01,1991,Black,Male,Process of Arrest,323,2013,05,29,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Alameda
+2013263,State,40015C,STUTE,CHRISTOPHER,,06,17,1956,White,Male,Sentenced,801,2013,05,29,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013264,Sheriff,470000,TAYLOR,JAMES,PATRICK,07,06,1961,White,Male,Booked - Awaiting Trial,200,2013,05,29,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Siskiyou
+2013265,Police,301900,AYALA,GERARDO,DIEGO,09,29,1986,Hispanic,Male,Process of Arrest,323,2013,05,30,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013266,State,16015C,SIMMONS,ARMONDO,,03,05,1984,Hispanic,Male,Sentenced,841,2013,05,30,CDC/CRC,Medical Treatment,CDC/CRC,Accidental,Drug Overdose,Kings
+2013267,State,16015C,BATHKE,BURTON,R,05,06,1947,White,Male,Sentenced,881,2013,05,31,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Kings
+2013268,State,19105C,JONES,VICTOR,,01,24,1965,Black,Male,Sentenced,200,2013,05,31,CDC/CRC,Common,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Los Angeles
+2013269,State,48015C,KNIGHT,JOE,NATHAN,10,12,1938,Black,Male,Sentenced,110,2013,05,31,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013270,Police,520200,STEVENS,ADAM,JAMES,04,09,1988,White,Male,Process of Arrest,341,2013,04,11,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Tehama
+2013271,Sheriff,010000,BELIEL,DAVID,,01,27,1963,White,Male,Booked - No Charges Filed,094,2013,05,09,County Jail,Living,Local Hospital,Natural,Not Applicable,Alameda
+2013272,State,16045C,RAMOS,DANIEL,,08,21,1952,Hispanic,Male,Sentenced,110,2013,06,01,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013273,State,27025C,FOISY,TYRONE,GARRON,09,26,1960,White,Male,Sentenced,220,2013,06,02,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Monterey
+2013274,State,48015C,HARTSHORN,LARRIE,EUGENE,07,17,1945,White,Male,Sentenced,320,2013,06,02,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013275,Sheriff,300000,MARTINEZ,DANIEL,AGUIRRE,02,19,1957,Hispanic,Male,Sentenced,018,2013,06,02,County Jail,,County Jail,Pending Investigation,Pending Investigation,Orange
+2013276,State,36015C,VALENCIA,AGUSTIN,,10,11,1938,Hispanic,Male,Sentenced,700,2013,06,02,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013277,State,48015C,CHASE,BRUCE,WENDELL,07,26,1954,White,Male,Sentenced,110,2013,06,03,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013278,State,16025C,RODRIGUEZ,TIMOTHY,TITUS,10,08,1968,Hispanic,Male,Sentenced,100,2013,06,03,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Kings
+2013279,State,15025C,TORRES,ANGEL,M,03,13,1992,Hispanic,Male,Sentenced,320,2013,06,03,CDC/CRC,Living,CDC/CRC,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Kern
+2013280,State,36015C,PEREZ,GAVINO,,10,09,1961,Hispanic,Male,Sentenced,320,2013,06,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013281,Police,331400,URDEZ,LUIZ,FERNANDO,09,02,1987,Hispanic,Male,Process of Arrest,300,2013,06,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013282,State,48015C,VILLANUEVA,ARMONDO,,08,27,1961,Hispanic,Male,Sentenced,220,2013,06,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013283,Police,480700,WALKER,TIMOTHY,JOHN,12,01,1972,White,Male,Process of Arrest,300,2013,06,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Solano
+2013284,Sheriff,370000,BARRAGAN,HUGO,RAYMOND,11,23,1976,Hispanic,Male,Process of Arrest,345,2013,06,05,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Other,Other,San Diego
+2013285,State,36085C,MARTINEZ,OLIVIA,,07,08,1961,Hispanic,Female,Sentenced,372,2013,06,05,CDC/CRC,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,San Bernardino
+2013286,Sheriff,010000,ROSE,ANTHONY,LAVELLE,08,13,1970,Black,Male,Sentenced,372,2013,06,05,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Alameda
+2013287,State,37015C,GENTRY,BRADLEY,,01,09,1967,White,Male,Sentenced,410,2013,06,06,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Diego
+2013288,State,15015C,HOWARD,ANTHONY,,07,28,1968,Black,Male,Sentenced,345,2013,06,06,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Kern
+2013289,State,15015C,SANDOVAL,JESUS,,10,05,1986,Hispanic,Male,Sentenced,321,2013,06,06,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013290,State,48015C,TIBE,TIMOTHY,JOSEPH,06,15,1950,White,Male,Sentenced,410,2013,06,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013291,State,48015C,BATTLES,MITCHELL,LESLIE,01,02,1968,Black,Male,Sentenced,320,2013,06,07,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013292,State,28015M,BONSTEEL,DONALD,HARMON,07,09,1922,White,Male,Sentenced,100,2013,06,07,State Hospital,Living,State Hospital,Natural,Not Applicable,Napa
+2013293,State,21015C,RAMIREZ,RICHARD,,02,28,1960,Hispanic,Male,Sentenced,100,2013,06,07,CDC/CRC,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Marin
+2013294,State,27025C,ZAVALA,EDUARDO,JAVIER,11,03,1990,Hispanic,Male,Sentenced,200,2013,06,17,CDC/CRC,Living,CDC/CRC,Accidental,Drug Overdose,Monterey
+2013295,Police,196500,ZAWAHRI,JOHN,,06,08,1989,White,Male,Process of Arrest,100,2013,06,07,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Los Angeles
+2013296,Police,480700,NAAS,MOHAMMED,A,07,22,1955,Asian Indian,Male,Process of Arrest,100,2013,06,08,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Solano
+2013297,Sheriff,330000,WILKERSON,RUSTIN,ALVON,06,18,1993,Black,Male,Process of Arrest,300,2013,06,08,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013298,Sheriff,420000,GARZA,MARCOS,DAVID,09,20,1958,Hispanic,Male,Booked - Awaiting Trial,516,2013,06,10,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Santa Barbara
+2013299,Police,331300,HOPES,RASHAD,JARRETT,08,15,1986,Black,Male,Process of Arrest,392,2013,06,11,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Riverside
+2013300,State,36015M,ORTEGA,ROBERT,PAZ,01,03,1951,Hispanic,Male,Sentenced,775,2013,06,11,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,San Bernardino
+2013301,Sheriff,330000,TORTORELLA,PAUL,,06,15,1981,White,Male,In Transit,836,2013,06,11,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Riverside
+2013302,Police,301500,BREWER,JOSEPH,THOMAS,02,01,1959,White,Male,Process of Arrest,341,2013,06,12,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013303,State,34065C,OCHOA,AMADOR,DANIEL,10,03,1979,Hispanic,Male,Sentenced,220,2013,06,12,CDC/CRC,Medical Treatment,CDC/CRC,Accidental,Drug Overdose,Sacramento
+2013304,Sheriff,360000,QUINTERO,ERNESTO,,11,19,1994,Hispanic,Male,Booked - Awaiting Trial,801,2013,06,13,County Jail,Not Applicable,County Jail,Natural,Not Applicable,San Bernardino
+2013305,State,40015C,LAGUNA,ROBERT,M,08,03,1947,Hispanic,Male,Sentenced,110,2013,06,14,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013306,State,40015C,CARBAJAL,MARIO,A,09,11,1960,Hispanic,Male,Sentenced,410,2013,06,16,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013307,State,16045C,GIBSON,ANDREW,TYLER,08,09,1981,White,Male,Sentenced,300,2013,06,16,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Kings
+2013308,State,27015C,LARSON,LYLE,L,04,23,1955,White,Male,Sentenced,700,2013,06,16,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Monterey
+2013309,State,48015C,SORTON,WILLIAM,EDWARD,05,20,1954,White,Male,Sentenced,700,2013,06,16,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013310,State,48015C,VEILLETTE,ROBERT,RUDOLPH,12,14,1950,White,Male,Sentenced,120,2013,06,16,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013311,Sheriff,150000,RAMOS,WILFREDO,,08,24,1987,Hispanic,Male,Process of Arrest,825,2013,06,17,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Kern
+2013312,State,37015C,DAVIS,MILTON,L,07,12,1948,Black,Male,Sentenced,720,2013,06,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013313,State,13045C,BREWER,BRIAN,GLEN,06,24,1951,White,Male,Sentenced,200,2013,06,19,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Imperial
+2013314,Sheriff,190000,MARTINEZ,EULALIO,,02,12,1961,Hispanic,Male,Booked - Awaiting Trial,100,2013,06,20,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013315,State,37015C,DUSTIN,TERRANCE,DALE,10,31,1966,White,Male,Sentenced,120,2013,06,23,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013316,Sheriff,190000,JONES,VANNETT,,06,24,1963,Black,Female,Sentenced,400,2013,06,23,County Jail,Not Applicable,County Jail,Natural,Not Applicable,Los Angeles
+2013317,State,48015C,MASTERSON,MICHAEL,TODD,01,06,1960,White,Male,Sentenced,570,2013,06,23,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013318,State,10015M,ZAVALA,ISIDRO,TORRES,12,25,1982,Hispanic,Male,Sentenced,700,2013,06,24,State Hospital,,State Hospital,Pending Investigation,Pending Investigation,Fresno
+2013319,Sheriff,330000,THOMPSON,ANTHONY,,03,05,1979,White,Male,Process of Arrest,300,2013,06,25,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013320,State,28015M,VIDAL,JEROME,JAVINES,09,17,1963,Pacific Islander,Male,Sentenced,320,2013,06,25,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013321,State,48015C,BAILEY,JEFFREY,ALLEN,06,05,1952,White,Male,Sentenced,570,2013,06,26,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013322,Sheriff,330000,MCCULLOUGH,WILLIAM,ALAN,10,11,1982,Black,Male,Process of Arrest,323,2013,06,26,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Riverside
+2013323,State,48015C,EVANS,JEFFEY,,11,26,1964,Black,Male,Sentenced,400,2013,06,27,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013324,State,48015C,YANEY,JOHN,WILLIAM,02,12,1954,White,Male,Sentenced,372,2013,06,27,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013325,State,27015C,ANSALDO,BOBBY,,11,30,1942,White,Male,Sentenced,700,2013,06,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Monterey
+2013326,Police,194100,HARR,LISA,GAYE,03,20,1965,White,Female,Booked - No Charges Filed,098,2013,06,28,City Jail,Holding,City Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013327,State,48015C,KUHN,RICHARD,WILLIAM,05,29,1952,White,Male,Sentenced,420,2013,06,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013328,State,48015C,ROBINSON,JOEL,,08,22,1957,Black,Male,Sentenced,250,2013,06,30,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013329,Police,363500,FACTOR,MERLIN,MICHAEL,06,19,1987,White,Male,Process of Arrest,341,2013,06,29,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Bernardino
+2013330,Sheriff,370000,KWIK,EVAN,KIM TIAN,04,04,1990,Other Asian,Male,Process of Arrest,300,2013,02,20,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Handgun,San Diego
+2013331,Sheriff,100000,RIOJAS,MARTIN,,01,18,1955,Hispanic,Male,Booked - Awaiting Trial,100,2013,05,16,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Fresno
+2013332,State,99025C,BOARDMAN,GARY,STEWART,11,11,1952,White,Male,Sentenced,770,2013,06,04,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,In-State
+2013333,Sheriff,190000,GERBER,JOSEPH,CHRISTOPHER,08,08,1986,White,Male,Sentenced,800,2013,07,01,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013334,State,27015C,TAYLOR,ANTHONY,,01,17,1962,Black,Male,Sentenced,120,2013,07,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013335,Sheriff,040000,SILAPHANHDETH,SENGAROUNE,,06,05,1978,Laotian,Male,Process of Arrest,323,2013,07,02,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Butte
+2013336,Sheriff,150000,ORNELAS,RUBEN,HUERO,08,17,1961,Hispanic,Male,Booked - Awaiting Trial,801,2013,07,03,County Jail,Living,Local Hospital,Pending Investigation,Pending Investigation,Kern
+2013337,Sheriff,360000,PATTERSON,DOUGLAS,GORDON,07,29,1954,Black,Male,Booked - Awaiting Trial,841,2013,07,03,County Jail,Living,County Jail,Homicide Willful (Other Inmate),"Hanging,Strangulation",San Bernardino
+2013338,Police,330900,FOSTER,ERNEST,,12,30,1975,Black,Male,Process of Arrest,392,2013,07,04,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013339,Other Local,28023C,GOMEZ,JOSE,ALFREDO,09,22,1988,Hispanic,Male,Booked - No Charges Filed,396,2013,07,04,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",Napa
+2013340,State,27015C,VOSS,JOSHUA,M,04,01,1974,White,Male,Sentenced,110,2013,07,04,CDC/CRC,Living,CDC/CRC,Suicide,"Knife,Cutting Instrument",Monterey
+2013341,State,16045C,TAYLOR,ANTHONY,W,01,15,1958,Black,Male,Sentenced,220,2013,07,05,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013342,Sheriff,450000,BUCHANAN,KRISTOPHER,ROBERT,02,13,1985,White,Male,Booked - Awaiting Trial,300,2013,07,06,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Shasta
+2013343,State,48015C,TOCE,NICHOLAS,WILLIAM,05,21,1942,White,Male,Sentenced,110,2013,07,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013344,Sheriff,330000,BOSCH,ADAM,IGNATZ,11,27,1983,White,Male,Process of Arrest,341,2013,07,07,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Riverside
+2013345,State,28015M,WILEY,DAVID,WAYNE,11,28,1953,Black,Male,Sentenced,320,2013,07,07,State Hospital,Living,State Hospital,Natural,Not Applicable,Napa
+2013346,Police,010900,JARAMILLO,HERNAN,,09,27,1962,Hispanic,Male,Process of Arrest,346,2013,07,08,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Alameda
+2013347,Sheriff,010000,JENKINS,JERRY,JERALD,08,04,1952,Black,Male,Sentenced,398,2013,07,06,County Jail,Living,County Jail,Natural,Not Applicable,Alameda
+2013348,State,48015C,TREMMEL,ROBERT,G,01,26,1943,White,Male,Sentenced,720,2013,07,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013349,State,16045C,CROW,LAWRENCE,DANIEL,03,04,1956,Black,Male,Sentenced,700,2013,07,09,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013350,State,27025C,WHITE,JUSTIN,ORTIS,05,22,1958,White,Male,Sentenced,110,2013,07,09,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Monterey
+2013351,State,27025C,GRANT,RUSSELL,,09,13,1960,White,Male,Sentenced,220,2013,07,10,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013352,State,16025C,DEJOHNETTE,REGINALD,BERNARD,07,10,1958,Black,Male,Sentenced,345,2013,07,12,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013353,State,48015C,HOWARD,KENNETH,,08,08,1945,White,Male,Sentenced,700,2013,07,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013354,State,27015C,SUTTON,ROY,A,01,28,1952,White,Male,Sentenced,220,2013,07,12,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013355,Sheriff,360000,ARROYO,GONZALO,,12,06,1958,Hispanic,Male,Booked - Awaiting Trial,397,2013,07,13,County Jail,Living,County Jail,Suicide,Other,San Bernardino
+2013356,State,36085C,CROSLEY,GLENDA,SUE,03,28,1944,White,Female,Sentenced,120,2013,07,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013357,State,48015C,HENSON,STEVEN,DARRYL SR,03,09,1960,Black,Male,Sentenced,320,2013,07,13,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013358,State,19015M,TAHIR,HAG,MAHMOUD,04,19,1958,Black,Male,Sentenced,250,2013,07,13,State Hospital,Living,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013359,State,10015M,BOE,FRANK,EUGENE,07,13,1947,White,Male,Sentenced,700,2013,07,16,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,Fresno
+2013360,Police,194200,CHAVEZ,JUAN,,07,12,1975,Hispanic,Male,Process of Arrest,323,2013,07,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013361,State,34065C,RAMOS,CESAR,NEMECIO,12,15,1991,Hispanic,Male,Sentenced,320,2013,07,19,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Sacramento
+2013362,Sheriff,190000,PAOLINE,DOUGLAS,ALVAREZ,05,17,1964,Hispanic,Male,Sentenced,843,2013,07,20,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Los Angeles
+2013363,State,16025C,SELL,BILLY,MICHAEL,12,14,1980,White,Male,Sentenced,300,2013,07,22,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Kings
+2013364,State,33065C,FERGUSON,JERRY,C,08,16,1953,White,Male,Sentenced,712,2013,07,23,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Riverside
+2013365,State,16045C,DONALDSON,DONELL,,03,14,1970,Black,Male,Sentenced,100,2013,07,25,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013366,State,03035C,GRAFF,DONALD,LEO,02,19,1962,White,Male,Sentenced,064,2013,07,25,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Amador
+2013367,State,37015C,DURANT,ERNEST,A  III,01,26,1948,White,Male,Sentenced,120,2013,07,27,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Diego
+2013368,Police,301900,ARELLANO,HANS,KEVIN,09,18,1990,Hispanic,Male,Process of Arrest,342,2013,07,30,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013369,State,48045C,GAMA,REFUGIO,DEHORTA,06,25,1936,Hispanic,Male,Sentenced,120,2013,07,30,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Solano
+2013370,State,36015C,RINCON,ALBERTO,A,05,02,1957,Hispanic,Male,Sentenced,850,2013,07,30,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013371,State,27025C,SAENZ,MANUEL,ANTHONY,08,22,1974,Hispanic,Male,Sentenced,320,2013,07,31,CDC/CRC,Living,CDC/CRC,Suicide,"Knife,Cutting Instrument",Monterey
+2013372,State,20015C,BERUMEN,PEGGY,L,02,23,1947,Hispanic,Female,Sentenced,420,2013,08,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Madera
+2013373,State,27025C,DAVIS,SCOTT,,09,16,1954,White,Male,Sentenced,220,2013,08,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013374,State,36015C,MEJIA,WILLIAM,,11,02,1972,White,Male,Sentenced,100,2013,08,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013375,Sheriff,190000,REYES,MANUEL,,07,01,1962,Hispanic,Male,Sentenced,800,2013,08,03,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013376,Police,150200,MAIN,ALEXANDER,,06,11,1964,Filipino,Male,Process of Arrest,056,2013,08,07,Process of Arrest,Crime/Arrest Scene,Local Hospital,Natural,Not Applicable,Kern
+2013377,State,37015C,RODRIGUEZ,MARK,ANTONIO,02,19,1959,Hispanic,Male,Sentenced,620,2013,08,08,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013378,State,39045G,SIEGEL,RALPH,W,07,27,1916,White,Male,Sentenced,110,2013,08,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013379,State,40015C,CABOTAJE,FAUSTINO,,05,22,1939,Filipino,Male,Sentenced,700,2013,08,09,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013380,State,36015C,LINER,JAMES,EUGENE,09,01,1960,White,Male,Sentenced,400,2013,08,09,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013381,Police,430400,RUIZ,JOHN,ANTHONY,02,07,1971,Hispanic,Male,Process of Arrest,370,2013,08,09,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Santa Clara
+2013382,Sheriff,150000,CAMPOS,LUIS,GABRIEL JR,08,05,1978,Hispanic,Male,Booked - Awaiting Trial,881,2013,08,10,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Kern
+2013383,Sheriff,370000,INGE,DAVID,BRUCE,11,16,1958,White,Male,Booked - Awaiting Trial,516,2013,08,10,County Jail,Common,County Jail,Pending Investigation,Pending Investigation,San Diego
+2013384,State,16025C,STROMER,BARRY,MARTIN,06,02,1940,White,Male,Sentenced,700,2013,08,10,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Kings
+2013385,State,19105C,DAVIS,MARVIN,,04,27,1947,Black,Male,Sentenced,210,2013,08,11,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Los Angeles
+2013386,State,28015M,DUGAN,DAVID,EUGENE,01,16,1944,White,Male,Sentenced,100,2013,08,12,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013387,State,20015C,FIMBRES,LORENA,ANITA,05,25,1964,Hispanic,Female,Sentenced,200,2013,08,12,CDC/CRC,,CDC/CRC,Pending Investigation,Pending Investigation,Madera
+2013388,State,13045C,LOERA,MATTHEW,AARON,12,27,1985,White,Male,Sentenced,410,2013,08,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Imperial
+2013389,State,48015C,HOCKENBERY,DAVID,D,09,11,1955,White,Male,Sentenced,100,2013,08,14,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Solano
+2013390,State,03035C,JENSEN,MATTHEW,ALBERT,10,30,1967,Hispanic,Male,Sentenced,410,2013,08,16,CDC/CRC,,CDC/CRC,Pending Investigation,Pending Investigation,Amador
+2013391,State,48015C,LOVATO,GILBERT,JAMES,04,29,1958,Hispanic,Male,Sentenced,110,2013,08,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013392,Sheriff,300000,SAWYER,JOHN,THOMAS,09,17,1965,White,Male,Sentenced,400,2013,08,17,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Orange
+2013393,State,27025C,CORNELIUS,STANLEY,J,01,04,1941,White,Male,Sentenced,100,2013,08,18,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Monterey
+2013394,State,48015C,LIVEZY,JAMES,,03,18,1970,White,Male,Sentenced,151,2013,08,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013395,State,48015C,RANDOLPH,JIMMY,DEAN,05,31,1959,White,Male,Sentenced,720,2013,08,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013396,State,03035C,COFFER,ROCKY,,06,15,1953,Black,Male,Sentenced,110,2013,08,19,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Amador
+2013397,State,40015C,MCGEE,JOHN,F,10,28,1961,Black,Male,Sentenced,611,2013,08,19,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013398,State,16025C,ANSELMI,WILLIAM,H,07,01,1948,White,Male,Sentenced,373,2013,08,20,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Kings
+2013399,State,99025C,MCGEE,EDWARD,,01,19,1933,Black,Male,Sentenced,120,2013,08,20,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,In-State
+2013400,State,40015C,MURUA,JOSEPH,A,01,29,1945,Hispanic,Male,Sentenced,110,2013,08,20,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013401,State,16045C,FLORES,JAVIER,,12,08,1945,Hispanic,Male,Sentenced,700,2013,08,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013402,State,28015M,SMITH,JAQUELINE,CASEY,11,07,1966,White,Female,Sentenced,300,2013,08,21,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,Napa
+2013403,Sheriff,190000,FERNANDEZ,WILBER,ANTONIO,04,09,1985,Hispanic,Male,Awaiting Booking,028,2013,08,22,County Jail,Holding,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013404,Police,330600,RODRIGUEZ,EULIZEZ,,08,11,1989,Hispanic,Male,Process of Arrest,570,2013,08,22,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013405,State,99025C,SABINE,ELMO,RAYMOND,08,31,1922,White,Male,Sentenced,150,2013,08,22,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,In-State
+2013406,State,40015C,HOWARD,CHARLES,E,03,03,1961,White,Male,Sentenced,320,2013,08,23,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013407,Sheriff,190000,AGUIRRE,PONCIANO,,12,25,1953,Hispanic,Male,Sentenced,400,2013,08,24,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Los Angeles
+2013408,Sheriff,370000,BROWN,DAVID,LEE,10,18,1968,White,Male,Process of Arrest,300,2013,08,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,San Diego
+2013409,State,48015C,LOPEZ,JESUS,,08,23,1954,Hispanic,Male,Sentenced,530,2013,08,24,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013410,Police,331200,PALMER,ROBERT,LEE,02,21,1980,White,Male,Process of Arrest,250,2013,08,24,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Other,Riverside
+2013411,State,16015C,RAMBO,DETROY,,04,08,1952,Black,Male,Sentenced,410,2013,08,25,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013412,State,39045G,MILLER,WILLIE,C,01,25,1927,Black,Male,Sentenced,110,2013,08,26,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013413,Sheriff,150000,LEDESMA,RONNIE,JR,10,23,1973,Hispanic,Male,Process of Arrest,836,2013,08,27,County Jail,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Kern
+2013414,State,48015C,CASERES,PARL,ANGELO,09,16,1955,Hispanic,Male,Sentenced,420,2013,08,29,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013415,Sheriff,370000,STITT,AARON,SCOTT,08,28,1970,White,Male,Booked - Awaiting Trial,800,2013,08,29,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",San Diego
+2013416,State,36015M,TAYLOR,KENNETH,,06,05,1948,Black,Male,Sentenced,620,2013,08,31,State Hospital,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,San Bernardino
+2013417,Police,194300,VILLAREAL,EDGAR,,11,13,1987,Hispanic,Male,Process of Arrest,300,2013,04,09,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013418,Police,196100,CORRALES,FELIPE,,01,01,1964,Hispanic,Male,Process of Arrest,300,2013,04,25,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013419,Sheriff,190000,JEFFERSON,BRICE,Q,12,15,1988,Black,Male,Process of Arrest,323,2013,04,26,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013420,Sheriff,190000,RAMIREZ,EDDIE,,08,18,1977,Hispanic,Male,Process of Arrest,300,2013,04,29,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013421,Police,190800,LIBERATOR,MICHAEL,DALE,01,25,1963,White,Male,Process of Arrest,800,2013,05,01,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013422,Police,191700,ARCEO,RIGOBERTO,,11,20,1978,Hispanic,Male,Process of Arrest,342,2013,05,11,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013423,Police,195200,OCHOA,IGNACIO,,12,22,1975,Hispanic,Male,Process of Arrest,300,2013,05,14,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013424,Police,194700,CEDANO,GUILLERMO,,06,25,1968,Hispanic,Male,Process of Arrest,342,2013,05,17,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013425,Police,190100,NIM,TONY,,11,16,1977,Chinese,Male,Process of Arrest,341,2013,05,17,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013426,Sheriff,190000,LAFFITTE,TERRY,,10,10,1962,Black,Male,Process of Arrest,323,2013,05,18,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013427,Police,191500,BROWN,RASHAWN,,11,02,1985,Black,Male,Process of Arrest,323,2013,05,23,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013428,Police,192400,DIAZ,RICHARDO,,11,13,1978,Hispanic,Male,Process of Arrest,323,2013,06,02,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013429,Police,193700,MENDOZA,CESAR,,02,11,1989,Hispanic,Male,Process of Arrest,341,2013,06,22,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013430,Police,191500,LOPEZ,DEANGELO,,12,17,1990,Black,Male,Process of Arrest,323,2013,06,27,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013431,Sheriff,190000,MALLORY,EUGENE,,05,27,1933,Hispanic,Male,Process of Arrest,323,2013,06,27,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Los Angeles
+2013432,Sheriff,190000,MCAFEE,ROBERT,,02,08,1984,Hispanic,Male,Process of Arrest,323,2013,07,19,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013433,Police,191500,JUAREZ,LUIS,ALONSO,05,10,1971,Hispanic,Male,Process of Arrest,341,2013,07,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013434,Sheriff,500000,COLE,BARRY,SCOTT,01,04,1958,White,Male,Booked - No Charges Filed,046,2013,08,07,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Stanislaus
+2013435,Police,195600,ALLISON,MITCHELL,,09,22,1970,White,Male,Process of Arrest,341,2013,08,16,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013436,Sheriff,410000,FRANKLIN,LUCIEN,KIRBY,10,07,1982,Black,Male,Booked - Awaiting Trial,400,2013,08,26,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Mateo
+2013437,State,36015M,CATRON,JAMES,ROY,10,25,1955,White,Male,Sentenced,323,2013,09,03,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013438,Sheriff,010000,BYRON,ROBERT,,02,17,1995,Black,Male,Booked - Awaiting Trial,200,2013,09,04,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Alameda
+2013439,Sheriff,190000,REYNA,MARIO,,11,11,1981,Hispanic,Male,Sentenced,825,2013,09,04,County Jail,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013440,Sheriff,190000,CONTRERAS,JOSE,R,10,04,1970,Hispanic,Male,Booked - Awaiting Trial,096,2013,09,07,County Jail,Holding,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013441,State,03035C,DURAN,JOSEPH,D,09,03,1978,Hispanic,Male,Sentenced,220,2013,09,07,CDC/CRC,Medical Treatment,CDC/CRC,Suicide,Other,Amador
+2013442,State,48015C,FINLEY,RAYMOND,DEWAYNE,08,18,1950,Black,Male,Sentenced,865,2013,09,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013443,State,39045G,LOCKETT,GREGORY,A,08,09,1951,Black,Male,Sentenced,802,2013,09,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013444,Sheriff,100000,FUENTES,RAUL,F,02,27,1975,Hispanic,Male,Booked - Awaiting Trial,372,2013,09,09,County Jail,Living,Local Hospital,Pending Investigation,Pending Investigation,Fresno
+2013445,State,15025C,DANIELS,ANTHONY,EUGENE,05,11,1965,Black,Male,Sentenced,510,2013,09,10,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013446,State,48015C,BUSHERS,RONALD,KENT,02,12,1949,White,Male,Sentenced,120,2013,09,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013447,Police,340400,JUAREZ,RUBEN,J,11,02,1970,Hispanic,Male,Process of Arrest,836,2013,09,12,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Sacramento
+2013448,State,37015C,PEARSON,JAMES,A,07,18,1925,White,Male,Sentenced,100,2013,09,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013449,Sheriff,150000,HERNANDEZ,AUGUSTINE,TINOCO JR,12,21,1971,Hispanic,Male,Booked - Awaiting Trial,420,2013,09,13,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Kern
+2013450,Sheriff,230000,SMITH,SCOTT,JOSEPH,10,15,1947,White,Male,Booked - Awaiting Trial,341,2013,09,13,County Jail,Not Applicable,County Jail,Natural,Not Applicable,Mendocino
+2013451,State,48015C,CAMPANELLA,GIOVANNI,,09,23,1951,White,Male,Sentenced,844,2013,09,14,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013452,Police,300100,GONZALES,KENNETH,,09,17,1963,Hispanic,Male,Booked - Awaiting Trial,854,2013,09,14,City Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,Orange
+2013453,State,03035C,LOPEZ,RODNEY,,10,04,1955,Hispanic,Male,Sentenced,300,2013,09,15,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Amador
+2013454,State,37015C,SHAPARNISN,STANLEY,R,08,13,1955,White,Male,Sentenced,100,2013,09,15,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013455,State,15075C,BRENNEMAN,STEVEN,MICHAEL,01,10,1973,White,Male,Sentenced,610,2013,09,16,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Kern
+2013456,State,48015C,DIAZ,GEORGE,C,03,08,1952,Hispanic,Male,Sentenced,400,2013,09,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013457,State,39045G,HARRIS,VERNON,CHARLES,12,25,1930,Black,Male,Sentenced,891,2013,09,18,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Joaquin
+2013458,State,15015C,SALAZAR,SAMUEL,G,12,18,1959,Hispanic,Male,Sentenced,250,2013,09,18,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013459,State,48015C,MEJIA-LENARES,JOSE,LUIS,06,21,1959,Hispanic,Male,Sentenced,120,2013,09,21,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Solano
+2013460,State,21015C,MANQUEROS,SALVADOR,,04,26,1950,Hispanic,Male,Sentenced,250,2013,09,22,CDC/CRC,,Local Hospital,Pending Investigation,Pending Investigation,Marin
+2013461,State,36015M,PALOMINO,ROY,ERNEST,06,04,1947,White,Male,Sentenced,700,2013,09,22,State Hospital,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013462,State,40015C,MCHENRY,JOHN,,10,27,1972,Black,Male,Sentenced,800,2013,09,23,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013463,State,15075C,MENDEZ,HUMBERTO,MEDINA,01,29,1977,Hispanic,Male,Sentenced,300,2013,09,24,CDC/CRC,Living,Local Hospital,Pending Investigation,Pending Investigation,Kern
+2013464,State,21015C,STAPLES,JOSEPH,THOMAS,10,31,1967,Black,Male,Sentenced,320,2013,09,24,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Marin
+2013465,State,13045C,STUART,DAVID,,05,14,1949,White,Male,Sentenced,100,2013,09,24,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Imperial
+2013466,Police,194100,BALINT,ERICK,TANANE,11,10,1980,Hispanic,Male,Process of Arrest,300,2013,09,25,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013467,State,48015C,MONTECALVO,DANIEL,JOHN,12,27,1941,White,Male,Sentenced,110,2013,09,25,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013468,State,48015C,SCHUMACHER,RAYMOND,,04,05,1949,White,Male,Sentenced,100,2013,09,25,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013469,Police,194100,DELREAL,JOHN,,04,12,1974,White,Male,Process of Arrest,341,2013,09,26,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013470,Sheriff,370000,HENGL,FREDERICK,JOSEPH,06,25,1944,White,Male,Booked - Awaiting Trial,100,2013,09,27,County Jail,Not Applicable,County Jail,Natural,Not Applicable,San Diego
+2013471,Probation,37013G,SUMMERS,ROSEMARY,SHENEA,05,18,1997,Black,Female,Sentenced,018,2013,09,27,Local Juvenile Facility,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Diego
+2013472,State,39045G,RANGEL,ROGELIO,H,03,26,1923,White,Male,Sentenced,110,2013,09,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013473,State,48015C,SARTAIN,JERALD,DEE,06,26,1935,White,Male,Sentenced,110,2013,09,29,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013474,Sheriff,190000,LOSORELLO,AUSTIN,THEODORE,08,27,1990,White,Male,Booked - Awaiting Trial,981,2013,09,30,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013475,Sheriff,360000,GRIEGO,FILIMON,LOPEZ,04,20,1933,Hispanic,Male,Booked - Awaiting Trial,924,2013,01,06,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013476,Sheriff,340000,HENSCHEL,THOMAS,,12,31,1969,White,Male,Other,836,2013,01,25,Other,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Drug Overdose,Sacramento
+2013477,Police,331300,JIMENEZ,HECTOR,E,05,11,1963,Hispanic,Male,Process of Arrest,341,2013,09,13,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013478,State,16045C,WASHINGTON,ROBERT,R,11,08,1951,Black,Male,Sentenced,720,2013,10,02,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013479,State,16045C,LOZANO,LAWRENCE,,08,23,1979,Hispanic,Male,Sentenced,700,2013,10,03,CDC/CRC,Common,Local Hospital,Homicide Willful (Other Inmate),"Knife,Cutting Instrument",Kings
+2013480,State,28015M,MINAHEN,MICHAEL,PATRICK,01,01,1952,White,Male,Sentenced,300,2013,10,03,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,Napa
+2013481,State,27025C,KALATZAKIS,DIMITRIS,PANAGIOTIS,11,20,1981,White,Male,Sentenced,250,2013,10,04,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Monterey
+2013482,State,16045C,OPPELT,MORRIS,N,12,31,1937,White,Male,Sentenced,700,2013,10,05,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kings
+2013483,State,21015C,RUSSELL,TIMOTHY,,03,26,1960,White,Male,Sentenced,110,2013,10,05,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Marin
+2013484,State,36015M,NGUYEN,VAN,THANH,06,14,1960,Vietnamese,Male,Sentenced,320,2013,10,06,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013485,Sheriff,010000,SHIN,HAN,SUP,07,25,1964,Korean,Male,Booked - Awaiting Trial,880,2013,10,06,County Jail,Living,County Jail,Natural,Not Applicable,Alameda
+2013486,State,39045G,WILLIAMS,ANTHONY,RANDOLF,02,02,1961,Black,Male,Sentenced,841,2013,10,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013487,Sheriff,300000,GRIFFITH,TIMOTHY,ERECT,09,27,1961,Black,Male,Booked - Awaiting Trial,300,2013,10,07,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Orange
+2013488,State,20015C,JACOBS,BETTY,,09,17,1962,Black,Female,Sentenced,120,2013,10,07,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Madera
+2013489,State,28015M,LOUREIRO,JOHN,FRANK,03,25,1962,White,Male,Sentenced,320,2013,10,07,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013490,State,36015M,MARTIN,RODERICK,,12,24,1950,Black,Male,Sentenced,150,2013,10,07,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013491,State,34065C,MINER,FRANK,LEE,01,23,1966,Black,Male,Sentenced,891,2013,10,07,CDC/CRC,Medical Treatment,CDC/CRC,Pending Investigation,Pending Investigation,Sacramento
+2013492,State,48015C,MITCHELL,ALBERT,LLOYD,12,09,1960,Black,Male,Sentenced,120,2013,10,07,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013493,Sheriff,370000,BIERUTA,ZDZISLAW,,05,17,1961,White,Male,Booked - Awaiting Trial,046,2013,10,08,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,San Diego
+2013494,State,48015C,MEFFORD,ARTHUR,CHARLES,09,13,1955,White,Male,Sentenced,841,2013,10,10,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013495,State,40015C,NOMBRONO,EARNEST,R,04,03,1959,Hispanic,Male,Sentenced,345,2013,10,11,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013496,State,16025C,QUIVERS,VINCENT,,08,20,1965,Black,Male,Sentenced,410,2013,10,11,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Knife,Cutting Instrument",Kings
+2013497,State,48015C,SULLIVAN,ANTONIO,,07,25,1938,Black,Male,Sentenced,854,2013,10,11,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013498,State,48015C,DUFFY,DANIEL,M,02,08,1944,White,Male,Sentenced,100,2013,10,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013499,State,36015C,GACK,HERMAN,,08,20,1944,White,Male,Sentenced,700,2013,10,15,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Bernardino
+2013500,State,10015C,GILLIAN,DAVID,SCOTT,03,30,1961,White,Male,Sentenced,150,2013,10,15,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Fresno
+2013501,State,27015C,MAGANA,FELIX,MENDEZ,10,31,1946,Hispanic,Male,Sentenced,120,2013,10,15,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013502,State,16025C,GUAJARDO,JOHN,JOSH,05,11,1954,Hispanic,Male,Sentenced,700,2013,10,15,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013503,Police,490500,AUGUSTIN,CHRISTOPHER,ERIC,01,23,1975,White,Male,Process of Arrest,881,2013,10,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Sonoma
+2013504,State,21015C,BURNS,GEORGE,JR,11,29,1971,Black,Male,Sentenced,200,2013,10,16,CDC/CRC,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Marin
+2013505,State,15075C,MORALES,SAUL,R,08,29,1974,Hispanic,Male,Sentenced,570,2013,10,16,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Kern
+2013506,State,21015C,WASHINGTON,BERTRAND,,06,20,1949,Black,Male,Sentenced,320,2013,10,16,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Marin
+2013507,State,48015C,BAILEY,RUSSO,,07,31,1948,White,Male,Sentenced,844,2013,10,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013508,State,48015C,CORRALES,ANTHONY,VARELA,12,11,1958,Hispanic,Male,Sentenced,110,2013,10,22,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013509,Sheriff,490000,LOPEZ CRUZ,ANDY,,06,02,2000,Hispanic,Male,Process of Arrest,398,2013,10,22,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Sonoma
+2013510,State,13045C,CERVANTES,EDWARD,,10,03,1954,Hispanic,Male,Sentenced,500,2013,10,27,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Imperial
+2013511,State,16025C,RODRIGUEZ,DANIEL,,04,29,1991,Hispanic,Male,Sentenced,410,2013,10,27,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kings
+2013512,State,48015C,LAURANZANO,RICHARD,ALAN,06,25,1947,White,Male,Sentenced,700,2013,10,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013513,State,27015C,OCHOA,LUIS,,07,04,1978,Hispanic,Male,Sentenced,610,2013,10,28,CDC/CRC,Living,Local Hospital,Accidental,Drug Overdose,Monterey
+2013514,Sheriff,190000,AVILA,OMAR,ZARATE,07,21,1983,Hispanic,Male,Booked - Awaiting Trial,560,2013,10,30,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Los Angeles
+2013515,State,48015C,XIMENEZ,TONY,,01,13,1970,Hispanic,Male,Sentenced,705,2013,10,30,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013516,State,15075C,GUERRERO,CARMEN,T,04,22,1965,Hispanic,Male,Sentenced,120,2013,10,31,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Kern
+2013517,Police,195300,PORTER,RANDY,DEANDRE,08,16,1977,Black,Male,Process of Arrest,836,2013,08,07,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Los Angeles
+2013518,Sheriff,190000,VASQUEZ,DENNIS,,07,16,1996,Hispanic,Male,Process of Arrest,323,2013,08,28,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013519,Sheriff,190000,OLIVA-SOLA,CARLOS,,07,23,1990,Hispanic,Male,Process of Arrest,323,2013,09,10,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013520,Sheriff,360000,STEBRITZ,VINCENT,PAUL,06,08,1960,White,Male,Booked - Awaiting Trial,320,2013,09,10,County Jail,Medical Treatment,Local Hospital,Natural,Not Applicable,San Bernardino
+2013521,Police,191800,WARD,DAVID,JAMES,09,16,1947,White,Male,Other,323,2013,09,21,Other,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013522,Police,192U00,ATKINSON,DARRELL,,12,24,1968,White,Male,Process of Arrest,341,2013,10,06,Process of Arrest,Crime/Arrest Scene,Local Juvenile Facility,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013523,Sheriff,190000,GRAHAM,BRUCE,,10,11,1959,White,Male,Process of Arrest,323,2013,10,06,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013524,State,39045G,ROMERO,PABLO,,06,30,1943,Hispanic,Male,Sentenced,700,2013,10,26,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013525,Police,190800,HARVEY,WILLIAM,,03,16,1958,Black,Male,Process of Arrest,320,2013,10,27,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013526,Sheriff,190000,HICKS,QUENTIN,,09,20,1964,Black,Male,Process of Arrest,300,2013,10,29,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013527,State,39045G,FOWLER,JOHN,N,04,15,1948,White,Male,Sentenced,110,2013,10,31,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013528,State,48015C,DANA,ROBERT,LEE,09,14,1938,White,Male,Sentenced,120,2013,11,02,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013529,Sheriff,490000,LOPEZ,DAVID,MICHAEL,07,18,1967,Hispanic,Male,Booked - No Charges Filed,345,2013,11,03,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Sonoma
+2013530,State,37015C,HENSON,EARL,C,10,06,1936,White,Male,Sentenced,100,2013,11,04,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013531,State,18015C,MUNOZ,JOHNNY,,06,02,1958,Hispanic,Male,Sentenced,841,2013,11,04,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Lassen
+2013532,State,39045G,RUIZ,VICTOR,Y,11,05,1964,Hispanic,Male,Sentenced,120,2013,11,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013533,Sheriff,190000,MONGEON,RICHARD,ARTHUR,04,05,1952,White,Male,Booked - Awaiting Trial,068,2013,11,07,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Los Angeles
+2013534,State,39045G,NORMAN,ALBERT,SR,04,16,1924,Black,Male,Sentenced,110,2013,11,08,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013535,State,36015C,VIRAMONTES,HECTOR,FELIX,09,18,1963,Hispanic,Male,Sentenced,200,2013,11,08,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013536,State,99015C,BUSH,JOHATHAN,DEREK,08,16,1981,Black,Male,Sentenced,220,2013,11,09,CDC/CRC,Living,Local Hospital,Pending Investigation,Pending Investigation,Out-of-State
+2013537,State,16025C,ENQUIST,DANNY,JAMES,08,30,1964,White,Male,Sentenced,822,2013,11,10,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Kings
+2013538,Police,194100,JORDAN,DONTE,LAMONT,04,19,1973,Black,Male,Process of Arrest,300,2013,11,10,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013539,State,28015M,SALAZAR,CHARLES,,05,08,1932,Hispanic,Male,Other,100,2013,11,10,State Hospital,Living,State Hospital,Natural,Not Applicable,Napa
+2013540,Sheriff,370000,DUNCAN,ANDREW,HERBERT,12,18,1949,White,Male,Booked - Awaiting Trial,760,2013,11,11,County Jail,Not Applicable,County Jail,Natural,Not Applicable,San Diego
+2013541,State,48015C,ATWOOD,KIRK,S,09,01,1949,White,Male,Sentenced,100,2013,11,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013542,State,48015C,COVARRUBIAS,HENRY,M,01,16,1972,Hispanic,Male,Sentenced,200,2013,11,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013543,State,36015C,POWELL,GARY,C,04,23,1943,White,Male,Sentenced,822,2013,11,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013544,State,28015M,LOPEZ,SALLY,,10,05,1949,Black,Female,Other,320,2013,11,14,State Hospital,Not Applicable,State Hospital,Natural,Not Applicable,Napa
+2013545,State,37015C,RAMIREZ,ANDREW,,11,24,1954,Hispanic,Male,Sentenced,410,2013,11,15,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,San Diego
+2013546,Sheriff,190000,TREJO,FRED,PETER,04,21,1946,Hispanic,Male,Booked - Awaiting Trial,825,2013,11,15,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013547,State,36085C,COLLINS,JAMIE,RENEE,09,22,1981,White,Female,Sentenced,410,2013,11,16,CDC/CRC,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Bernardino
+2013548,State,48015C,CARDIN,LUIS,ORTIZ,05,15,1955,Hispanic,Male,Sentenced,120,2013,11,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013549,State,39045G,ACOSTA,ROBERT,R,12,21,1930,Hispanic,Male,Sentenced,705,2013,11,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013550,Sheriff,190000,MENDOZA,EDMOND,STEVE,07,13,1955,Hispanic,Male,Booked - Awaiting Trial,094,2013,11,18,County Jail,Medical Treatment,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013551,State,48015C,MASSEY,ROBERT,CALVIN,06,14,1959,Black,Male,Sentenced,800,2013,11,19,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013552,Police,194100,WOODS,TYLER,DAMON,03,30,1994,Black,Male,Process of Arrest,250,2013,11,19,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013553,Sheriff,370000,BOWMAN,DERVIN,MITCHELL,08,22,1963,Black,Male,Booked - Awaiting Trial,094,2013,11,23,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",San Diego
+2013554,State,27025C,HACK,PAUL,,08,05,1940,White,Male,Sentenced,700,2013,11,23,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013555,Police,194200,GILLON,ROBERT,R,09,29,1941,Hispanic,Male,Process of Arrest,300,2013,11,25,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Los Angeles
+2013556,Sheriff,430000,KEARNS,JACKSON,HARMAN,04,24,1936,White,Male,Booked - Awaiting Trial,079,2013,11,26,County Jail,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Santa Clara
+2013557,Sheriff,300000,OCAMPO,ITZCOATL,,03,20,1988,Hispanic,Male,Booked - Awaiting Trial,100,2013,11,28,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Orange
+2013558,State,48015C,BELLO,ALLAN,C,01,12,1964,White,Male,Sentenced,410,2013,11,29,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013559,Sheriff,190000,MAIRA,DANIEL,,09,02,1990,Hispanic,Male,Sentenced,094,2013,11,30,County Jail,,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013560,State,37015C,RETANAN,LOUIS,,06,26,1965,White,Male,Sentenced,621,2013,01,01,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013561,Police,349600,TODD,HUNTER,JACOB,10,21,1992,White,Male,Process of Arrest,410,2013,01,03,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Sacramento
+2013562,State,48045C,GOMEZ,JOHN,,09,30,1936,Hispanic,Male,Sentenced,865,2013,01,18,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,Solano
+2013563,State,36085C,CONNELLY,LISA,MICHELLE,11,15,1966,White,Female,Sentenced,530,2013,01,24,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013564,Sheriff,340000,MENDOZA,ISRAEL,,05,03,1978,Hispanic,Male,Booked - No Charges Filed,046,2013,01,28,County Jail,Holding,Local Hospital,Suicide,"Hanging,Strangulation",Sacramento
+2013565,State,20045C,JOHNSON,CHARLES,M,05,06,1956,White,Male,Sentenced,700,2013,02,01,CDC/CRC,Common,CDC/CRC,Natural,Not Applicable,Madera
+2013566,State,48045C,HERNANDEZ,RINALDO,,10,08,1958,Hispanic,Male,Sentenced,802,2013,02,03,CDC/CRC,,CDC/CRC,Pending Investigation,Pending Investigation,Solano
+2013567,State,48045C,GONZALES,ROBERT,ANTHONY,05,22,1955,Hispanic,Male,Sentenced,800,2013,02,11,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Solano
+2013568,Sheriff,360000,DORNER,CHRISTOPHER,JORDAN,06,04,1979,Black,Male,Process of Arrest,110,2013,02,12,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Handgun,San Bernardino
+2013569,State,36085C,BARTEK-FELBER,KAROWNA,,09,16,1966,White,Female,Sentenced,160,2013,02,28,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013570,State,99015C,MENDOZA,SAMUEL,RUFINO,08,30,1990,Other,Male,Sentenced,220,2013,02,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Out-of-State
+2013571,State,48045C,SALAZAR,RICHARD,,10,12,1949,Hispanic,Male,Sentenced,400,2013,03,05,CDC/CRC,Living,CDC/CRC,Natural,Not Applicable,Solano
+2013572,State,34015C,MACIAS,CARLOS,,12,10,1981,Hispanic,Male,Sentenced,320,2013,03,08,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Sacramento
+2013573,State,37015C,MURPHY,STANLEY,,07,08,1960,Black,Male,Sentenced,992,2013,03,18,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Diego
+2013574,Sheriff,340000,EASLON,NATHANIEL,B,11,16,1979,White,Male,Sentenced,094,2013,03,20,County Jail,Medical Treatment,County Jail,Natural,Not Applicable,Sacramento
+2013575,Police,301000,BERRIER,IAN,CHRISTOPHER,05,16,1992,White,Male,Process of Arrest,398,2013,03,21,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013576,Police,150300,GUEVARA,TAURINO,MARTINEZ,10,23,1966,Hispanic,Male,Process of Arrest,300,2013,03,30,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Kern
+2013577,Police,070400,BURNS,CHARLES,ANTHONY,05,12,1991,White,Male,Process of Arrest,323,2013,05,10,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Contra Costa
+2013578,State,36015C,VALDEZ,MICHAEL,DANIEL,01,25,1944,Hispanic,Male,Sentenced,720,2013,05,13,CDC/CRC,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,San Bernardino
+2013579,State,16025C,WILLARD,DOUGLAS,E,04,16,1950,White,Male,Sentenced,510,2013,05,23,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hanging,Strangulation",Kings
+2013580,Police,300800,BUCKLES,SIMON,HALLEY,02,25,1986,White,Male,Process of Arrest,300,2013,06,12,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013581,State,40015C,WOODS,STEVEN,,06,24,1954,Black,Male,Sentenced,801,2013,06,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013582,State,48045C,LUNA,DAMIAN,,04,12,1978,Hispanic,Male,Sentenced,410,2013,06,18,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013583,State,48045C,SIBLEY,JEFFREY,P,12,31,1955,White,Male,Sentenced,160,2013,07,23,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013584,Police,270800,ACUNA,JUAN,LUIS,08,15,1982,Hispanic,Male,Process of Arrest,300,2013,07,26,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Monterey
+2013585,Police,431600,NEHEZ,MICHAEL,JAMES,12,19,1944,White,Male,Process of Arrest,100,2013,08,08,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Santa Clara
+2013586,State,34015C,SCOTT,CLIFFORD,J,05,15,1966,White,Male,Sentenced,420,2013,08,20,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Sacramento
+2013587,Police,301000,MARQUEZ,ERIC,CHRISTOPHER,08,30,1986,Hispanic,Male,Process of Arrest,323,2013,08,03,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Orange
+2013588,State,48045C,REID,KENNETH,CHARLES,09,25,1949,White,Male,Sentenced,120,2013,08,07,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Solano
+2013589,State,55015C,AGUILAR,PAUL,,03,11,1963,Hispanic,Male,Sentenced,800,2013,09,06,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Tuolumne
+2013590,State,20045C,FONSECA,CARLOS,S,11,04,1960,Hispanic,Male,Sentenced,700,2013,09,10,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Madera
+2013591,State,20045C,GOMEZ,JAVIER,H,01,05,1970,Hispanic,Male,Sentenced,570,2013,10,01,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Madera
+2013592,State,20045C,O'BRIEN,DAVID,J,06,22,1950,White,Male,Sentenced,220,2013,10,05,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Madera
+2013593,Police,333200,JOHNSON,RAYMOND,LEWIS,12,17,1971,Black,Male,Process of Arrest,346,2013,10,11,Process of Arrest,Crime/Arrest Scene,Local Hospital,Other,Other,Riverside
+2013594,Police,411400,SALONGA,RYAN,TARAYA,10,02,1988,Pacific Islander,Male,Process of Arrest,341,2013,10,22,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Mateo
+2013595,Sheriff,150000,MUNOZ,SERGIO,A,04,24,1974,Hispanic,Male,Process of Arrest,100,2013,10,25,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Kern
+2013596,Police,330100,RODRIGUEZ,RICHARD,JR,02,23,1981,Hispanic,Male,Process of Arrest,323,2013,10,26,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013597,State,48045C,ENGE,CLYDE,HOOVER,06,10,1957,Black,Male,Sentenced,110,2013,11,04,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Solano
+2013598,Police,480300,TRAYLOR,DEONTE,LAWRENCE,09,26,1989,Black,Male,Process of Arrest,300,2013,11,05,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Solano
+2013599,Sheriff,430000,NAHARRO-GIONET,ANDREA,ANN,06,11,1952,Hispanic,Female,Process of Arrest,320,2013,11,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Santa Clara
+2013600,State,39045G,RODRIGUEZ,ISMAEL,,03,14,1952,Other,Male,Sentenced,854,2013,11,21,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013601,Police,331300,RAMIREZ,ADOLFO,,04,14,1976,Hispanic,Male,Process of Arrest,300,2013,11,22,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013602,State,39045G,FLORES,SANTUS,R,11,19,1962,Hispanic,Male,Sentenced,210,2013,11,26,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013603,State,39045G,COLLIEL,GEROLD,D,02,24,1948,Black,Male,Sentenced,110,2013,11,28,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013604,Police,130400,SAMPSON,CHARLES,,05,18,1955,Black,Male,Process of Arrest,841,2013,12,03,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Imperial
+2013605,State,39045G,COURTRIGHT,LARRY,P,03,11,1952,White,Male,Sentenced,100,2013,12,04,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013606,Sheriff,300000,JOHNSON,JEFFREY,JAY,01,17,1964,White,Male,Sentenced,822,2013,12,04,County Jail,,County Jail,Pending Investigation,Pending Investigation,Orange
+2013607,State,39045G,OATIS,DAVID,L,02,22,1951,Black,Male,Sentenced,320,2013,12,05,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013608,Police,390500,PERRY,ROBERT,CRAIG,10,03,1970,White,Male,Process of Arrest,300,2013,12,05,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Joaquin
+2013609,Sheriff,160000,DIGIANTOMASSO,SHAYMUS,SCOTT,02,22,1990,White,Male,Booked - Awaiting Trial,844,2013,12,06,County Jail,Living,Local Hospital,Pending Investigation,Pending Investigation,Kings
+2013610,State,48015C,RODRIGUEZ,SALVADOR,,04,16,1966,Hispanic,Male,Sentenced,320,2013,12,06,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013611,State,39015C,WYNNE,CHRISTOPHER,J,06,16,1990,Black,Male,Sentenced,220,2013,12,06,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,San Joaquin
+2013612,State,16025C,BROWN,NORMAN,JR,10,21,1956,Black,Male,Sentenced,880,2013,12,07,CDC/CRC,Medical Treatment,Local Hospital,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Kings
+2013613,State,39015C,RODGERS,JOHN,A,02,27,1954,Black,Male,Sentenced,800,2013,12,07,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013614,State,27025C,PADILLA,LARRY,,05,19,1948,Hispanic,Male,Sentenced,410,2013,12,10,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013615,State,48015C,QUEVEDO,PAUL,,12,14,1967,Hispanic,Male,Sentenced,220,2013,12,10,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013616,Sheriff,340000,STARLING,DAVID,,11,20,1962,Black,Male,Out to Court,920,2013,12,10,County Jail,Common,Local Hospital,Pending Investigation,Pending Investigation,Sacramento
+2013617,Sheriff,190000,HOLTON,QUANELL,,05,02,1970,Black,Male,Booked - Awaiting Trial,342,2013,12,12,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013618,State,48015C,TATE,DUANE,DAVID,04,21,1952,White,Male,Sentenced,120,2013,12,12,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013619,State,55015C,TISNADO,ANDREW,PRECILIANO,11,07,1982,Hispanic,Male,Sentenced,841,2013,12,12,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Tuolumne
+2013620,State,37015C,VINDIOLA,FRED,,01,14,1941,Hispanic,Male,Sentenced,865,2013,12,13,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013621,State,48015C,PATRICK,MICHAEL,,11,23,1960,Black,Male,Sentenced,220,2013,12,14,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013622,State,19105C,MARTINEZ,FERNANDO,S,08,31,1977,Hispanic,Male,Sentenced,220,2013,12,15,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Los Angeles
+2013623,State,21015C,SALAS,RAYMOND,G,06,12,1943,Hispanic,Male,Sentenced,100,2013,12,15,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Marin
+2013624,State,15015C,HARGER,DANIEL,,11,11,1962,White,Male,Sentenced,100,2013,12,16,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Kern
+2013625,Sheriff,390000,VALENCIA,NOEL,MERCADO,11,10,1970,Hispanic,Male,Booked - Awaiting Trial,801,2013,12,16,County Jail,Living,County Jail,Pending Investigation,Pending Investigation,San Joaquin
+2013626,State,48015C,BARELLA,CHRISTOPHER,A,09,30,1965,Hispanic,Male,Sentenced,510,2013,12,17,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013627,State,37015C,OWENS,MICKIE,ALLEN,06,03,1955,White,Male,Sentenced,321,2013,12,17,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013628,State,36015M,QUESENBERRY,VICTORIA,,10,08,1954,Hispanic,Female,Sentenced,350,2013,12,17,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013629,State,37015C,SMITH,ARTHUR,GAYLE,08,04,1931,White,Male,Sentenced,110,2013,12,19,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Diego
+2013630,State,27015C,MIDDLETON,RONALD,L,12,27,1951,Black,Male,Sentenced,828,2013,12,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Monterey
+2013631,State,48015C,SPOHN,HAROLD,,07,04,1942,White,Male,Sentenced,700,2013,12,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Solano
+2013632,State,36015C,VIZZARD,MIKE,A,06,10,1951,White,Male,Sentenced,760,2013,12,21,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013633,State,10015M,CEFALU,SALVATORE,JOHN,10,09,1951,White,Male,Sentenced,700,2013,12,21,State Hospital,,State Hospital,Pending Investigation,Pending Investigation,Fresno
+2013634,State,10015M,BRUST,JAMES,EDWARD,08,21,1928,White,Male,Sentenced,700,2013,12,25,State Hospital,Not Applicable,Local Hospital,Natural,Not Applicable,Fresno
+2013635,State,15045C,WOOTTON,JAMES,D,10,13,1987,Filipino,Male,Sentenced,210,2013,12,27,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,Kern
+2013636,Sheriff,190000,MARES,JESUS,,07,22,1958,Hispanic,Male,Sentenced,801,2013,12,28,County Jail,Medical Treatment,County Jail,Pending Investigation,Pending Investigation,Los Angeles
+2013637,State,40015C,CHANEY,ROBERT,D,05,07,1946,White,Male,Sentenced,372,2013,12,29,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,San Luis Obispo
+2013638,State,48015C,RUIZ,ALBERT,,04,12,1962,Hispanic,Male,Sentenced,110,2013,12,29,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013639,Sheriff,190000,STAMP,GARY,A,09,21,1951,White,Male,Booked - Awaiting Trial,100,2013,12,29,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,Los Angeles
+2013640,State,40015C,DELGADO,VINCENT,A,11,24,1958,Hispanic,Male,Sentenced,801,2013,12,31,CDC/CRC,Medical Treatment,CDC/CRC,Natural,Not Applicable,San Luis Obispo
+2013641,State,48015C,HORNER,WILLIAM,K,01,14,1965,White,Male,Sentenced,700,2013,12,31,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,Solano
+2013642,State,99025C,LEE,CARLTON,DEAN,09,23,1955,Black,Male,Sentenced,880,2013,12,31,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,In-State
+2013643,Sheriff,270000,MARTINEZ,DIANA,TOVAR,09,29,1969,Hispanic,Female,Booked - Awaiting Trial,854,2013,01,25,County Jail,Living,Local Hospital,Natural,Not Applicable,Monterey
+2013644,Police,194200,GIBSON,WILLIAM,,07,24,1962,White,Male,Process of Arrest,836,2013,02,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Drug Overdose,Los Angeles
+2013645,State,15075C,THOMAS,NICHOLAS,WILLIAM,09,18,1989,White,Male,Sentenced,220,2013,02,13,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",Kern
+2013646,Police,431300,GAMBOA,ADRIAN,,02,19,1992,Hispanic,Male,Process of Arrest,865,2013,02,17,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Other,Santa Clara
+2013647,Police,194200,DE LA TORRE,MOISES,,06,25,1987,Hispanic,Male,Process of Arrest,346,2013,02,24,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013648,Police,431300,ADUDDELL,RONALD,D,03,14,1984,White,Male,Process of Arrest,341,2013,03,02,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Santa Clara
+2013649,Police,194200,SAUCEDO,HENRY,,04,18,1979,Hispanic,Male,Process of Arrest,100,2013,03,08,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Los Angeles
+2013650,Police,194200,BOOTH,JENNIFER,LYNN,10,29,1976,White,Female,Other,000,2013,03,13,Other,Crime/Arrest Scene,Local Hospital,Suicide,"Knife,Cutting Instrument",Los Angeles
+2013651,Police,431300,MEJIA,ELIAS,,05,18,1986,Hispanic,Male,Process of Arrest,341,2013,03,18,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Santa Clara
+2013652,State,15075C,DELRIO,MIGUEL,,09,02,1971,Hispanic,Male,Sentenced,110,2013,03,21,CDC/CRC,Living,Local Hospital,Homicide Willful (Other Inmate),"Hanging,Strangulation",Kern
+2013653,Police,194200,ANDREWS,MARCUS,LADON,04,21,1963,Black,Male,Other,836,2013,04,04,Other,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Los Angeles
+2013654,Police,194200,COUTURIER,MARK,THOMAS,06,01,1962,White,Male,Process of Arrest,856,2013,04,04,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Los Angeles
+2013655,Police,194200,CAMPOS,ARTHUR,HIROSHI,11,30,1989,Other,Male,Booked - Awaiting Trial,816,2013,04,29,City Jail,Booking,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013656,Police,194200,WILLIAMS,KENNETH,BERNARD,08,19,1957,Black,Male,Process of Arrest,300,2013,05,02,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013657,Sheriff,270000,CLAYPOLE,JOSHUA,KANNON,11,18,1992,White,Male,Booked - Awaiting Trial,100,2013,05,09,County Jail,Living,Local Hospital,Suicide,"Hanging,Strangulation",Monterey
+2013658,Police,194200,EADDY,CHRISTEN,LEONARD,12,01,1987,Black,Male,Process of Arrest,341,2013,05,16,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013659,State,15075C,KEEL,ANDREW,SPIDER,04,04,1986,White,Male,Sentenced,400,2013,05,16,CDC/CRC,Living,CDC/CRC,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Kern
+2013660,Police,194200,CASAS,HENRY,MANUEL,08,14,1971,Hispanic,Male,In Transit,400,2013,06,08,Process of Arrest,Booking,City Jail,Natural,Not Applicable,Los Angeles
+2013661,Sheriff,010000,WILLIAMS,QUINCY,,09,24,1980,Black,Male,Process of Arrest,210,2013,06,14,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Alameda
+2013662,Police,010500,TWIST,RONALD,SCOTT,06,17,1959,White,Male,Process of Arrest,323,2013,06,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Alameda
+2013663,Sheriff,210000,BOYCE,JEFFREY,GRIFFIN,04,29,1983,White,Male,Booked - Awaiting Trial,200,2013,06,22,County Jail,Holding,County Jail,Suicide,"Hanging,Strangulation",Marin
+2013664,Police,301900,GONZALEZ,JESSICA,,11,11,1977,Hispanic,Female,Process of Arrest,100,2013,06,23,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Orange
+2013665,Sheriff,560000,JONES,ROY,LEE,01,21,1943,White,Male,Booked - Awaiting Trial,342,2013,06,23,County Jail,Not Applicable,County Jail,Natural,Not Applicable,Ventura
+2013666,Police,194200,GARCIA,JUAN,DAVID,07,02,1978,Hispanic,Male,Process of Arrest,323,2013,06,30,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013667,Police,010600,EVANS,WILLIE,JOSEPH,08,30,1979,Black,Male,Awaiting Booking,836,2013,07,01,City Jail,Booking,City Jail,Accidental,Drug Overdose,Alameda
+2013668,Sheriff,520000,CORDER,TRAVIS,CLAYTON,03,28,1981,White,Male,Awaiting Booking,837,2013,07,04,County Jail,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Tehama
+2013669,Sheriff,310000,SKEATON,ANTHONY,DAVID,01,23,1989,Black,Male,Booked - Awaiting Trial,841,2013,07,11,County Jail,Living,Local Hospital,Accidental,Drug Overdose,Placer
+2013670,State,279900,CALMERE,DAVID,JOHN,10,30,1971,White,Male,Process of Arrest,865,2013,07,12,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Other,Monterey
+2013671,Sheriff,440000,SLOAN,AMANDA,FOX,07,26,1982,White,Female,Booked - Awaiting Trial,341,2013,07,17,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",Santa Cruz
+2013672,State,03035C,HURST,THOMAS,LEE,03,03,1970,Hispanic,Male,Sentenced,841,2013,07,26,CDC/CRC,Living,Local Hospital,Homicide Willful (Other Inmate),"Hands,Feet,Fists",Amador
+2013673,State,569900,WRIGHT,LARRY,JASON,12,28,1978,White,Male,Process of Arrest,865,2013,07,27,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Other,Ventura
+2013674,Police,194200,FORD,BRUCE,,04,25,1955,Black,Male,Process of Arrest,800,2013,08,02,Process of Arrest,Crime/Arrest Scene,Local Hospital,Natural,Not Applicable,Los Angeles
+2013675,State,37015C,STEVENS,MICHAEL,AAROND,12,28,1966,American Indian,Male,Sentenced,700,2013,08,08,CDC/CRC,Other,CDC/CRC,Suicide,"Hanging,Strangulation",San Diego
+2013676,Police,194200,SULLIVAN,PATRICK,ORTHROW,03,25,1939,Black,Male,Process of Arrest,300,2013,08,20,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013677,Police,560900,CARNAN,RYAN,WILLIAM,02,22,1984,White,Male,Process of Arrest,100,2013,08,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Ventura
+2013678,Police,301900,RUNGE,RAYMOND,CURTIS,12,19,1968,White,Male,Process of Arrest,836,2013,08,25,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Drug Overdose,Orange
+2013679,Police,194200,SALDIVAR,JOSE,GUADAUPE,09,27,1984,Hispanic,Male,Process of Arrest,300,2013,08,28,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Cannot be Determined,Handgun,Los Angeles
+2013680,Police,194200,AZUCENA,JORGE,LUIS,04,04,1987,Hispanic,Male,Process of Arrest,346,2013,09,07,Process of Arrest,Crime/Arrest Scene,Local Hospital,Pending Investigation,Pending Investigation,Los Angeles
+2013681,Sheriff,300000,GORDON,MATTHEW,SHAWN,10,08,1981,White,Male,Booked - No Charges Filed,801,2013,09,09,County Jail,,County Jail,Pending Investigation,Pending Investigation,Orange
+2013682,Police,150200,HARGER,JUSTIN,BRYAN,01,15,1981,White,Male,Process of Arrest,300,2013,09,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Kern
+2013683,Police,150200,RAMIREZ,JORGE,JOEL,01,17,1979,Hispanic,Male,Process of Arrest,323,2013,09,16,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Kern
+2013684,State,37015C,MARCHESIN,KEN,,01,27,1960,White,Male,Sentenced,110,2013,09,18,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",San Diego
+2013685,Police,194200,RAMOS,RUBEN,,02,18,1954,Hispanic,Male,Process of Arrest,323,2013,09,18,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013686,Police,040200,SHARPE,BREANNE,MICHELLE,07,11,1994,White,Female,Process of Arrest,341,2013,09,22,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Butte
+2013687,Police,150200,ZARATE,MARIA,RITA,05,22,1980,Hispanic,Female,Process of Arrest,323,2013,10,01,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Kern
+2013688,State,349900,TEATOR,MICHAEL,F,12,09,1955,White,Male,Process of Arrest,865,2013,10,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Rifle/Shotgun,Sacramento
+2013689,Police,301900,MENDOZA,FRANCISCO,,12,03,1961,Hispanic,Male,Booked - Awaiting Trial,092,2013,10,21,City Jail,Not Applicable,City Jail,Natural,Not Applicable,Orange
+2013690,Sheriff,470000,HENNING,STEVEN,H,08,08,1981,White,Male,Process of Arrest,341,2013,10,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Siskiyou
+2013691,Police,195200,SAENZ-CAMPANA,CARLOS,,12,10,1985,Hispanic,Male,Process of Arrest,323,2013,11,01,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013692,State,339900,HEBERT,DUKE,ALAN,05,25,1970,White,Male,Process of Arrest,865,2013,11,03,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Handgun,Riverside
+2013693,Police,192800,MARTINEZ,ABRAHAM,,02,07,1989,Hispanic,Male,Process of Arrest,323,2013,11,13,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013694,Police,195900,AGUILAR,PAUL,,10,05,1992,Hispanic,Male,Process of Arrest,341,2013,11,15,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013695,Police,194200,BANDLER,ROBERT,JOSEPH,06,08,1938,White,Male,Process of Arrest,323,2013,11,17,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,Los Angeles
+2013696,Police,194200,MENDOZA,JOSE,JEOVANY,10,25,1995,Hispanic,Male,Process of Arrest,300,2013,11,22,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013697,Police,196900,CRUZ,JIMMY,,07,17,1989,Hispanic,Male,Process of Arrest,341,2013,11,23,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013698,State,37015C,KIM,BRIAN,,04,07,1981,Other Asian,Male,Sentenced,110,2013,11,24,CDC/CRC,Living,CDC/CRC,Pending Investigation,Pending Investigation,San Diego
+2013699,State,37015C,BRAVO,CHRIS,R,07,26,1970,Hispanic,Male,Sentenced,120,2013,11,26,CDC/CRC,Living,CDC/CRC,Suicide,"Hanging,Strangulation",San Diego
+2013700,Police,431300,VASQUEZ,ALBERT,,10,14,1971,Hispanic,Male,Process of Arrest,300,2013,11,28,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Santa Clara
+2013701,Police,190500,AGUILAR,LORENZO,CESAR,09,15,1990,Hispanic,Male,Process of Arrest,323,2013,11,29,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013702,Sheriff,430000,MARSHALL,BRANDON,JASON,04,07,1970,White,Male,Process of Arrest,341,2013,12,10,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Santa Clara
+2013703,Police,194200,BEAIRD,BRIAN,NEWT,03,01,1962,White,Male,Process of Arrest,865,2013,12,13,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Los Angeles
+2013704,State,33015C,MITCHELL,ROY,ALLEN,03,15,1967,Black,Male,Sentenced,720,2013,12,19,CDC/CRC,Medical Treatment,Local Hospital,Natural,Not Applicable,Riverside
+2013705,State,39045G,WATSON,VALENTINO,,05,30,1942,Black,Male,Sentenced,110,2013,12,27,CDC/CRC,Not Applicable,CDC/CRC,Natural,Not Applicable,San Joaquin
+2013706,Police,150200,SINGH,JASPAL,,12,12,1968,Asian Indian,Male,Process of Arrest,323,2013,12,29,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Kern
+2013707,Police,331300,HAYES,DONTAE,DAVEON LEWIS,04,27,1993,Black,Male,Process of Arrest,323,2013,12,31,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013708,Sheriff,360000,PITTMAN,BRIAN,,11,12,1989,Black,Male,Booked - Awaiting Trial,371,2013,01,10,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",San Bernardino
+2013709,Police,371100,VASQUEZ,JONATHAN,FREGOSO,03,07,1991,Hispanic,Male,Process of Arrest,300,2013,01,12,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Diego
+2013710,Police,371100,LOPEZ,ANGEL,MIGUEL,08,19,1985,Hispanic,Male,Process of Arrest,094,2013,01,17,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Diego
+2013711,State,349900,MURPHY,SHANE,CRESENCIO,12,21,1984,Hispanic,Male,Process of Arrest,865,2013,01,30,Process of Arrest,Crime/Arrest Scene,Local Hospital,Accidental,Other,Sacramento
+2013712,State,15045C,LEIVA,FRANKIE,PAUL,02,23,1976,Hispanic,Male,Sentenced,410,2013,02,16,CDC/CRC,Not Applicable,Local Hospital,Natural,Not Applicable,Kern
+2013713,Sheriff,010000,HUGGINS,BRODERICK,ALAN JR,09,09,1980,Black,Male,Process of Arrest,341,2013,03,30,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,Alameda
+2013714,Police,371100,ZARCO,MARIA,,08,14,1979,Hispanic,Female,Process of Arrest,341,2013,04,27,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,San Diego
+2013715,Police,371100,TOVAR,ADOLFO,,04,29,1966,Hispanic,Male,Process of Arrest,300,2013,05,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,San Diego
+2013716,Police,371100,CARGNONI,GIACOMO,JAMES,10,09,1991,White,Male,Process of Arrest,398,2013,06,01,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Rifle/Shotgun,San Diego
+2013717,Sheriff,330000,RIDGE,JAMES,EDWARD,11,02,1966,White,Male,Process of Arrest,341,2013,07,09,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013718,Sheriff,360000,GONZALEZ,RICHARD,ALEXANDER,10,29,1994,Hispanic,Male,Booked - No Charges Filed,100,2013,08,07,County Jail,Living,County Jail,Suicide,"Hanging,Strangulation",San Bernardino
+2013719,Sheriff,360000,PRICE,BRIAN,FLOYD,02,21,1962,White,Male,Sentenced,094,2013,08,12,County Jail,Not Applicable,Local Hospital,Natural,Not Applicable,San Bernardino
+2013720,Police,431400,RUELAS,JUAN,,03,17,1979,Hispanic,Male,Process of Arrest,342,2013,09,04,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Santa Clara
+2013721,Sheriff,360000,LANDSOM,TERESA,,11,15,1965,White,Female,Other,000,2013,09,12,Other,Crime/Arrest Scene,Crime/Arrest Scene,Natural,Not Applicable,San Bernardino
+2013722,Police,337800,SCHULTZ,JOHN,A,07,28,1947,White,Male,Process of Arrest,323,2013,09,12,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Homicide Justified (Law Enforcement Staff),Handgun,Riverside
+2013723,Police,450200,MOTLEY,STEVEN,ANTHONY,11,04,1979,White,Male,Process of Arrest,570,2013,10,08,Process of Arrest,Medical Treatment,Local Hospital,Pending Investigation,Pending Investigation,Shasta
+2013724,State,079900,GARCIA,MANUEL,,09,24,1963,Hispanic,Male,Process of Arrest,865,2013,10,09,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Suicide,Handgun,Contra Costa
+2013725,State,439900,TINAJERO,GILBERT,MARIN,07,21,1984,Hispanic,Male,Process of Arrest,087,2013,10,13,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Accidental,Other,Santa Clara
+2013726,Sheriff,360000,OIEN,PETER,JOHN,01,29,1966,White,Male,Process of Arrest,341,2013,11,18,Process of Arrest,Crime/Arrest Scene,Local Hospital,Homicide Justified (Law Enforcement Staff),Handgun,San Bernardino
+2013727,Sheriff,330000,HALL,OTAVIS,SEPTIAN,11,06,1978,Black,Male,Process of Arrest,323,2013,11,24,Process of Arrest,Crime/Arrest Scene,Crime/Arrest Scene,Pending Investigation,Pending Investigation,Riverside
+2013728,Other Local,379999,RAMSEY,MYTERRIO,,10,17,1977,White,Male,Process of Arrest,836,2013,12,18,Process of Arrest,Crime/Arrest Scene,Local Hospital,Cannot be Determined,Cannot be Determined,San Diego
+2013729,Sheriff,330000,PORTLEY,MICHAEL,CONRAD,11,23,1961,Black,Male,Booked - Awaiting Trial,341,2013,12,25,County Jail,Living,Local Hospital,Pending Investigation,Pending Investigation,Riverside

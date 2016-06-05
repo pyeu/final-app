@@ -1,0 +1,237 @@
+name ,custody_offense
+Willful Homicide,100
+Willful Homicide,103
+Willful Homicide,110
+Willful Homicide,120
+Willful Homicide,121
+Manslaughter - Non Vehicular,150
+Manslaughter - Non Vehicular,151
+Manslaughter - Non Vehicular,155
+Manslaughter - Vehicular,160
+Forcible Rape,600
+Forcible Rape,610
+Forcible Rape,611
+Forcible Rape,620
+Forcible Rape,621
+Forcible Rape,630
+Forcible Rape,635
+Robbery,200
+Robbery,210
+Robbery,220
+Robbery,230
+Robbery,240
+Robbery,250
+Assault,300
+Assault,310
+Assault,320
+Assault,341
+Assault,321
+Assault,323
+Assault,330
+Assault,342
+Assault,343
+Assault,344
+Assault,345
+Assault,350
+Assault,351
+Assault,352
+Assault,353
+Assault,360
+Assault,361
+Assault,362
+Assault,363
+Assault,364
+Assault,365
+Assault,370
+Assault,371
+Assault,372
+Assault,373
+Assault,380
+Assault,382
+Assault,383
+Assault,384
+Assault,385
+Assault,390
+Assault,391
+Assault,392
+Assault,393
+Kidnapping,891
+Kidnapping,880
+Kidnapping,881
+Kidnapping,882
+Kidnapping,883
+Kidnapping,884
+Burglary,"400, 410, 420, 425, 430, 440, 450"
+Theft,"500-505, 510, 511, 530, 531, 550-552, 572"
+Motor Vehicle Theft,"560, 561, 570, 571"
+"Forgery, Checks, Access Cards",580
+"Forgery, Checks, Access Cards",581
+"Forgery, Checks, Access Cards",582
+"Forgery, Checks, Access Cards",584
+"Forgery, Checks, Access Cards",585
+"Forgery, Checks, Access Cards",583
+Narcotics,804
+Narcotics,803
+Narcotics,802
+Narcotics,801
+Narcotics,800
+Marijuana,810
+Marijuana,811
+Marijuana,828
+Marijuana,812
+Marijuana,813
+Marijuana,815
+Dangerous Drugs,820
+Dangerous Drugs,821
+Dangerous Drugs,822
+Dangerous Drugs,825
+Other Drug Law Violations,851
+Other Drug Law Violations,831
+Other Drug Law Violations,832
+Other Drug Law Violations,833
+Other Drug Law Violations,834
+Other Drug Law Violations,835
+Arson,927
+Other Drug Law Violations,805
+Lewd or Lascivious,700
+Unlawful Sexual Intercourse,640
+Other Sex Law Violations,"705, 710-714, 720, 730-734,  740, 750, 751, 760, 770, 775, 780, 781, 790-794"
+Weapons,840-845
+Drive Under the Influence,"850, 854, 855"
+Hit-and-Run,860
+Escape,871
+Escape,872
+Escape,873
+Escape,874
+Escape,875
+Escape,870
+Bookmaking,890
+Arson,920
+Arson,921
+Arson,922
+Arson,923
+Arson,924
+Arson,925
+Felony Traffic,865
+Accessory,900
+Treason,905
+Abortion,911
+Abortion,910
+Bigamy,930
+Bribery,940
+Bribery,941
+Bribery,942
+Bribery,943
+Bribery,944
+Bribery,946
+Bribery,945
+Extort,961
+Extort,960
+Extort,950
+Neglect,971
+Neglect,970
+Perjury,981
+Perjury,980
+Malicious Mischief,64
+Malicious Mischief,63
+Gambling,75
+Other Felony,995
+Other Felony,994
+Other Felony,993
+Other Felony,992
+Other Felony,991
+Other Felony,990
+Other Felony,998
+Other Felony,985
+Federal Offense,90
+Federal Offense,91
+Federal Offense,92
+Outside Warrant - Felony,65
+Probation/Parole-Felony,93
+Probation/Parole-Felony,94
+Vehicular Manslaughter,166
+Assault and Battery,"346, 366, 376, 377, 396-399"
+Petty Theft,"516, 517, 518"
+Other Theft,"506, 537, 556-558"
+"Checks, Access Cards","586, 587"
+Marijuana,816
+Dangerous Drugs,826
+Marijuana,819
+Marijuana,829
+Other Drug Law Violations,817
+Other Drug Law Violations,818
+Other Drug Law Violations,836
+Other Drug Law Violations,837
+Other Drug Law Violations,838
+Other Drug Law Violations,839
+Dangerous Drugs,827
+Other Drug Law Violations,857
+Indecent Exposure,766
+Annoying Children,646
+Obscene Matter,786
+Lewd Conduct,26
+Prostitution,28
+Contributing Delinquency of Minor,726
+Drunk,46
+Liquor Laws,78
+Liquor Laws,77
+Disorderly Conduct,57
+Disturbing Peace,56
+Disturbing Peace,36
+Vandalism,66
+Malicious Mischief,67
+Trespassing,68
+Weapons,846
+Weapons,847
+Weapons,848
+Weapons,849
+Drive Under the Influence,859
+Drive Under the Influence,858
+Annoying Children,776
+Drive Under the Influence,856
+Obscene Matter,787
+Hit-and-Run,867
+Selected Traffic,88
+Selected Traffic,869
+Selected Traffic,89
+Joy Riding,576
+Gambling,76
+Non-support,976
+Glue Sniffing,59
+CI/CO Ordinances,97
+Failure to Appear/Non-Traffic,98
+Burglary Tools,476
+Burglary Tools,478
+Other Sex Offenses,739
+Other Sex Offenses,738
+Escape,876
+Arson - Misdemeanor,929
+Arson - Misdemeanor,926
+Burglary - Misdemeanor,406
+Highway,16
+Fail to Register,27
+Public Nuisance,58
+Contempt of Court,79
+Extort,966
+Neglect,977
+Perjury,986
+Other Misdemeanors,746
+Other Misdemeanors,99
+Other Misdemeanors,96
+Other Misdemeanors,48
+Other Misdemeanors,49
+Civil Drunk,47
+O/S Warrant-Misdemeanor,69
+Probation/Parole - Misdemeanor,17
+Probation/Parole - Misdemeanor,18
+Miscellaneous Traffic,86
+Truancy,1
+Runaway,2
+Curfew,3
+Incorrigible,7
+Other Status Offenses,4
+Other Status Offenses,6
+Other Status Offenses,9
+Other Status Offenses,11
+Miscellaneous Traffic,87
+Unknown or Medical Assist,0

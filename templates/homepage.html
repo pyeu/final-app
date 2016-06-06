@@ -20,8 +20,40 @@
 
        		<section class="sec content whelp">
 
-      		<p>Data comes from <a href="http://wildlife.faa.gov/database.aspx">the Federal Aviation Administration</a></p>
+      		<p>Data comes from <a href="http://wildlife.faa.gov/database.aspx">the DOJ</a></p>
     	</div>
 
+      <div id="map"></div>
+        
+          <table class="table table-condensed table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Race</th>
+                  <th>Date of Death</th>
+                  <th>County</th>
+                  <th>Location of Death</th>
+                  <th>Manner of Death</th>
+                  <th>Gender</th>
+                  <th>Race</th>
+              </tr>
+          </thead>
+          <tbody>
+                  {% for obj in object_list %}
+              <tr>
+                  <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
+                  <td>{{ obj.age }}</td>
+                  <td>{{ obj.race }}</td>
+                  <td>{{ obj.date_of_death }}</td>
+                  <td>{{ obj.county }}</td>
+                  <td>{{ obj.location_where_cause_of_death_occurred }}</td>
+                  <td>{{ obj.manner_of_death }}</td>
+                  <td>{{ obj.gender }}</td>
+                  <td>{{ obj.race }}</td>
+              </tr>
+              {% endfor %}
+          </tbody>
+          </table>
 	</body>
 </html>

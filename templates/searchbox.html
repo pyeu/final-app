@@ -1,0 +1,19 @@
+<form action="{{url_for('results')}}" method="get">
+    <div>
+        <div>
+            <strong>Sort by:</strong>
+            
+            <input type="radio" name="sortby" value="oldest to youngest"> Oldest
+            <input type="radio" name="sortby" value="youngest to oldest" checked> Newest
+            <input type="radio" name="sortby" value="recent"> Alphabetical
+        </div>
+            <br>
+             <div>
+                <p>Search by inmate name:</p>
+                <input type="text" name="name" value="">
+             </div>
+            <div>
+                <input class="submit-button" type="submit" value="Submit">
+            </div>
+    </div>
+</form>

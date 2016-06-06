@@ -61,9 +61,31 @@ Kidnapping,881
 Kidnapping,882
 Kidnapping,883
 Kidnapping,884
-Burglary,"400, 410, 420, 425, 430, 440, 450"
-Theft,"500-505, 510, 511, 530, 531, 550-552, 572"
-Motor Vehicle Theft,"560, 561, 570, 571"
+Burglary,400
+Burglary,410
+Burglary,420
+Burglary,425
+Burglary,430
+Burglary,440
+Burglary,450
+Theft,500
+Theft,501
+Theft,502
+Theft,503
+Theft,504
+Theft,505
+Theft,510
+Theft,511
+Theft,530
+Theft,531
+Theft,550
+Theft,551
+Theft,552
+Theft,572
+Motor Vehicle Theft,560
+Motor Vehicle Theft,561
+Motor Vehicle Theft,570
+Motor Vehicle Theft,571
 "Forgery, Checks, Access Cards",580
 "Forgery, Checks, Access Cards",581
 "Forgery, Checks, Access Cards",582
@@ -95,9 +117,40 @@ Arson,927
 Other Drug Law Violations,805
 Lewd or Lascivious,700
 Unlawful Sexual Intercourse,640
-Other Sex Law Violations,"705, 710-714, 720, 730-734,  740, 750, 751, 760, 770, 775, 780, 781, 790-794"
-Weapons,840-845
-Drive Under the Influence,"850, 854, 855"
+Other Sex Law Violations,705
+Other Sex Law Violations,710
+Other Sex Law Violations,711
+Other Sex Law Violations,712
+Other Sex Law Violations,713
+Other Sex Law Violations,714
+Other Sex Law Violations,720
+Other Sex Law Violations,730
+Other Sex Law Violations,731
+Other Sex Law Violations,732
+Other Sex Law Violations,733
+Other Sex Law Violations,734
+Other Sex Law Violations,740
+Other Sex Law Violations,750
+Other Sex Law Violations,751
+Other Sex Law Violations,760
+Other Sex Law Violations,770
+Other Sex Law Violations,775
+Other Sex Law Violations,780
+Other Sex Law Violations,781
+Other Sex Law Violations,790
+Other Sex Law Violations,791
+Other Sex Law Violations,792
+Other Sex Law Violations,793
+Other Sex Law Violations,794
+Weapons,840
+Weapons,41
+Weapons,842
+Weapons,843
+Weapons,844
+Weapons,845
+Drive Under the Influence,850
+Drive Under the Influence,854
+Drive Under the Influence,855
 Hit-and-Run,860
 Escape,871
 Escape,872
@@ -150,10 +203,24 @@ Outside Warrant - Felony,65
 Probation/Parole-Felony,93
 Probation/Parole-Felony,94
 Vehicular Manslaughter,166
-Assault and Battery,"346, 366, 376, 377, 396-399"
-Petty Theft,"516, 517, 518"
-Other Theft,"506, 537, 556-558"
-"Checks, Access Cards","586, 587"
+Assault and Battery,346
+Petty Theft,516
+Petty Theft,517
+Petty Theft,518
+Assault and Battery,366
+Assault and Battery,376
+Assault and Battery,377
+Assault and Battery,396
+Assault and Battery,398
+Assault and Battery,399
+Assault and Battery,397
+Other Theft,537
+Other Theft,556
+Other Theft,557
+Other Theft,558
+Other Theft,506
+"Checks, Access Cards",586
+"Checks, Access Cards",587
 Marijuana,816
 Dangerous Drugs,826
 Marijuana,819

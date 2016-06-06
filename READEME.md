@@ -100,7 +100,7 @@ At the very least, my app will summarize deaths by county.
 1. My app includes a partial text search allowing the user to search by last name.
 2. There will also be a drop down menu so users can search for inmate death by county.
 
-Users can sort by days in custody or date of death.
+Users can sort by days in custody (highest or lowest) or date of death.
 
 # Views and Routes
 

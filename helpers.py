@@ -9,20 +9,19 @@ DATA_FPATH_2 = './static/data/Data_Codes.csv'
 DATA_FPATH_3 = './static/data/location_codes.csv'
 #DATA_FPATH_4 = geosomething 
 
-
-
 def get_data():
-    datafile = join_datasets()
+    datafile = join()
     with open(datafile, 'r') as f:
         c = csv.DictReader(f)
         return list(c)
 
-
-def join_datasets():
+def join():
 	deaths = pd.read_csv(DATA_FPATH_1)
 	codes = pd.read_csv(DATA_FPATH_2)
 	locations = pd.read_csv(DATA_FPATH_3)
 	#names = pd.read_csv(DATA_FPATH_4)
+
+	add_continuous_variables()
 
 	dfa = deaths[['reporting_agency', 'last_name', 'first_name', 
 	'middle_name', 'date_of_birth_mm', 'date_of_birth_dd', 
@@ -39,17 +38,25 @@ def join_datasets():
 	return dfx
 
 
+def add_continuous_variables():
+	
 
 
-# def sort_by_criteria(criteria, datarows):
-#     if criteria == 'species':
-#         rows = sorted(datarows, key=itemgetter('species'))
-#     elif criteria == 'custody':
-#         rows = sorted(datarows, key=itemgetter('incident_date'))
-#     else:
-#        # i.e. 'youngest' or any value...just sort by most recent
-#         rows = sorted(datarows, key=itemgetter('incident_date'), reverse=True)   
-#     return rows
+	deaths['days'] = 
+
+
+# MAKE TWO MORE VARIABLES, date of death and days in custody
+
+
+def sort_by_criteria(criteria, datarows):
+    if criteria == 'days_low':
+        rows = sorted(datarows, key=itemgetter('days'))
+    elif criteria == 'days_high':
+        rows = sorted(datarows, key=itemgetter('days'), reverse=True)
+    else:
+       # i.e. 'date_recent' or any value...just sort by most recent
+        rows = sorted(datarows, key=itemgetter('date_of_death'), reverse=True)   
+    return rows
 
 # def get_wiki_photo(txt):
 #     a = search_wiki(txt)

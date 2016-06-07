@@ -97,16 +97,65 @@ header.whelp{
 
 }
 
+header.section-header{
+  padding: 2em 3em 1.6em;
+  margin-bottom: 0;
+  font-size: 2.5em;
+  float: left;
+  font-weight: 500;
+  line-height: 1.4;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
 footer.whelp{
-  text-align:center;
   vertical-align: middle;
   margin-top: 2.0em;
   min-height: 100px;
-  padding: 1.5em 0;
-  color: gray;
-  background-color: silver;
+  padding: 1.5em 1.0em;
+  background-color: #444444;
+  color: white;
 }
 
+footer a{
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1px;
+}
+
+div.about{
+  padding: 1em;
+  max-width: 650px;
+  margin: 0 auto;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+p.explainer{
+  line-height: 1.5;
+  margin-bottom: 1em;
+  font-size: 20px;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+ul.explainer{
+    line-height: 1.5;
+  margin-bottom: 1em;
+  font-size: 20px;
+  margin: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
 
 
 

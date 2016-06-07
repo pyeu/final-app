@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>Deaths in Custody</title>
+
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </head>
+
+    <body>
+    	<header class="whelp">
+    		<div class="container">
+          	<h1 class="site-title">This is a database of {{inmate_count}} inmate deaths in California.</h1>
+            <h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times,</a> 
+            <a href="https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265">Vice,</a> 
+            <a href="http://www.sfgate.com/bayarea/article/Family-of-Alameda-County-inmate-who-died-in-6849015.php">SFGate.</a>
+            </h1>
+        	</div>
+      </header>
+
+  <header class="section-header">
+        <h1>About Deaths in Custody</h1>
+
+        <div class="about">
+          <section id="data">
+          <h2>Data</h2>
+          <p class="explainer">
+          
+            My data comes from the 
+            <a href="http://www.bjs.gov/index.cfm?ty=tp&tid=19">Deaths in Custody Reporting Program</a>
+            , a program within the Bureau of Justice that collects data on deaths that occur during the arrest process or while inmates are in the custody of local jails or state prisons. I 
+            <a href="https://www.muckrock.com/foi/california-52/california-12525-data-17354/">found the data through MuckRock</a>
+             thanks to 
+            <a href="http://blog.danwin.com/interesting-muckrocks/">Dan's explainer</a>
+             on how to filter MuckRock requests by Status == completed.
+          </p>
+          </section>
+
+          <section id="limitations">
+            <h2>Limitations</h2>
+            <p class="explainer">
+            
+            </p>
+          </section>
+          <section id="tech">
+            <h2>Technical Stack</h2>
+            <p class="explainer">
+           
+            </p> 
+          </section>
+        </div>
+  </header>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,185 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>whats up this is a chart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+
+        <!-- add these 2 javascript includes -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+    </head>
+
+    <body>
+
+        <div class="container" style="text-align:left;">
+
+            <h1>This is a headline</h1>
+            <p>Regular text lorem blasdbhsadjlkfjsalkdb fjsaldfkj</p>
+            <p>This listicle contains <strong>{{ dataitems | count }}</strong> things</p>
+            <p>This is what the listicle looks like as JSON:</p>
+
+            <code>
+                {{ dataitems | tojson }}
+            </code>
+
+            <h4 style="margin-top:3.0em;">Unaltered chart</h4>
+            <div id="their-fun-chart">
+                <em>A chart will show up here</em>
+            </div>
+
+            <h4 style="margin-top:2.0em;">Chart with my data!</h4>
+            <div id="my-fun-chart" style="margin-top: 2.0rem;">
+                <em>A chart will show up here</em>
+            </div>
+        </div> <!-- end of container -->
+
+        <!-- The following code comes straight from -->
+        <!-- example http://www.highcharts.com/demo/column-rotated-labels -->
+        <!-- jsfiddle:  http://jsfiddle.net/gh/get/jquery/1.9.1/highslide-software/highcharts.com/tree/master/samples/highcharts/demo/column-rotated-labels/ -->
+
+        <!-- first we make javascript tags -->
+        <script>
+            // now comes the copied JS
+            $(function () {
+                //notice how their-fun-chart is used in the id for the target element
+                $('#their-fun-chart').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'World\'s largest cities per 2014'
+                    },
+                    subtitle: {
+                        text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+                    },
+                    xAxis: {
+                        type: 'category',
+                        labels: {
+                            rotation: -45,
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Population (millions)'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+                    tooltip: {
+                        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
+                    },
+                    series: [{
+                        name: 'Population',
+                        data: [
+                            ['Shanghai', 23.7],
+                            ['Lagos', 16.1],
+                            ['Istanbul', 14.2],
+                            ['Karachi', 14.0],
+                            ['Mumbai', 12.5],
+                            ['Moscow', 12.1],
+                            ['São Paulo', 11.8],
+                            ['Beijing', 11.7],
+                            ['Guangzhou', 11.1],
+                            ['Delhi', 11.1],
+                            ['Shenzhen', 10.5],
+                            ['Seoul', 10.4],
+                            ['Jakarta', 10.0],
+                            ['Kinshasa', 9.3],
+                            ['Tianjin', 9.3],
+                            ['Tokyo', 9.0],
+                            ['Cairo', 8.9],
+                            ['Dhaka', 8.9],
+                            ['Mexico City', 8.9],
+                            ['Lima', 8.9]
+                        ],
+                        dataLabels: {
+                            enabled: true,
+                            rotation: -90,
+                            color: '#FFFFFF',
+                            align: 'right',
+                            format: '{point.y:.1f}', // one decimal
+                            y: 10, // 10 pixels down from the top
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    }]
+                });
+            });
+        </script>
+
+
+        <!-- Want another chart? Make another script tag with the
+        chart making Javascript -->
+        <script>
+            $(function () {
+                //notice how my-fun-chart is used in the id for the target element
+                $('#my-fun-chart').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'this chart is not really that fun'
+                    },
+                    subtitle: {
+                        text: 'do you really need a subtitle?'
+                    },
+                    xAxis: {
+                        title: {
+                            text: 'Manners of death'
+                        },
+                        type: 'category',
+                        labels: {
+                            rotation: -45,
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Inmates dead'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+
+                    series: [{
+                        name: 'Manners of death',
+                        data:  {{ dataitems | tojson }},
+                        dataLabels: {
+                            enabled: true,
+                            rotation: -90,
+                            color: '#FFFFFF',
+                            align: 'right',
+                            format: '{point.y:.1f}', // one decimal
+                            y: 10, // 10 pixels down from the top
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    }]
+                });
+            });
+        </script>
+
+
+    </body>
+</html>

@@ -57,14 +57,22 @@ def county_page(county):
 
 @app.route('/testchart')
 def test_chart():
+	manner_of_death = Counter([d['manner_of_death'] for d in inmates])
+	manners_list = manner_of_death.most_common()
+
 	county_of_death = Counter([d['county'] for d in inmates])
 	counties_list = county_of_death.most_common()
+	major_counties = counties_list[0:20]
 
 	location_of_death = Counter([d['agency_name'] for d in inmates])
 	locations_list = location_of_death.most_common()
+	major_locations = locations_list[0:20]
 	
-	return render_template('testchart.html', countydeaths=counties_list, 
-							institutiondeaths=locations_list)
+	return render_template('testchart.html', countydeaths=counties_list,
+							major_counties=major_counties, 
+							institutiondeaths=locations_list,
+							mannersdeath=manners_list,
+							major_locations=major_locations)
 
 
 if __name__ == '__main__':

@@ -34,6 +34,12 @@
             <div id="deaths-by-county" style="margin-top: 2.0rem;">
                 <em>A chart will show up here</em>
             </div>
+
+            <h4 style="margin-top:3.0em;">fun with pie charts</h4>
+            <div id="means-of-death">
+                <em>A chart will show up here</em>
+            </div>
+
         </div> <!-- end of container -->
 
         <!-- The following code comes straight from -->
@@ -49,7 +55,7 @@
                         type: 'column'
                     },
                     title: {
-                        text: 'Inmate Deaths By Institution'
+                        text: 'Inmate Deaths By Institution (top {{ major_locations | count }} of {{ institutiondeaths | count }})'
                     },
                     xAxis: {
                         title: {
@@ -76,7 +82,7 @@
 
                     series: [{
                         name: 'Counties',
-                        data:  {{ institutiondeaths | tojson }},
+                        data:  {{ major_locations | tojson }},
                         dataLabels: {
                             enabled: true,
                             rotation: -90,
@@ -104,7 +110,7 @@
                         type: 'column'
                     },
                     title: {
-                        text: 'Inmate Deaths By County'
+                        text: 'Inmate Deaths By County (top {{ major_counties | count }} of {{ countydeaths | count }})'
                     },
                     xAxis: {
                         title: {
@@ -131,7 +137,7 @@
 
                     series: [{
                         name: 'Counties',
-                        data:  {{ countydeaths | tojson }},
+                        data:  {{ major_counties | tojson }},
                         dataLabels: {
                             enabled: true,
                             rotation: -90,
@@ -147,6 +153,44 @@
                     }]
                 });
             });
+        </script>
+
+        <script>
+            $(function () {
+    $('#means-of-death').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'Most common cause of death'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            name: 'Brands',
+            colorByPoint: true,
+            data:  {{ mannersdeath | tojson }},
+
+        }]
+    });
+});
         </script>
 
 

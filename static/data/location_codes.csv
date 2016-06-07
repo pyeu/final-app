@@ -11,14 +11,13 @@ agency_number,agency_name
 15075C,Kern Valley State Prison
 16015C,Avenal State Prison
 16025C,Corcoran State Prison
-16045C,California Substance Abuse Treatment Facility   
+16045C,California Substance Abuse Treatment Facility
 18015C,California Correctional Center    (Susanville)
 18035C,High Desert State Prison
 19015C,California State Prison - Lancaster
 19015M,Metropolitan State Hospital
 20015C,Central CA Women's Facility
-20045C,Valley State Prison for Women (stopped 2013)
-20045C,Valley State Prison (started for men in 2013)
+20045C,Valley State Prison
 21015C,San Quentin State Prison
 27015C,"Correctional Training Facility, Soledad"
 27025C,Salinas Valley State Prison
@@ -46,9 +45,6 @@ agency_number,agency_name
 99015C,CDCR/CBU/ Out-of-State Correctional Facility
 99025C,CDCR/CBU/Medical Parole
 99035C,CDCR/CBU/SACCO/WICC
-,
-,
-Code,Institution
 03015C,Pine Grove Youth Conservation Camp
 39035C,N. A. Chaderjian Youth Correctional Facility
 39045C,O. H. Close Youth Correctional Facility

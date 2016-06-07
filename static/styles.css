@@ -42,9 +42,8 @@ width: 30%;
 min-height: 150px;
 max-width: 330px;
 margin-bottom:45px;
-padding: 0.5em 0.5em 1.0em;
-border: 2px solid black;
-margin-left: 2px;
+padding: 0.5em 0.5em 0.5em;
+margin-left: 5px;
 background: silver;
 word-wrap: break-word;
 }

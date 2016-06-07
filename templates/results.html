@@ -4,5 +4,34 @@
     <body>
         <h1>Deaths in Custody in California</h1>
         {{ object_list }}
+
+
+      <h2>Here are the top {{ inmates | count }} inmates:</h2>  
+          <table class="table table-condensed table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Race</th>
+                  <th>Date of Death</th>
+                  <th>County</th>
+                  <th>Location of Death</th>
+                  <th>Manner of Death</th>
+              </tr>
+          </thead>
+          <tbody>
+                  {% for obj in inmates %}
+              <tr>
+                  <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
+                  <td>{{ obj.age }}</td>
+                  <td>{{ obj.race }}</td>
+                  <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>
+                  <td>{{ obj.county }}</td>
+                  <td>{{ obj.location_where_cause_of_death_occurred }}</td>
+                  <td>{{ obj.manner_of_death }}</td>
+              </tr>
+              {% endfor %}
+          </tbody>
+          </table>
     </body>
 </html>

@@ -67,117 +67,110 @@ Youth Facilities Closed Or Converted to Adult Facilities,
 40025C,El Paso de Robles School (CYA)  (2008)
 44015C,Ben Lomond Youth Conservation Camp   (2005)
 56015C,S. Carraway Public Service and Fire Center (12/2011)
-,
-,
-Code,Facility
 20023C,Madera County Department of Corrections
 28023C,Napa County Department of Corrections
 43083C,Santa Clara Department of Corrections
-,Note: Santa Clara Department of Corrections turned over operations of the jail to the Sheriff’s Department around 2004-2005.
-,
-,
-Code,Agency
-010000,Alameda Co. Sheriff's Department
-010100,Alameda
-010200,Albany
-010300,Berkeley
-010400,Emeryville
-010500,Fremont
-010600,Hayward
-010700,Livermore
-010800,Newark
-010900,Oakland
-011000,Piedmont
-011100,Pleasanton
-011200,San Leandro
-011300,Union City
-011400,Alameda E. Bay Reg. Park Dist.
-011500,CSU East Bay
-011600,Union Pacific RR - Alameda
+10000,Alameda Co. Sheriff's Department
+10100,Alameda
+10200,Albany
+10300,Berkeley
+10400,Emeryville
+10500,Fremont
+10600,Hayward
+10700,Livermore
+10800,Newark
+10900,Oakland
+11000,Piedmont
+11100,Pleasanton
+11200,San Leandro
+11300,Union City
+11400,Alameda E. Bay Reg. Park Dist.
+11500,CSU East Bay
+11600,Union Pacific RR - Alameda
 011A00,ABC Oakland
-012100,Alameda BART
-012200,UC Lawrence-Livermore
-012700,UC Lawrence-Berkeley
-012800,Santa Fe RR - Alameda
-012900,Southern Pacific RR - Alameda
-013000,Dublin
-013100,Alameda E. Bay Mun. Util. Dist.
-013200,Union Pacific RR - Alameda
-019700,UC Berkeley
-019800,CA State Police - Alameda
-019900,CA Highway Patrol - Alameda
-020000,Alpine Co. Sheriff's Department
-029900,CA Highway Patrol - Alpine
-030000,Amador Co. Sheriff's Department
-030100,Amador
-030200,Ione
-030300,Jackson
-030400,Plymouth
-030500,Sutter Creek
-030600,Union Pacific RR - Amador
-039900,CA Highway Patrol - Amador
-040000,Butte Co. Sheriff's Department
-040100,Biggs
-040200,Chico
-040300,Gridley
-040400,Oroville
-040500,Paradise
-040600,Union Pacific RR - Butte
-040700,Northern Buttes DPR
-040900,Upper Valley DPR
-041100,Union Pacific RR - Butte
-049700,CSU Chico
-049800,CA State Police - Butte
-049900,CA Highway Patrol - Butte
-050000,Calaveras Co. Sheriff's Department
-050100,Angels Camp
-050200,Union Pacific RR - Calaveras
-050300,Calaveras DPR
-059900,CA Highway Patrol - Calaveras
-060000,Colusa Co. Sheriff's Department
-060100,Colusa
-060200,Williams
-060300,Union Pacific RR - Colusa
-069900,CA Highway Patrol - Colusa
-070000,Contra Costa Co. Sheriff's Department
-070100,Antioch
-070200,Brentwood
-070300,Clayton
-070400,Concord
-070500,El Cerrito
-070600,Hercules
-070700,Pinole
-070800,Pittsburg
-070900,Pleasant Hill
-071000,Richmond
-071100,San Pablo
-071200,Walnut Creek
-071300,Kensington
-071400,Martinez
-071500,Lafayette
-071600,Moraga
-071700,Contra Costa E. Bay Reg. Park Dist.
-071800,Contra Costa BART
-071900,Santa Fe RR - Contra Costa
-072000,Southern Pacific RR - Contra Costa
-072100,Contra Costa Community. College
-072300,Danville
-072400,San Ramon
-072500,Diablo DPR
-072600,Orinda
-073300,Union Pacific RR - Contra Costa
-073400,Oakley
-079800,CA State Police - Contra Costa
-079900,CA Highway Patrol - Contra Costa
-080000,Del Norte Co. Sheriff's Department
-080100,Crescent City
-089900,CA Highway Patrol - Del Norte
-090000,El Dorado Co. Sheriff's Department
-090100,Placerville
-090200,South Lake Tahoe
-090300,Union Pacific RR - El Dorado
-092300,Marshall Gold DPR
-099900,CA Highway Patrol - El Dorado
+12100,Alameda BART
+12200,UC Lawrence-Livermore
+12700,UC Lawrence-Berkeley
+12800,Santa Fe RR - Alameda
+12900,Southern Pacific RR - Alameda
+13000,Dublin
+13100,Alameda E. Bay Mun. Util. Dist.
+13200,Union Pacific RR - Alameda
+19700,UC Berkeley
+19800,CA State Police - Alameda
+19900,CA Highway Patrol - Alameda
+20000,Alpine Co. Sheriff's Department
+29900,CA Highway Patrol - Alpine
+30000,Amador Co. Sheriff's Department
+30100,Amador
+30200,Ione
+30300,Jackson
+30400,Plymouth
+30500,Sutter Creek
+30600,Union Pacific RR - Amador
+39900,CA Highway Patrol - Amador
+40000,Butte Co. Sheriff's Department
+40100,Biggs
+40200,Chico
+40300,Gridley
+40400,Oroville
+40500,Paradise
+40600,Union Pacific RR - Butte
+40700,Northern Buttes DPR
+40900,Upper Valley DPR
+41100,Union Pacific RR - Butte
+49700,CSU Chico
+49800,CA State Police - Butte
+49900,CA Highway Patrol - Butte
+50000,Calaveras Co. Sheriff's Department
+50100,Angels Camp
+50200,Union Pacific RR - Calaveras
+50300,Calaveras DPR
+59900,CA Highway Patrol - Calaveras
+60000,Colusa Co. Sheriff's Department
+60100,Colusa
+60200,Williams
+60300,Union Pacific RR - Colusa
+69900,CA Highway Patrol - Colusa
+70000,Contra Costa Co. Sheriff's Department
+70100,Antioch
+70200,Brentwood
+70300,Clayton
+70400,Concord
+70500,El Cerrito
+70600,Hercules
+70700,Pinole
+70800,Pittsburg
+70900,Pleasant Hill
+71000,Richmond
+71100,San Pablo
+71200,Walnut Creek
+71300,Kensington
+71400,Martinez
+71500,Lafayette
+71600,Moraga
+71700,Contra Costa E. Bay Reg. Park Dist.
+71800,Contra Costa BART
+71900,Santa Fe RR - Contra Costa
+72000,Southern Pacific RR - Contra Costa
+72100,Contra Costa Community. College
+72300,Danville
+72400,San Ramon
+72500,Diablo DPR
+72600,Orinda
+73300,Union Pacific RR - Contra Costa
+73400,Oakley
+79800,CA State Police - Contra Costa
+79900,CA Highway Patrol - Contra Costa
+80000,Del Norte Co. Sheriff's Department
+80100,Crescent City
+89900,CA Highway Patrol - Del Norte
+90000,El Dorado Co. Sheriff's Department
+90100,Placerville
+90200,South Lake Tahoe
+90300,Union Pacific RR - El Dorado
+92300,Marshall Gold DPR
+99900,CA Highway Patrol - El Dorado
 100000,Fresno Co. Sheriff's Department
 100100,Clovis
 100200,Coalinga
@@ -295,7 +288,7 @@ Code,Agency
 190900,Bell Gardens
 190C00,El Camino College
 190D00,La Habra Heights
-190E00,Santa Fe RR - Los Angeles
+1.90E+02,Santa Fe RR - Los Angeles
 190G00,Los Angeles Housing Authority
 190H00,Southern Pacific RR - Los Angeles
 190i00,Union Pacific RR - Los Angeles
@@ -316,7 +309,7 @@ Code,Agency
 191900,Cerritos
 191B00,High Desert DPR
 191C00,Hungry Valley DPR
-191E00,Lanterman Developmental Center
+1.91E+02,Lanterman Developmental Center
 191F00,Agoura Hills
 191H00,West Hollywood
 191P00,Santa Clarita

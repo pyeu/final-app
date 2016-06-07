@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Deaths in Custody in California</title>
+		<title>Deaths in Custody</title>
 			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
         	<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
     </head>
@@ -9,10 +9,27 @@
     <body>
     	<header class="whelp">
     		<div class="container">
-          		<h1 class="site-title">This is a database of all deaths in XYZ.</h1>
-         		<h1 class="summary">Read more at the <a href="http://www.sfgate.com/bayarea/article/Birds-damaged-planes-at-SFO-45-times-since-1990-3163853.php">SFGATE</a></h1>
+          		<h1 class="site-title">This is a database the {{inmate_count}} inmate deaths in California.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
         	</div>
       	</header>
+
+        <ul>
+          {% for thing in manners_list %}
+
+            <li>{{ thing[0] }} : {{ thing[1] }}</li>
+
+          {% endfor %}
+
+        </ul>
+
+
+
+
+
+
+
+
 
     	<div class="container"> 
       		<h1 class="site-title">Search for an incident:</h1>
@@ -20,11 +37,10 @@
 
        		<section class="sec content whelp">
 
-      		<p>Data comes from <a href="http://wildlife.faa.gov/database.aspx">the DOJ</a></p>
+      		<p>Data comes from <a href="http://www.bjs.gov/index.cfm?ty=dcdetail&iid=243">the Bureau of Justice</a></p>
     	</div>
 
-      <div id="map"></div>
-        
+      <h2>Here are the youngest {{ top_inmates | count }} inmates:</h2>  
           <table class="table table-condensed table-bordered table-striped">
           <thead>
               <tr>
@@ -35,22 +51,18 @@
                   <th>County</th>
                   <th>Location of Death</th>
                   <th>Manner of Death</th>
-                  <th>Gender</th>
-                  <th>Race</th>
               </tr>
           </thead>
           <tbody>
-                  {% for obj in object_list %}
+                  {% for obj in top_inmates %}
               <tr>
                   <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
                   <td>{{ obj.age }}</td>
                   <td>{{ obj.race }}</td>
-                  <td>{{ obj.date_of_death }}</td>
+                  <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>
                   <td>{{ obj.county }}</td>
                   <td>{{ obj.location_where_cause_of_death_occurred }}</td>
                   <td>{{ obj.manner_of_death }}</td>
-                  <td>{{ obj.gender }}</td>
-                  <td>{{ obj.race }}</td>
               </tr>
               {% endfor %}
           </tbody>

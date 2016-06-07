@@ -8,6 +8,7 @@ from datetime import datetime
 custody_data_fname = './static/data/Death_in_Custody_2013.csv'
 offense_codes_fname = './static/data/Data_Codes.csv'
 location_codes_fname = './static/data/location_codes.csv'
+counties_fname = './static/data/counties.txt'
 #DATA_FPATH_4 = geosomething 
 
 # BEST_FIELDS = ['reporting_agency', 'last_name', 'first_name', 
@@ -22,13 +23,18 @@ BEST_FIELDS = ['full_name',
 	'birthday', 'race', 'custody_status', 'custody_offense',
 	'date_of_death', 'custodial_responsibility_at_time_of_death', 
 	'location_where_cause_of_death_occurred',
-	'manner_of_death', 'means_of_death', 'county', 'record_key']
+	'manner_of_death', 'means_of_death', 'county']
+
+def get_counties():
+	df = pd.read_csv(counties_fname, sep='\t')
+	return df.to_dict('records')
 
 def get_data():
     data = join()
     data = add_variables(data)
     data = trim(data)
-    return data
+    normal_data = data.to_dict('records')
+    return normal_data
 
 def join():
 	deaths = pd.read_csv(custody_data_fname)
@@ -44,15 +50,14 @@ def trim(data):
 	return data[BEST_FIELDS]
 
 def add_variables(data):
-	data['birthday_temp'] = data['date_of_birth_yyyy'].astype(str) + '-' + data['date_of_birth_mm'].astype(str) + '-' + data['date_of_birth_dd'].astype(str)
-	data['birthday'] = pd.to_datetime(data['birthday_temp'])
-
-	data['death_temp'] = data['date_of_death_yyyy'].astype(str) + '-' + data['date_of_death_mm'].astype(str) + '-' + data['date_of_death_dd'].astype(str)
-	data['date_of_death'] = pd.to_datetime(data['death_temp'])
+	data['birthday'] = data['date_of_birth_yyyy'].astype(str) + '-' + data['date_of_birth_mm'].astype(str) + '-' + data['date_of_birth_dd'].astype(str)
+	data['birthday'] = pd.to_datetime(data['birthday'])
+	
+	data['date_of_death'] = data['date_of_death_yyyy'].astype(str) + '-' + data['date_of_death_mm'].astype(str) + '-' + data['date_of_death_dd'].astype(str)
+	data['date_of_death'] = pd.to_datetime(data['date_of_death'])
 
 	data['age'] = ((data['date_of_death'] - data['birthday']).dt.days / 365).round()
-
-	data['full_name'] = data['last_name'].astype(str) + ', ' + data['first_name'].astype(str)
+	data['full_name'] = data['first_name'].astype(str) + ' ' + data['last_name'].astype(str)
 
 	return data
 

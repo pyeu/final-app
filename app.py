@@ -53,7 +53,7 @@ def results():
 	filtered_inmates = []
 	for row in inmates:
 		if inmate_name.upper() in row['full_name'].upper():
-			if _county == 'ALL' or _county_ == row['county']:
+			if _county == 'ALL' or _county == row['county']:
 				filtered_inmates.append(row)
 
 	sorted_inmates = sort_by_criteria(criteria=_sortby, inmates=filtered_inmates)

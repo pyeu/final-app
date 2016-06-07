@@ -11,8 +11,8 @@
     	<header class="whelp">
     		<div class="container">
           	<h1 class="site-title">This is a database of {{inmate_count}} inmate deaths in California.</h1>
-         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times,</a> 
-            <a href="https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265">Vice,</a> 
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times,</a>
+            <a href="https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265">Vice,</a>
             <a href="http://www.sfgate.com/bayarea/article/Family-of-Alameda-County-inmate-who-died-in-6849015.php">SFGate.</a>
             </h1>
         	</div>
@@ -20,40 +20,31 @@
 
 
 <!-- searchbox -->
-<div class="searchbox"> 
-      <br>
-          <h1><strong>Search for an inmate:</strong></h1>
-            {% include 'searchbox.html' %}
-      <br>
-      <br>
-      </div>
-</div>
+
+<section class="sec">
+  <div class="searchbox">
+      <h1><strong>Search for an inmate:</strong></h1>
+              {% include 'searchbox.html' %}
 
 
-<!-- add list of counties -->
-<div class="countylist">
-<br>
-        {% include 'countylist.html' %}
-        <hr class="clearing" />
-</div>
 
-<!-- add quick facts -->
-<div class="quickfacts">
-<br>
-        <h3>Quick facts:</h3>
+      <p>Or, select a county:</p>
+      {% include 'countylist.html' %}
+
+  </div>
+</section>
+
+  <section id="quickfacts" class="sec">
+    <div class="container">
+        <h3>Quick facts</h3>
         {% include 'quickfacts.html' %}
-        <hr class="clearing" />
-</div>
+    </div>
+  </section>
 
 
+
+{% include 'footer.html' %}
 </body>
 
-<!-- footer -->
-
-<footer class="whelp">
-  <h2><a href="./about/">About</a></h2>
-
-  <p>Created by <a href="https://twitter.com/readelev">Reade Levinson</a> as a final project for <a href="http://www.compjour.org/" target="_blank">Computational Journalism</a>, a <a href="http://journalism.stanford.edu/" target="_blank">Stanford Journalism</a> course taught by Dan Nguyen.</p>
-  </footer>
 
 </html>

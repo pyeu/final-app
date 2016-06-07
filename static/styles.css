@@ -4,6 +4,11 @@ body{
   font-family: 'Montserrat';
 }
 
+
+section.sec{
+  margin-bottom: 2.0rem;
+}
+
 .summary{
   font-size: 1.4em;
   font-style: italic;
@@ -19,6 +24,17 @@ div.container{
   opacity: 0.8;
   filter: alpha(opacity=60);
 }
+
+
+#quickfacts table td.name{
+  text-align: left;
+  font-weight: bold;
+}
+
+#quickfacts table td.num{
+  text-align: right;
+}
+
 
 .dp-menu-list {
     list-style-type: none;
@@ -59,7 +75,7 @@ word-wrap: break-word;
 clear:both;
 visibility:hidden;
 line-height:0;
-font-size:1px; 
+font-size:1px;
 display:block;
 }
 

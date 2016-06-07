@@ -1,176 +1,68 @@
-<form action="{{url_for('results')}}" method="get">
-<ul class="dp-menu-list">
-    <a href="/alameda">Alameda County</a>
-  </li>
-  <li>
-    <a href="/county/Alpine">Alpine County</a>
-  </li>
-  <li>
-    <a href="/county/Amador">Amador County</a>
-  </li>
-  <li>
-    <a href="/county/Butte">Butte County</a>
-  </li>
-  <li>
-    <a href="/county/Calaveras">Calaveras County</a>
-  </li>
-  <li>
-    <a href="/county/Colusa">Colusa County</a>
-  </li>
-  <li>
-    <a href="/county/Contra Costa">Contra Costa County</a>
-  </li>
-  <li>
-    <a href="/county/Del Norte">Del Norte County</a>
-  </li>
-  <li>
-    <a href="/county/El Dorado">El Dorado County</a>
-  </li>
-  <li>
-    <a href="/county/Fresno">Fresno County</a>
-  </li>
-  <li>
-    <a href="/county/Glenn">Glenn County</a>
-  </li>
-  <li>
-    <a href="/county/Humbolt">Humbolt County</a>
-  </li>
-  <li>
-    <a href="/county/Imperial">Imperial County</a>
-  </li>
-  <li>
-    <a href="/county/Inyo">Inyo County</a>
-  </li>
-  <li>
-    <a href="/county/Kern">Kern County</a>
-  </li>
-  <li>
-    <a href="/county/Kings">Kings County</a>
-  </li>
-  <li>
-    <a href="/county/Lake">Lake County</a>
-  </li>
-  <li>
-    <a href="/county/Lassen">Lassen County</a>
-  </li>
-  <li>
-    <a href="/county/Los Angeles">Los Angeles County</a>
-  </li>
-  <li>
-    <a href="/county/Madera">Madera County</a>
-  </li>
-  <li>
-    <a href="/county/Marin">Marin County</a>
-  </li>
-  <li>
-    <a href="/county/Mariposa">Mariposa County</a>
-  </li>
-  <li>
-    <a href="/county/Mendocino">Mendocino County</a>
-  </li>
-  <li>
-    <a href="/county/Merced">Merced County</a>
-  </li>
-  <li>
-    <a href="/county/Modoc">Modoc County</a>
-  </li>
-  <li>
-    <a href="/county/Mono">Mono County</a>
-  </li>
-  <li>
-    <a href="/county/Monterey">Monterey County</a>
-  </li>
-  <li>
-    <a href="/county/Napa">Napa County</a>
-  </li>
-  <li>
-    <a href="/county/Nevada">Nevada County</a>
-  </li>
-  <li>
-    <a href="/county/Orange">Orange County</a>
-  </li>
-  <li>
-    <a href="/county/Placer">Placer County</a>
-  </li>
-  <li>
-    <a href="/county/Plumas">Plumas County</a>
-  </li>
-  <li>
-    <a href="/county/Riverside">Riverside County</a>
-  </li>
-  <li>
-    <a href="/county/Sacramento">Sacramento County</a>
-  </li>
-  <li>
-    <a href="/county/San Benito">San Benito County</a>
-  </li>
-  <li>
-    <a href="/county/San Bernadino">San Bernadino County</a>
-  </li>
-  <li>
-    <a href="/county/San Diego">San Diego County</a>
-  </li>
-  <li>
-    <a href="/county/San Francisco">San Francisco County</a>
-  </li>
-  <li>
-    <a href="/county/San Joaquin">San Joaquin County</a>
-  </li>
-  <li>
-    <a href="/county/San Luis Obispo">San Luis Obispo County</a>
-  </li>
-  <li>
-    <a href="/county/San Mateo">San Mateo County</a>
-  </li>
-  <li>
-    <a href="/county/Santa Barbara">Santa Barbara County</a>
-  </li>
-  <li>
-    <a href="/county/Santa Clara">Santa Clara County</a>
-  </li>
-  <li>
-    <a href="/county/Santa Cruz">Santa Cruz County</a>
-  </li>
-  <li>
-    <a href="/county/Shasta">Shasta County</a>
-  </li>
-  <li>
-    <a href="/county/Sierra">Sierra County</a>
-  </li>
-  <li>
-    <a href="/county/Siskiyou">Siskiyou County</a>
-  </li>
-  <li>
-    <a href="/county/Solano">Solano County</a>
-  </li>
-  <li>
-    <a href="/county/Sonoma">Sonoma County</a>
-  </li>
-  <li>
-    <a href="/county/Stanislaus">Stanislaus County</a>
-  </li>
-  <li>
-    <a href="/county/Sutter">Sutter County</a>
-  </li>
-  <li>
-    <a href="/county/Tehama">Tehama County</a>
-  </li>
-  <li>
-    <a href="/county/Trinity">Trinity County</a>
-  </li>
-  <li>
-    <a href="/county/Tulare">Tulare County</a>
-  </li>
-  <li>
-    <a href="/county/Tuolumne">Tuolumne County</a>
-  </li>
-  <li>
-    <a href="/county/Ventura">Ventura County</a>
-  </li>
-  <li>
-    <a href="/county/Yolo">Yolo County</a>
-  </li>
-  <li>
-    <a href="/county/Yuba">Yuba County</a>
-  </li>
-</ul>
+<select id="county-dropdown" onchange="goto_county(this.value)">
+  <option>Select County</option>
+  <option value="Alpine">Alpine</option>
+  <option value="Amador">Amador</option>
+  <option value="Butte">Butte</option>
+  <option value="Calaveras">Calaveras</option>
+  <option value="Colusa">Colusa</option>
+  <option value="Contra Costa">Contra Costa</option>
+  <option value="Del Norte">Del Norte</option>
+  <option value="El Dorado">El Dorado</option>
+  <option value="Fresno">Fresno</option>
+  <option value="Glenn">Glenn</option>
+  <option value="Humbolt">Humbolt</option>
+  <option value="Imperial">Imperial</option>
+  <option value="Inyo">Inyo</option>
+  <option value="Kern">Kern</option>
+  <option value="Kings">Kings</option>
+  <option value="Lake">Lake</option>
+  <option value="Lassen">Lassen</option>
+  <option value="Los Angeles">Los Angeles</option>
+  <option value="Madera">Madera</option>
+  <option value="Marin">Marin</option>
+  <option value="Mariposa">Mariposa</option>
+  <option value="Mendocino">Mendocino</option>
+  <option value="Merced">Merced</option>
+  <option value="Modoc">Modoc</option>
+  <option value="Mono">Mono</option>
+  <option value="Monterey">Monterey</option>
+  <option value="Napa">Napa</option>
+  <option value="Nevada">Nevada</option>
+  <option value="Orange">Orange</option>
+  <option value="Placer">Placer</option>
+  <option value="Plumas">Plumas</option>
+  <option value="Riverside">Riverside</option>
+  <option value="Sacramento">Sacramento</option>
+  <option value="San Benito">San Benito</option>
+  <option value="San Bernadino">San Bernadino</option>
+  <option value="San Diego">San Diego</option>
+  <option value="San Francisco">San Francisco</option>
+  <option value="San Joaquin">San Joaquin</option>
+  <option value="San Luis Obispo">San Luis Obispo</option>
+  <option value="San Mateo">San Mateo</option>
+  <option value="Santa Barbara">Santa Barbara</option>
+  <option value="Santa Clara">Santa Clara</option>
+  <option value="Santa Cruz">Santa Cruz</option>
+  <option value="Shasta">Shasta</option>
+  <option value="Sierra">Sierra</option>
+  <option value="Siskiyou">Siskiyou</option>
+  <option value="Solano">Solano</option>
+  <option value="Sonoma">Sonoma</option>
+  <option value="Stanislaus">Stanislaus</option>
+  <option value="Sutter">Sutter</option>
+  <option value="Tehama">Tehama</option>
+  <option value="Trinity">Trinity</option>
+  <option value="Tulare">Tulare</option>
+  <option value="Tuolumne">Tuolumne</option>
+  <option value="Ventura">Ventura</option>
+  <option value="Yolo">Yolo</option>
+  <option value="Yuba">Yuba</option>
+</select>
+
+
+<script>
+  function goto_county(county_name){
+    console.log(county_name);
+    window.location.href = "/county/" + county_name;
+  }
+</script>

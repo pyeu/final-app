@@ -53,7 +53,7 @@ def county_page(county):
 	for row in inmates:
 		if county.upper() in row['county'].upper():
 			filtered_inmates.append(row)
-	return render_template('results.html', inmates=filtered_data)
+	return render_template('results.html', inmates=filtered_inmates)
 
 @app.route('/testchart')
 def test_chart():
@@ -67,9 +67,9 @@ def test_chart():
 	location_of_death = Counter([d['agency_name'] for d in inmates])
 	locations_list = location_of_death.most_common()
 	major_locations = locations_list[0:20]
-	
+
 	return render_template('testchart.html', countydeaths=counties_list,
-							major_counties=major_counties, 
+							major_counties=major_counties,
 							institutiondeaths=locations_list,
 							mannersdeath=manners_list,
 							major_locations=major_locations)

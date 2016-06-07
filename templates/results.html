@@ -18,7 +18,7 @@
         {{ object_list }}
 
 
-      <h2>Here are the top {{ inmates | count }} inmates:</h2>  
+      <h2>Here are the top {{ inmates | count }} inmates:</h2>
           <table class="table table-condensed table-bordered table-striped">
           <thead>
               <tr>
@@ -45,5 +45,10 @@
               {% endfor %}
           </tbody>
           </table>
+
+
+
+    {% include 'footer.html' %}
+
     </body>
 </html>

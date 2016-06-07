@@ -1,29 +1,39 @@
-<form action="{{url_for('results')}}" method="get">
 
-<div id="one">
-<h4>Top counties:</h4>
-<ul>
-  {% for thing in top_counties %}
-  <li>{{ thing[0] }}: {{ thing[1] }}</li>
-  {% endfor %}
-</ul>
-</div> 
 
-<div id="two">
-<h4>Top cause of death:</h4>
-<ul>
-  {% for thing in top_manners %}
-  <li>{{ thing[0] }}: {{ thing[1] }}</li>
-  {% endfor %}
-</ul>
-</div> 
 
-<div id="three">
-<h4>Top institutions:</h4>
-<ul>
-  {% for thing in top_locations %}
-  <li>{{ thing[0] }}: {{ thing[1] }}</li>
-  {% endfor %}
-</ul>
+<div class="row">
+  <div class="col-sm-4">
+      <h4>Top counties:</h4>
+      <table class="table">
+        {% for thing in top_counties %}
+          <tr>
+            <td class="name">{{ thing[0] }}</td>
+            <td class="num">{{ thing[1] }}</td>
+          </tr>
+        {% endfor %}
+      </table>
+
+  </div>
+  <div class="col-sm-4">
+    <h4>Top cause of death:</h4>
+    <table class="table">
+      {% for thing in top_manners %}
+          <tr>
+            <td class="name">{{ thing[0] }}</td>
+            <td class="num">{{ thing[1] }}</td>
+          </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <div class="col-sm-4">
+    <h4>Top institutions:</h4>
+    <table class="table">
+      {% for thing in top_locations %}
+          <tr>
+            <td class="name">{{ thing[0] }}</td>
+            <td class="num">{{ thing[1] }}</td>
+          </tr>
+      {% endfor %}
+    </table>
+  </div>
 </div>
-

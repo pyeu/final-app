@@ -38,13 +38,16 @@ def results():
 	for row in inmates:
 		if inmate_name.upper() in row['full_name'].upper():
 			filtered_inmates.append(row)
-	#filtered_inmates = sort_by_criteria(sortby=sortby,datarows=filtered_inmates)
+	#filtered_data = sort_by_criteria(criteria=inmate_name, inmates=inmates)
 	
 	return render_template('results.html', inmates=filtered_inmates)
 
 @app.route('/county/<county_name>')
 def county_page(county_name):
-	filtered_data = sort_by_criteria(criteria=county_name, datarows=inmates)
+	filtered_inmates = []
+	for row in inmates:
+		if county_name.upper() in row['county'].upper():
+			filtered_inmates.append(row)
 	return render_template('county.html', inmates=filtered_data)
 
 if __name__ == '__main__':

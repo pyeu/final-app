@@ -25,34 +25,36 @@
         <div class="about">
           <section id="data">
           <h2>Data</h2>
-          <p class="explainer">
+          <p>
 
             My data comes from the
             <a href="http://www.bjs.gov/index.cfm?ty=tp&tid=19">Deaths in Custody Reporting Program</a>
-            , a program within the Bureau of Justice that collects data on deaths that occur during the arrest process or while inmates are in the custody of local jails or state prisons. I
-            <a href="https://www.muckrock.com/foi/california-52/california-12525-data-17354/">found the data through MuckRock</a>
-             thanks to
-            <a href="http://blog.danwin.com/interesting-muckrocks/">Dan's explainer</a>
-             on how to filter MuckRock requests by Status == completed.
+            , a program within the Bureau of Justice that collects data on deaths that occur during the arrest process or while inmates are in the custody of local jails or state prisons. However, the BJS does not publish their findings to the public.</p>
+            </p>I found the data through 
+            <a href="https://www.muckrock.com/foi/california-52/california-12525-data-17354/">a MuckRock request</a>
+            filed by dave Maass with the Department of Justice in California, thanks to Dan Nguyen's 
+            <a href="http://blog.danwin.com/interesting-muckrocks/">explainer</a> on how to filter by completed MuckRock requests.
           </p>
+          <p>As far as data manipulation, the keys to the codes for 'custody_offense' and 'agency_name' came from seperate spreadsheets in the same MuckRequest, which I joined to the main dataset. I added variables for "birthdate" and "age" so that users could sort by youngest or oldest inmate.</p>
           </section>
 
           <section id="limitations">
             <h2>Limitations</h2>
-            <p class="explainer">
-            Say something brilliant here -- data has no way to check days in custody, this has been documented by XYZ news organizations.
+            <p>Since this app is based off a one-time FOIA request, the data has not updated since it was requested in April 2015. Data is for 2013 only.</p>
+            <p>
+            I'd originally hoped to run analysis on death rates by days in custody, but the Bureau of Justice either doesn't keep track of days in custody or didn't release that data along with this particular request. Plus, there's no easy way to correlate inmate names with arrest records, so I ended up letting that one go.
             </p>
           </section>
 
           <section id="tech">
             <h2>Technical Stack</h2>
-            <p class="explainer">
-            Data cleaning and analysis in 
-            <a href="https://www.python.org/">Python</a>, with help from 
+            <p>
+            Data cleaning and analysis was done in 
+            <a href="https://www.python.org/">Python</a>, with help from the 
             <a href="http://pandas.pydata.org/">Pandas</a>
             library. The web app is powered by 
             <a href="http://flask.pocoo.org/">Flask</a>. The charts are generated using 
-            <a href="http://www.highcharts.com/">Highcharts</a>.
+            <a href="http://www.highcharts.com/">Highcharts</a>, with help, as always, from Dan.
             </p>
           </section>
         </div>

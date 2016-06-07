@@ -19,7 +19,7 @@ counties_fname = './static/data/counties.txt'
 # 	'location_where_cause_of_death_occurred', 'facility_death_occured',
 # 	'manner_of_death', 'means_of_death', 'county', 'agency_number']
 
-BEST_FIELDS = ['full_name', 
+BEST_FIELDS = ['full_name', 'age',
 	'birthday', 'race', 'custody_status', 'custody_offense',
 	'date_of_death', 'custodial_responsibility_at_time_of_death', 
 	'location_where_cause_of_death_occurred', 'agency_name',
@@ -56,7 +56,7 @@ def add_variables(data):
 	data['date_of_death'] = data['date_of_death_yyyy'].astype(str) + '-' + data['date_of_death_mm'].astype(str) + '-' + data['date_of_death_dd'].astype(str)
 	data['date_of_death'] = pd.to_datetime(data['date_of_death'])
 
-	data['age'] = ((data['date_of_death'] - data['birthday']).dt.days / 365).round()
+	data['age'] = ((data['date_of_death'] - data['birthday']).dt.days / 365).round(0)
 	data['full_name'] = data['first_name'].astype(str) + ' ' + data['last_name'].astype(str)
 
 	return data
@@ -66,34 +66,9 @@ def sort_by_criteria(criteria, datarows):
         rows = sorted(datarows, key=itemgetter('age'))
     elif criteria == 'oldest':
         rows = sorted(datarows, key=itemgetter('age'), reverse=True)
+    elif criteria == 'most_oldest':
+        rows = sorted(datarows, key=itemgetter('date_of_death'))
     else:
-       # i.e. 'date_recent' or any value...just sort by most recent
+       # i.e. 'most_recent' or any value...just sort by most recent
         rows = sorted(datarows, key=itemgetter('date_of_death'), reverse=True)   
     return rows
-
-# def get_wiki_photo(txt):
-#     a = search_wiki(txt)
-#     b = get_wiki_photo_url(a)
-#     return b
-
-# def search_wiki(user_input):
-#     user_input = user_input.strip().lower().replace(" ", "_")
-
-#     temp_url = "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&formatversion=2&search={term}&namespace=0&limit=10&suggest=true"
-#     url = temp_url.format(term=user_input)
-
-#     site = requests.get(url)
-#     return site.json()[1][0]
-
-# def get_wiki_photo_url(search_term):
-#     temp_url = "https://en.wikipedia.org/w/api.php?action=query&prop=pageimages&format=json&piprop=original&titles={term}"
-#     url = temp_url.format(term=search_term)
-
-#     response = requests.get(url)
-
-#     data = response.json()
-
-#     x = list(data['query']['pages'].values())
-#     photo_url = x[0]['thumbnail']['original']
-
-#     return photo_url

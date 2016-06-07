@@ -24,7 +24,48 @@ div.container{
     -webkit-margin-start: 0;
     -webkit-margin-end: 0;
     -webkit-padding-start: 0;
-    padding-left: 0px;
+    padding-left: 10px;
+}
+
+div.quickfacts{
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 1000px;
+  margin:0 auto
+  overflow: hidden;
+}
+
+#one, #two, #three{
+width: 30%;
+min-height: 150px;
+max-width: 330px;
+margin-bottom:45px;
+padding: 0.5em 0.5em 1.0em;
+border: 2px solid black;
+margin-left: 2px;
+background: silver;
+word-wrap: break-word;
+}
+
+#one, #two, #three{float: left;}
+
+/**Clear floats after the boxes**/
+
+.clearing{
+clear:both;
+visibility:hidden;
+line-height:0;
+font-size:1px; 
+display:block;
+}
+
+div.countylist{
+  width: 15%;
+  float:right;
+  margin: 0;
+  margin-right: 10px;
 }
 
 div.searchbox{

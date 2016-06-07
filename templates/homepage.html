@@ -2,11 +2,13 @@
 <html lang="en">
 	<head>
 		<title>Deaths in Custody</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
       <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
     </head>
 
+<!-- begin header -->
     <body>
     	<header class="whelp">
     		<div class="container">
@@ -15,50 +17,28 @@
         	</div>
       	</header>
 
-        <div>
-        <h2>Quick facts:</h1>
+<!-- add list of counties -->
+      <div class="countylist">
+        {% include 'countylist.html' %}
+        <hr class="clearing" />
+      </div>
 
-        <h3>Most common manner of death</h3>
-        <ul>
-          {% for thing in top_manners %}
+<!-- add quick facts -->
+      <div class="quickfacts">
+        <h3>Quick facts:</h3>
+        {% include 'quickfacts.html' %}
+        <hr class="clearing" />
+      </div>
 
-            <li>{{ thing[0] }} : {{ thing[1] }}</li>
-
-          {% endfor %}
-
-        </ul>
-
-        <h3>Deaths by county</h3>
-        <ul>
-          {% for thing in top_counties %}
-
-            <li>{{ thing[0] }} : {{ thing[1] }}</li>
-
-          {% endfor %}
-
-        </ul>
-
-        <h3>Deaths by institution</h3>
-        <ul>
-          {% for thing in top_locations %}
-
-            <li>{{ thing[0] }} : {{ thing[1] }}</li>
-
-          {% endfor %}
-
-        </ul>
-
-        </div>
-
-{% include 'countylist.html' %}
-
+<!-- searchbox -->
     	<div class="searchbox"> 
       		<h1 class="site-title">Search for an incident:</h1>
        			{% include 'searchbox.html' %}
       </div>
 
+<!-- footer -->
       <footer class="whelp">
-          <p>Data comes from <a href="http://www.bjs.gov/index.cfm?ty=dcdetail&iid=243">the Bureau of Justice</a></p>
+          <p>Data comes from the <a href="http://www.bjs.gov/index.cfm?ty=dcdetail&iid=243">Bureau of Justice</a></p>
 
     	</footer>
  

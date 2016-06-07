@@ -42,16 +42,10 @@ def results():
 	
 	return render_template('results.html', inmates=filtered_inmates)
 
-@app.route('/county')
-def county():
-	inmate_name = request.args['county_name_partial']
-
-	filtered_inmates = []
-	for row in inmates:
-		if inmate_name.upper() in row['county'].upper():
-			filtered_inmates.append(row)
-	return render_template('results.html', inmates=filtered_inmates)
-
+@app.route('/county/<county_name>')
+def county_page(county_name):
+	filtered_data = sort_by_criteria(criteria=county_name, datarows=inmates)
+	return render_template('county.html', inmates=filtered_data)
 
 if __name__ == '__main__':
 	app.run(debug=True, use_reloader=True)

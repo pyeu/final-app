@@ -92,8 +92,10 @@ header.whelp{
 
 footer.whelp{
   text-align:center;
+  vertical-align: middle;
   margin-top: 2.0em;
-  min-height: 280px;
+  min-height: 100px;
   padding: 1.5em 0;
   color: gray;
+  background-color: silver;
 }

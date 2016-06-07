@@ -3,6 +3,7 @@ from flask import Flask
 from helpers import get_data, sort_by_criteria
 from collections import Counter
 from flask import render_template, request
+
 app = Flask(__name__)
 
 inmates = get_data()
@@ -56,8 +57,14 @@ def county_page(county):
 
 @app.route('/testchart')
 def test_chart():
-	stuff = Counter(r['manner_of_death'] for r in inmates)
-	return render_template('testchart.html', dataitems=stuff.most_common())
+	county_of_death = Counter([d['county'] for d in inmates])
+	counties_list = county_of_death.most_common()
+
+	location_of_death = Counter([d['agency_name'] for d in inmates])
+	locations_list = location_of_death.most_common()
+	
+	return render_template('testchart.html', countydeaths=counties_list, 
+							institutiondeaths=locations_list)
 
 
 if __name__ == '__main__':

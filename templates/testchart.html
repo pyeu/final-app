@@ -1,13 +1,10 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>whats up this is a chart</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
       <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
 
         <!-- add these 2 javascript includes -->
@@ -21,20 +18,20 @@
 
             <h1>This is a headline</h1>
             <p>Regular text lorem blasdbhsadjlkfjsalkdb fjsaldfkj</p>
-            <p>This listicle contains <strong>{{ dataitems | count }}</strong> things</p>
+            <p>This listicle contains <strong>{{ countydeaths | count }}</strong> things</p>
             <p>This is what the listicle looks like as JSON:</p>
 
             <code>
-                {{ dataitems | tojson }}
+                {{ countydeaths | tojson }}
             </code>
 
-            <h4 style="margin-top:3.0em;">Unaltered chart</h4>
-            <div id="their-fun-chart">
+            <h4 style="margin-top:3.0em;">Chart#1</h4>
+            <div id="deaths-by-institution">
                 <em>A chart will show up here</em>
             </div>
 
             <h4 style="margin-top:2.0em;">Chart with my data!</h4>
-            <div id="my-fun-chart" style="margin-top: 2.0rem;">
+            <div id="deaths-by-county" style="margin-top: 2.0rem;">
                 <em>A chart will show up here</em>
             </div>
         </div> <!-- end of container -->
@@ -45,20 +42,19 @@
 
         <!-- first we make javascript tags -->
         <script>
-            // now comes the copied JS
             $(function () {
-                //notice how their-fun-chart is used in the id for the target element
-                $('#their-fun-chart').highcharts({
+                //notice how my-fun-chart is used in the id for the target element
+                $('#deaths-by-institution').highcharts({
                     chart: {
                         type: 'column'
                     },
                     title: {
-                        text: 'World\'s largest cities per 2014'
-                    },
-                    subtitle: {
-                        text: 'Source: <a href="http://en.wikipedia.org/wiki/List_of_cities_proper_by_population">Wikipedia</a>'
+                        text: 'Inmate Deaths By Institution'
                     },
                     xAxis: {
+                        title: {
+                            text: 'Institution'
+                        },
                         type: 'category',
                         labels: {
                             rotation: -45,
@@ -71,39 +67,16 @@
                     yAxis: {
                         min: 0,
                         title: {
-                            text: 'Population (millions)'
+                            text: 'Number of inmates'
                         }
                     },
                     legend: {
                         enabled: false
                     },
-                    tooltip: {
-                        pointFormat: 'Population in 2008: <b>{point.y:.1f} millions</b>'
-                    },
+
                     series: [{
-                        name: 'Population',
-                        data: [
-                            ['Shanghai', 23.7],
-                            ['Lagos', 16.1],
-                            ['Istanbul', 14.2],
-                            ['Karachi', 14.0],
-                            ['Mumbai', 12.5],
-                            ['Moscow', 12.1],
-                            ['São Paulo', 11.8],
-                            ['Beijing', 11.7],
-                            ['Guangzhou', 11.1],
-                            ['Delhi', 11.1],
-                            ['Shenzhen', 10.5],
-                            ['Seoul', 10.4],
-                            ['Jakarta', 10.0],
-                            ['Kinshasa', 9.3],
-                            ['Tianjin', 9.3],
-                            ['Tokyo', 9.0],
-                            ['Cairo', 8.9],
-                            ['Dhaka', 8.9],
-                            ['Mexico City', 8.9],
-                            ['Lima', 8.9]
-                        ],
+                        name: 'Counties',
+                        data:  {{ institutiondeaths | tojson }},
                         dataLabels: {
                             enabled: true,
                             rotation: -90,
@@ -121,25 +94,21 @@
             });
         </script>
 
-
         <!-- Want another chart? Make another script tag with the
         chart making Javascript -->
         <script>
             $(function () {
                 //notice how my-fun-chart is used in the id for the target element
-                $('#my-fun-chart').highcharts({
+                $('#deaths-by-county').highcharts({
                     chart: {
                         type: 'column'
                     },
                     title: {
-                        text: 'this chart is not really that fun'
-                    },
-                    subtitle: {
-                        text: 'do you really need a subtitle?'
+                        text: 'Inmate Deaths By County'
                     },
                     xAxis: {
                         title: {
-                            text: 'Manners of death'
+                            text: 'County'
                         },
                         type: 'category',
                         labels: {
@@ -153,7 +122,7 @@
                     yAxis: {
                         min: 0,
                         title: {
-                            text: 'Inmates dead'
+                            text: 'Number of inmates'
                         }
                     },
                     legend: {
@@ -161,8 +130,8 @@
                     },
 
                     series: [{
-                        name: 'Manners of death',
-                        data:  {{ dataitems | tojson }},
+                        name: 'Counties',
+                        data:  {{ countydeaths | tojson }},
                         dataLabels: {
                             enabled: true,
                             rotation: -90,

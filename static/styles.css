@@ -36,7 +36,7 @@ div.quickfacts{
   margin-right: auto;
   align-items: center;
   max-width: 1000px;
-  margin:0 auto
+  margin:0 auto;
   overflow: hidden;
 }
 
@@ -146,16 +146,6 @@ p.explainer{
   -webkit-margin-end: 0px;
 }
 
-ul.explainer{
-    line-height: 1.5;
-  margin-bottom: 1em;
-  font-size: 20px;
-  margin: 0;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-}
 
 
 

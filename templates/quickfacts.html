@@ -1,7 +1,7 @@
 <form action="{{url_for('results')}}" method="get">
 
 <div id="one">
-<h4>Deaths by county:</h4>
+<h4>Top counties:</h4>
 <ul>
   {% for thing in top_counties %}
   <li>{{ thing[0] }}: {{ thing[1] }}</li>
@@ -10,7 +10,7 @@
 </div> 
 
 <div id="two">
-<h4>Most common manner of death:</h4>
+<h4>Top cause of death:</h4>
 <ul>
   {% for thing in top_manners %}
   <li>{{ thing[0] }}: {{ thing[1] }}</li>
@@ -19,10 +19,11 @@
 </div> 
 
 <div id="three">
-<h4>Deaths by institution:</h4>
+<h4>Top institutions:</h4>
 <ul>
   {% for thing in top_locations %}
   <li>{{ thing[0] }}: {{ thing[1] }}</li>
   {% endfor %}
 </ul>
 </div>
+

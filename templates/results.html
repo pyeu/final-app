@@ -3,22 +3,25 @@
 	<head>
 		<title>Deaths in Custody</title>
 			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
-      		<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
     </head>
 
     <body>
     	<header class="whelp">
     		<div class="container">
-          		<h1 class="site-title">This is a database the {{inmate_count}} inmate deaths in California.</h1>
+          		<h1 class="site-title">This is a database of inmate deaths in California.</h1>
          		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
         	</div>
       	</header>
 
-        <h1>Deaths in Custody in California</h1>
-        {{ object_list }}
+      <br>
 
+      <h1>{{ inmates | count }} inmates died in {{ county }} in 2013:</h1>
+      <div id="means-of-death"></div>
 
-      <h2>Here are the top {{ inmates | count }} inmates:</h2>
+      <br>
           <table class="table table-condensed table-bordered table-striped">
           <thead>
               <tr>
@@ -26,6 +29,7 @@
                   <th>Age</th>
                   <th>Race</th>
                   <th>Date of Death</th>
+                  <th>Custody Offense</th>
                   <th>County</th>
                   <th>Location of Death</th>
                   <th>Manner of Death</th>
@@ -38,6 +42,7 @@
                   <td>{{ obj.age }}</td>
                   <td>{{ obj.race }}</td>
                   <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>
+                  <td>{{ obj.custody_name }}</td>
                   <td>{{ obj.county }}</td>
                   <td>{{ obj.location_where_cause_of_death_occurred }}</td>
                   <td>{{ obj.manner_of_death }}</td>
@@ -49,6 +54,45 @@
 
 
     {% include 'footer.html' %}
+
+
+        <script>
+            $(function () {
+    $('#means-of-death').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
+            type: 'pie'
+        },
+        title: {
+            text: 'Most common cause of death'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            name: 'Brands',
+            colorByPoint: true,
+            data:  {{ manners_data | tojson }},
+
+        }]
+    });
+});
+        </script>
 
     </body>
 </html>

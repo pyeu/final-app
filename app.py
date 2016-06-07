@@ -12,6 +12,16 @@ inmates = get_data()
 def about():
 	return render_template('about.html')
 
+@app.route("/institutions/")
+def institutions():
+	location_of_death = Counter([d['agency_name'] for d in inmates])
+	locations_list = location_of_death.most_common()
+	major_locations = locations_list[0:20]
+
+	return render_template('institutions.html', inmates=inmates,
+							institutiondeaths=locations_list,
+							major_locations=major_locations)
+
 @app.route("/")
 def homepage():
 
@@ -37,15 +47,21 @@ def homepage():
 @app.route('/results/')
 def results():
 	inmate_name = request.args['partial_name']
-	#_sortby = reqargs.get['sortby']
+	_sortby = request.args['sortby']
+	_county = request.args['county']
 
 	filtered_inmates = []
 	for row in inmates:
 		if inmate_name.upper() in row['full_name'].upper():
-			filtered_inmates.append(row)
-	#filtered_data = sort_by_criteria(criteria=inmate_name, inmates=inmates)
+			if _county == 'ALL' or _county_ == row['county']:
+				filtered_inmates.append(row)
 
-	return render_template('results.html', inmates=filtered_inmates)
+	sorted_inmates = sort_by_criteria(criteria=_sortby, inmates=filtered_inmates)
+
+	manner_of_death = Counter([d['manner_of_death'] for d in inmates]).most_common()
+
+	return render_template('results.html', inmates=sorted_inmates, 
+						manners_data=manner_of_death, county=_county)
 
 @app.route('/county/<county>')
 def county_page(county):

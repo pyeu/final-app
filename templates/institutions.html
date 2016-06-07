@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Deaths in Custody</title>
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+    </head>
+
+    <body>
+    	<header class="whelp">
+    		<div class="container">
+          		<h1 class="site-title">This is a <a href='/'>database of inmate deaths</a> in California.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
+        	</div>
+      	</header>
+
+      <br>
+
+      <h1>{{ inmates | count }} inmates died in 2013:</h1>
+
+      <div class="container">
+
+      <div id="deaths-by-institution"></div>
+
+      </div>
+
+      <br>
+
+<div class="container1">
+      <h3>Below, the {{ institutiondeaths | count }} institutions that reported inmate deaths in 2013:</h3>
+
+      <br>
+          <table class="table table-condensed table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Agency Name</th>
+                  <th>Inmate Deaths</th>
+
+              </tr>
+          </thead>
+          <tbody>
+             {% for thing in institutiondeaths %}
+              <tr>
+                  <td class="name">{{ thing[0] }}</td>
+                  <td class="num">{{ thing[1] }}</td>
+                  
+              </tr>
+              {% endfor %}
+          </tbody>
+          </table>
+
+</div>
+
+    {% include 'footer.html' %}
+
+
+ <script>
+            $(function () {
+                //notice how my-fun-chart is used in the id for the target element
+                $('#deaths-by-institution').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'Inmate Deaths By Institution (top {{ major_locations | count }} of {{ institutiondeaths | count }})'
+                    },
+                    xAxis: {
+                        title: {
+                            text: 'Institutions'
+                        },
+                        type: 'category',
+                        labels: {
+                            rotation: -45,
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Number of inmates'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+
+                    series: [{
+                        name: 'Institutions',
+                        data:  {{ major_locations | tojson }},
+                        dataLabels: {
+                            enabled: true,
+                            rotation: -90,
+                            color: '#FFFFFF',
+                            align: 'right',
+                            format: '{point.y:.1f}', // one decimal
+                            y: 10, // 10 pixels down from the top
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    }]
+                });
+            });
+        </script>
+
+    </body>
+</html>

@@ -21,10 +21,15 @@ section.sec{
 
 div.container{
   text-align: center;
-  opacity: 0.8;
+  opacity: 0.9;
   filter: alpha(opacity=60);
 }
 
+div.container1{
+  opacity: 0.9;
+  filter: alpha(opacity=60);
+  margin:0 auto;
+}
 
 #quickfacts table td.name{
   text-align: left;
@@ -138,6 +143,11 @@ footer.whelp{
 footer a{
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1px;
+}
+
+h1.site-title a{
+  color: white;
   padding-bottom: 1px;
 }
 

@@ -19,10 +19,10 @@ counties_fname = './static/data/counties.txt'
 # 	'location_where_cause_of_death_occurred', 'facility_death_occured',
 # 	'manner_of_death', 'means_of_death', 'county', 'agency_number']
 
-BEST_FIELDS = ['full_name', 'age',
+BEST_FIELDS = ['full_name', 'age', 'agency_name',
 	'birthday', 'race', 'custody_status', 'custody_offense',
 	'date_of_death', 'custodial_responsibility_at_time_of_death', 
-	'location_where_cause_of_death_occurred', 'agency_name',
+	'location_where_cause_of_death_occurred', 'custody_name',
 	'manner_of_death', 'means_of_death', 'county']
 
 def get_counties():
@@ -61,14 +61,14 @@ def add_variables(data):
 
 	return data
 
-def sort_by_criteria(criteria, datarows):
+def sort_by_criteria(criteria, inmates):
     if criteria == 'youngest':
-        rows = sorted(datarows, key=itemgetter('age'))
+    	rows = sorted(inmates, key=itemgetter('age'))
     elif criteria == 'oldest':
-        rows = sorted(datarows, key=itemgetter('age'), reverse=True)
+        rows = sorted(inmates, key=itemgetter('age'), reverse=True)
     elif criteria == 'most_oldest':
-        rows = sorted(datarows, key=itemgetter('date_of_death'))
+        rows = sorted(inmates, key=itemgetter('date_of_death'))
     else:
-       # i.e. 'most_recent' or any value...just sort by most recent
-        rows = sorted(datarows, key=itemgetter('date_of_death'), reverse=True)   
+    #i.e. 'most_recent' or any value...just sort by most recent
+        rows = sorted(inmates, key=itemgetter('date_of_death'), reverse=True)   
     return rows

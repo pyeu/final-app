@@ -1,5 +1,5 @@
-<select id="county-dropdown" onchange="goto_county(this.value)">
-  <option>Select County</option>
+<select id="county-dropdown" name="county">
+  <option value="ALL">All counties</option>
   <option value="Alpine">Alpine</option>
   <option value="Amador">Amador</option>
   <option value="Butte">Butte</option>
@@ -59,10 +59,3 @@
   <option value="Yuba">Yuba</option>
 </select>
 
-
-<script>
-  function goto_county(county_name){
-    console.log(county_name);
-    window.location.href = "/county/" + county_name;
-  }
-</script>

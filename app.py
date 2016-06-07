@@ -13,11 +13,20 @@ def homepage():
 
 	manner_of_death = Counter([d['manner_of_death'] for d in inmates])
 	manners_list = manner_of_death.most_common()
+	top_manners = manners_list[0:5]
 
+	county_of_death = Counter([d['county'] for d in inmates])
+	counties_list = county_of_death.most_common()
+	top_counties = counties_list[0:5]
 
+	location_of_death = Counter([d['agency_name'] for d in inmates])
+	locations_list = location_of_death.most_common()
+	top_locations = locations_list[0:5]
 
 	return render_template('homepage.html', 
-							manners_list=manners_list,
+							top_manners=top_manners,
+							top_counties=top_counties,
+							top_locations=top_locations,
 							inmate_count = len(inmates), 
 							top_inmates=inmates[0:20])
 

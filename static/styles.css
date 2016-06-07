@@ -13,25 +13,47 @@ body{
   height: 400px;
 }
 
+div.container{
+  text-align: center;
+}
+
+.dp-menu-list {
+    list-style-type: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    padding-left: 0px;
+}
+
+div.searchbox{
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 1000px;
+  text-align: center;
+  padding: 0.5em 0 1.0em;
+  border: 1px solid black;
+  box-shadow: 10px 10px 5px #888888;
+}
+
 header.whelp, .sec{
   margin-bottom: 2.0em;
 }
 
 header.whelp{
-  background: black;
+  background: maroon;
   color: white;
   padding: 0.5em 0 1.0em;
 }
 
 
 footer.whelp{
+  text-align:center;
   margin-top: 2.0em;
   min-height: 280px;
   padding: 1.5em 0;
-  background: black;
-  color: white;
-}
-
-.wiki_photo{
-  max-width: 300px;
+  color: gray;
 }

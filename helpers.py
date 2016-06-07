@@ -22,7 +22,7 @@ counties_fname = './static/data/counties.txt'
 BEST_FIELDS = ['full_name', 
 	'birthday', 'race', 'custody_status', 'custody_offense',
 	'date_of_death', 'custodial_responsibility_at_time_of_death', 
-	'location_where_cause_of_death_occurred',
+	'location_where_cause_of_death_occurred', 'agency_name',
 	'manner_of_death', 'means_of_death', 'county']
 
 def get_counties():

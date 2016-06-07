@@ -1,7 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head></head>
+	<head>
+		<title>Deaths in Custody</title>
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      		<link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+    </head>
+
     <body>
+    	<header class="whelp">
+    		<div class="container">
+          		<h1 class="site-title">This is a database the {{inmate_count}} inmate deaths in California.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
+        	</div>
+      	</header>
+
         <h1>Deaths in Custody in California</h1>
         {{ object_list }}
 

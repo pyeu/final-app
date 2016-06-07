@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+  <head>
 		<title>Deaths in Custody</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
       <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
     </head>
 
-<!-- begin header -->
     <body>
     	<header class="whelp">
     		<div class="container">
-          		<h1 class="site-title">This is a database the {{inmate_count}} inmate deaths in California.</h1>
+          	<h1 class="site-title">This is a database of {{inmate_count}} inmate deaths in California.</h1>
          		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times,</a> 
             <a href="https://www.vice.com/read/how-many-people-die-in-police-custody-in-america-265">Vice,</a> 
             <a href="http://www.sfgate.com/bayarea/article/Family-of-Alameda-County-inmate-who-died-in-6849015.php">SFGate.</a>
@@ -20,27 +18,34 @@
         	</div>
       	</header>
 
-<!-- searchbox -->
-      <div class="searchbox"> 
-          <h1 class="site-title">Search for an incident:</h1>
-            {% include 'searchbox.html' %}
-      </div>
 
-<br>
-<br>
+<!-- searchbox -->
+<div class="searchbox"> 
+      <br>
+          <h1><strong>Search for an inmate:</strong></h1>
+            {% include 'searchbox.html' %}
+      <br>
+      <br>
+      </div>
+</div>
+
 
 <!-- add list of counties -->
-      <div class="countylist">
+<div class="countylist">
+<br>
         {% include 'countylist.html' %}
         <hr class="clearing" />
-      </div>
+</div>
 
 <!-- add quick facts -->
-      <div class="quickfacts">
+<div class="quickfacts">
+<br>
         <h3>Quick facts:</h3>
         {% include 'quickfacts.html' %}
         <hr class="clearing" />
-      </div>
+</div>
+
+
 
 
 <!-- footer -->
@@ -54,14 +59,13 @@
   <a href="/~readel/projects/custodydeath/about/#limitations">Limitations</a> |
   <a href="/~readel/projects/custodydeath/about/#tech">Technical details</a></p>
   </footer> -->
+ 
+	</body>
 
-
-      <footer class="whelp">
+<footer class="whelp">
           <p>Data comes from the <a href="http://www.bjs.gov/index.cfm?ty=dcdetail&iid=243">Bureau of Justice</a></p>
           <p></p>
           <p>&copy 2016 Reade Levinson</p>
 
-    	</footer>
- 
-	</body>
+      </footer>
 </html>

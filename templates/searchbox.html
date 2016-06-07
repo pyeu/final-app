@@ -4,21 +4,23 @@
 <form action="{{url_for('results')}}" method="get">
     <div>
         <input type="text" name="partial_name" value="">
-        <input class="submit-button" type="submit" value="find inmate">
+        <input class="submit-button" type="submit" value="find">
     </div>
 
     <br>
     
     <div>
-        <strong>Sort by inmate:</strong>
+        <h5><strong>sort by inmate:</strong>
         <input type="radio" name="sortby" value="oldest"> Oldest
         <input type="radio" name="sortby" value="youngest" checked> Youngest
+        </h5>
     </div>
 
     <div>
-        <strong>Sort by death:</strong>
+        <h5><strong>sort by death:</strong>
         <input type="radio" name="sortby" value="most_recent"> Most recent
         <input type="radio" name="sortby" value="most_oldest"> Oldest
+        </h5>
     </div>
     
     <br>

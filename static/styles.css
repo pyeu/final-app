@@ -1,6 +1,7 @@
+
 body{
   font-size: 18px;
-  font face:"helvetica";
+  font-family: 'Montserrat';
 }
 
 .summary{
@@ -15,6 +16,8 @@ body{
 
 div.container{
   text-align: center;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
 }
 
 .dp-menu-list {
@@ -68,27 +71,31 @@ div.countylist{
 }
 
 div.searchbox{
+  background-color: #eeeeee;
+  background-image: url("http://i.imgur.com/n8C0swX.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   vertical-align: middle;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  max-width: 1000px;
   text-align: center;
-  padding: 0.5em 0 1.0em;
-  border: 1px solid black;
-  box-shadow: 10px 10px 5px #888888;
-}
-
-header.whelp, .sec{
-  margin-bottom: 2.0em;
+  padding: 6em 3em;
+  color: black;
 }
 
 header.whelp{
-  background: maroon;
+  background-color: #444444;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: .8em 3em .6em 3em;
+  font-size: 1.3em;
   color: white;
-  padding: 0.5em 0 1.0em;
-}
+  margin-bottom: 0;
+  font-weight: 400;
 
+}
 
 footer.whelp{
   text-align:center;
@@ -99,3 +106,7 @@ footer.whelp{
   color: gray;
   background-color: silver;
 }
+
+
+
+

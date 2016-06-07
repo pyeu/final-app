@@ -12,6 +12,17 @@ inmates = get_data()
 def about():
 	return render_template('about.html')
 
+@app.route("/counties/")
+def counties():
+	county_of_death = Counter([d['county'] for d in inmates])
+	counties_list = county_of_death.most_common()
+	major_counties = counties_list[0:20]
+
+	return render_template('counties.html', inmates=inmates, 
+							countydeaths=counties_list, 
+							major_counties=major_counties,)
+
+
 @app.route("/institutions/")
 def institutions():
 	location_of_death = Counter([d['agency_name'] for d in inmates])

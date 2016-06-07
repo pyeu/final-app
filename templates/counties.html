@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Deaths in Custody</title>
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+    </head>
+
+    <body>
+    	<header class="whelp">
+    		<div class="container">
+          		<h1 class="site-title">This is a database of inmate deaths in California.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
+        	</div>
+      	</header>
+
+      <br>
+
+      <h1>{{ inmates | count }} inmates died in {{ county }} County in 2013:</h1>
+      <div id="deaths-by-county"></div>
+
+      <br>
+          <table class="table table-condensed table-bordered table-striped">
+          <thead>
+              <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Race</th>
+                  <th>Date of Death</th>
+                  <th>Custody Offense</th>
+                  <th>County</th>
+                  <th>Location of Death</th>
+                  <th>Manner of Death</th>
+              </tr>
+          </thead>
+          <tbody>
+                  {% for obj in inmates %}
+              <tr>
+                  <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
+                  <td>{{ obj.age }}</td>
+                  <td>{{ obj.race }}</td>
+                  <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>
+                  <td>{{ obj.custody_name }}</td>
+                  <td>{{ obj.county }}</td>
+                  <td>{{ obj.location_where_cause_of_death_occurred }}</td>
+                  <td>{{ obj.manner_of_death }}</td>
+              </tr>
+              {% endfor %}
+          </tbody>
+          </table>
+
+
+
+    {% include 'footer.html' %}
+
+
+        <script>
+            $(function () {
+                //notice how my-fun-chart is used in the id for the target element
+                $('#deaths-by-county').highcharts({
+                    chart: {
+                        type: 'column'
+                    },
+                    title: {
+                        text: 'Inmate Deaths By County (top {{ major_counties | count }} of {{ countydeaths | count }})'
+                    },
+                    xAxis: {
+                        title: {
+                            text: 'County'
+                        },
+                        type: 'category',
+                        labels: {
+                            rotation: -45,
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    },
+                    yAxis: {
+                        min: 0,
+                        title: {
+                            text: 'Number of inmates'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+
+                    series: [{
+                        name: 'Counties',
+                        data:  {{ major_counties | tojson }},
+                        dataLabels: {
+                            enabled: true,
+                            rotation: -90,
+                            color: '#FFFFFF',
+                            align: 'right',
+                            format: '{point.y:.1f}', // one decimal
+                            y: 10, // 10 pixels down from the top
+                            style: {
+                                fontSize: '13px',
+                                fontFamily: 'Verdana, sans-serif'
+                            }
+                        }
+                    }]
+                });
+            });
+        </script>
+
+    </body>
+</html>

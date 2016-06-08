@@ -96,9 +96,9 @@ def county_page(county):
 	return render_template('results.html', inmates=filtered_inmates,
 							manners_data=manner_of_death, county=county)
 
-@app.route('/<inmate>')
-def individual_results(inmate):
-	
+@app.route('/<full_name>')
+def individual_results(full_name):
+
 	return render_template('individual_results.html', inmate=inmate)
 
 

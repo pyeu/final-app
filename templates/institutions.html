@@ -43,7 +43,7 @@
           <tbody>
              {% for thing in institutiondeaths %}
               <tr>
-                  <td class="name">{{ thing[0] }}</td>
+                  <td class="name"><a href="./agency/{{thing[0]}}">{{ thing[0] }}</a></td>
                   <td class="num">{{ thing[1] }}</td>
                   
               </tr>

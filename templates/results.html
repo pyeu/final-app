@@ -11,14 +11,14 @@
     <body>
     	<header class="whelp">
     		<div class="container">
-          		<h1 class="site-title">This is a database of inmate deaths in California.</h1>
+          		<h1 class="site-title">This is a <a href='/'>database</a> of inmate deaths in California.</h1>
          		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
         	</div>
       	</header>
 
       <br>
 
-      <h1>{{ inmates | count }} inmates died in {{ county }} County in 2013:</h1>
+      <h1>{{ inmates | count }} inmates died {{ county }} in 2013:</h1>
       <div id="means-of-death"></div>
 
       <br>
@@ -38,7 +38,9 @@
           <tbody>
                   {% for obj in inmates %}
               <tr>
-                  <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
+
+<!-- ATTN: hardcoded individual inmate results page -->              
+                  <td><a href="https://rocky-headland-64655.herokuapp.com/{{ obj.full_name }}/">{{ obj.full_name }}</a></td>
                   <td>{{ obj.age }}</td>
                   <td>{{ obj.race }}</td>
                   <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>

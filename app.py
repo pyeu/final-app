@@ -59,12 +59,12 @@ def homepage():
 def results():
 	inmate_name = request.args['partial_name']
 	_sortby = request.args['sortby']
-	_county = request.args['county']
+	_county = ""
 
 	filtered_inmates = []
 	for row in inmates:
 		if inmate_name.upper() in row['full_name'].upper():
-			if _county == 'ALL' or _county == row['county']:
+			# if _county == 'ALL' or _county == row['county']:
 				filtered_inmates.append(row)
 
 	sorted_inmates = sort_by_criteria(criteria=_sortby, inmates=filtered_inmates)
@@ -74,13 +74,46 @@ def results():
 	return render_template('results.html', inmates=sorted_inmates, 
 						manners_data=manner_of_death, county=_county)
 
-@app.route('/county/<county>')
+# @app.route('/county/<county>')
+# def county_page(county):
+# 	filtered_inmates = []
+# 	for row in inmates:
+# 		if county.upper() in row['county'].upper():
+# 			filtered_inmates.append(row)
+# 	return render_template('results.html', inmates=filtered_inmates)
+
+@app.route('/counties/county/<county>')
 def county_page(county):
 	filtered_inmates = []
+	manner_of_death = Counter([d['manner_of_death'] for d in inmates]).most_common()
+
 	for row in inmates:
-		if county.upper() in row['county'].upper():
+		if county in row['county']:
 			filtered_inmates.append(row)
-	return render_template('results.html', inmates=filtered_inmates)
+
+	county = "in " + county + " County"
+
+	return render_template('results.html', inmates=filtered_inmates,
+							manners_data=manner_of_death, county=county)
+
+@app.route('/<inmate>')
+def individual_results(inmate):
+	return render_template('individual_results.html', inmate=inmate)
+
+
+@app.route('/institutions/agency/<agency>')
+def agency_page(agency):
+	filtered_inmates = []
+	manner_of_death = Counter([d['manner_of_death'] for d in inmates]).most_common()
+
+	for row in inmates:
+		if agency in row['agency_name']:
+			filtered_inmates.append(row)
+
+	location = "at " + filtered_inmates[0]['county'] + " "
+
+	return render_template('results.html', inmates=filtered_inmates,
+						manners_data=manner_of_death, county=location)
 
 @app.route('/testchart')
 def test_chart():

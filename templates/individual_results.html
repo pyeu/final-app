@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Deaths in Custody</title>
+			<link rel="stylesheet" href="{{url_for('static', filename='bootstrap.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='styles.css')}}">
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+    </head>
+
+    <body>
+    	<header class="whelp">
+    		<div class="container">
+          		<h1 class="site-title">This is a <a href='/'>database</a> of inmate deaths in California.</h1>
+         		<h1 class="summary">Read more at the <a href="http://www.latimes.com/local/political/la-me-inmate-killed-third-prison-riot-20150819-story.html">Los Angeles Times</a></h1>
+        	</div>
+      	</header>
+
+      <br>
+
+      <h2>{{ inmate.full_name }}, a {{ inmate.age }} year old, {{ inmate.race }} died on {{ inmate.date_of_death }} in a {{ inmate.manner_of_death }} in {{ inmate.agency_name }} in {{ county }} County, California in 2013.</h1>
+      <div id="means-of-death"></div>
+
+      <br>
+
+    {% include 'footer.html' %}
+
+    </body>
+</html>

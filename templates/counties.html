@@ -25,27 +25,15 @@
           <table class="table table-condensed table-bordered table-striped">
           <thead>
               <tr>
-                  <th>Name</th>
-                  <th>Age</th>
-                  <th>Race</th>
-                  <th>Date of Death</th>
-                  <th>Custody Offense</th>
                   <th>County</th>
-                  <th>Location of Death</th>
-                  <th>Manner of Death</th>
+                  <th>Total inmate deaths, 2013</th>
               </tr>
           </thead>
           <tbody>
-                  {% for obj in inmates %}
+                  {% for obj in major_counties %}
               <tr>
-                  <td><a href="{{ obj.id }}/">{{ obj.full_name }}</a></td>
-                  <td>{{ obj.age }}</td>
-                  <td>{{ obj.race }}</td>
-                  <td>{{ obj.date_of_death.strftime('%B %d, %Y') }}</td>
-                  <td>{{ obj.custody_name }}</td>
-                  <td>{{ obj.county }}</td>
-                  <td>{{ obj.location_where_cause_of_death_occurred }}</td>
-                  <td>{{ obj.manner_of_death }}</td>
+                  <td class="name"><a href="./county/{{obj[0]}}">{{ obj[0] }}</a></td>
+                  <td class="num">{{ obj[1] }}</td>
               </tr>
               {% endfor %}
           </tbody>

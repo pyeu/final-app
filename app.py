@@ -98,6 +98,7 @@ def county_page(county):
 
 @app.route('/<inmate>')
 def individual_results(inmate):
+	
 	return render_template('individual_results.html', inmate=inmate)
 
 
